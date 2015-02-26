@@ -1,0 +1,42 @@
+<%@ include file="/taglib-imports.jspf" %>
+<% String acao_estudantes;
+   if (session.getAttribute(br.mdarte.exemplo.academico.util.Constantes.ACAO_ATUAL).toString().indexOf("/") == 0) {
+	acao_estudantes = request.getContextPath() + session.getAttribute(br.mdarte.exemplo.academico.util.Constantes.ACAO_ATUAL);
+   }else{
+	acao_estudantes = request.getContextPath() + "/" + session.getAttribute(br.mdarte.exemplo.academico.util.Constantes.ACAO_ATUAL);
+   }
+%>
+
+<div id="estudantes" class="table">
+		<display:table name="${form.estudantes}" id="row" class="table table-bordered table-striped"
+			requestURI="${pageContext.request.requestURL}" requestURIAction="<%=acao_estudantes%>" tableName="estudantes"
+			export="true" pagesize="15" sort="list" defaultsort="0">
+		<display:setProperty name="export.pdf.filename" value="resultado-consulta-estudantes.pdf" />
+			<display:column media="xml csv excel pdf"
+				titleKey="consulta.estudante.uc.resultado.consulta.param.estudantes.matricula"
+				autolink="true" paramId="matricula">
+				<c:out value="${row.matricula}"/>
+			</display:column>
+			<display:column media="html"
+				headerClass="matricula" paramId="matricula"
+				titleKey="consulta.estudante.uc.resultado.consulta.param.estudantes.matricula">
+				<div class="matricula"><c:out value="${row.matricula}"/></div>
+			</display:column>
+			<display:column media="xml csv excel pdf"
+				titleKey="consulta.estudante.uc.resultado.consulta.param.estudantes.nome"
+				autolink="true" paramId="nome">
+				<c:out value="${row.nome}"/>
+			</display:column>
+			<display:column media="html"
+				headerClass="nome" paramId="nome"
+				titleKey="consulta.estudante.uc.resultado.consulta.param.estudantes.nome">
+				<div class="nome"><c:out value="${row.nome}"/></div>
+			</display:column>
+			<display:column media="html">
+				<c:set var="link">'/sistemaacademico/geral/ConsultaEstudanteUC/ResultadoConsultaDetalhaEstudante.action?idEstudante='+getDiv('estudantesIdEstudante${row_rowNum}').value</c:set>
+					<security:containsPermission name="consulta.estudante.uc.resultado.consulta.detalha.estudante">
+						<nobr><a id="buttonLinkdetalhaEstudante" href="javascript:document.location=${link};" class="buttonLink" ><s:property value="%{getText('consulta.estudante.uc.resultado.consulta.detalha.estudante')}" /></a></nobr>
+					</security:containsPermission>
+			</display:column>
+		</display:table>
+</div>

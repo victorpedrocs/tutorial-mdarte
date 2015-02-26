@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+    
+
+
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+
+    <filter>
+        <filter-name>SessionFilter</filter-name>
+	    <filter-class>org.andromda.presentation.bpm4struts.SessionFilter</filter-class>
+    </filter>
+
+    <filter>
+        <filter-name>ActionServletFilter</filter-name>
+	    <filter-class>org.andromda.presentation.bpm4struts.ActionServletFilter</filter-class>
+    </filter>
+
+	<filter-mapping>
+	    <filter-name>SessionFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+	    <filter-name>ActionServletFilter</filter-name>
+        <url-pattern>*.do</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+	    <filter-name>ActionServletFilter</filter-name>
+        <url-pattern>*.jsp</url-pattern>
+    </filter-mapping>
+    
+	<filter-mapping>
+		<filter-name>ActionServletFilter</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	
+
+    <!-- filter merge-geral-point -->
+    
+    
+		<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+    
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>/struts/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+    
+    <filter>
+        <filter-name>ResponseOverrideFilter</filter-name>
+        <filter-class>org.displaytag.filter.ResponseOverrideFilter</filter-class>
+    </filter>
+
+    
+    <filter-mapping>
+        <filter-name>ResponseOverrideFilter</filter-name>
+        <url-pattern>*.do</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>ResponseOverrideFilter</filter-name>
+        <url-pattern>*.jsp</url-pattern>
+    </filter-mapping>
+    
+	    <!-- listener merge-geral-point -->
+        
+    
+
+    
+    <servlet>
+        <servlet-name>action</servlet-name>
+        <servlet-class>org.andromda.presentation.bpm4struts.ActionServletImpl</servlet-class>
+        <init-param>
+            <param-name>config</param-name>
+            <param-value>/WEB-INF/struts-config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>debug</param-name>
+            <param-value>3</param-value>
+        </init-param>
+        <init-param>
+            <param-name>detail</param-name>
+            <param-value>3</param-value>
+        </init-param>
+        <init-param>
+            <param-name>validate</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>listings</param-name>
+            <param-value>false</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    
+    <servlet>
+    	<servlet-name>util</servlet-name>
+    	<servlet-class>org.andromda.presentation.bpm4struts.UtilServlet</servlet-class>
+    </servlet>
+	
+
+    <!-- precompilation merge-point -->
+
+    <!-- servlet-mapping merge-geral-point -->
+
+    
+    <servlet-mapping>
+        <servlet-name>action</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+        <url-pattern>*.action</url-pattern>
+    </servlet-mapping>
+	
+    
+    <servlet-mapping>
+        <servlet-name>util</servlet-name>
+        <url-pattern>/util-service/*</url-pattern>
+    </servlet-mapping>
+	
+
+    <!-- session-config merge-point -->
+
+    
+
+    <welcome-file-list>
+        
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    
+    <error-page>
+        <error-code>400</error-code>
+        <location><![CDATA[/error-page.jsp?code=400]]></location>
+    </error-page>
+    <error-page>
+        <error-code>403</error-code>
+        <location><![CDATA[/error-page.jsp?code=403]]></location>
+    </error-page>
+    <error-page>
+        <error-code>404</error-code>
+        <location><![CDATA[/error-page.jsp?code=404&resource=true]]></location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location><![CDATA[/error-page.jsp?code=500&exception=true]]></location>
+    </error-page>
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location><![CDATA[/error-page.jsp?code=exception&exception=true]]></location>
+    </error-page>
+
+    <!-- taglib merge-point -->
+    <!-- resource-ref merge-point -->
+
+    
+</web-app>

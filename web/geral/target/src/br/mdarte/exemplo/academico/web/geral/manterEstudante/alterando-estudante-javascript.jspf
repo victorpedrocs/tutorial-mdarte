@@ -1,0 +1,74 @@
+
+<tiles:put name="javascript" type="string">
+
+
+
+
+	<script type="text/javascript" language="Javascript1.1">
+		var VALID_KEYS = {
+			'validate.required':'<formatting:escape language="javascript"><bean:message key="validate.required"/></formatting:escape>',
+			'validate.minlength':'<formatting:escape language="javascript"><bean:message arg0="{0}" key="validate.minlength"/></formatting:escape>',
+			'validate.maxlength':'<formatting:escape language="javascript"><bean:message arg0="{0}" key="validate.maxlength"/></formatting:escape>',
+			'validate.digits':'<formatting:escape language="javascript"><bean:message key="validate.digits"/></formatting:escape>',
+			'validate.number':'<formatting:escape language="javascript"><bean:message key="validate.number"/></formatting:escape>',
+			'validate.date':'<formatting:escape language="javascript"><bean:message key="validate.date"/></formatting:escape>',
+			'validate.range':'<formatting:escape language="javascript"><bean:message arg0="{0}" arg1="{1}" key="validate.range"/></formatting:escape>',
+			'validate.creditcard':'<formatting:escape language="javascript"><bean:message key="validate.creditcard"/></formatting:escape>',
+			'validate.email':'<formatting:escape language="javascript"><bean:message key="validate.email"/></formatting:escape>',
+			'validate.url':'<formatting:escape language="javascript"><bean:message key="validate.url"/></formatting:escape>',
+			'validate.pattern':'<formatting:escape language="javascript"><bean:message key="validate.pattern"/></formatting:escape>',
+			'validate.integer':'<formatting:escape language="javascript"><bean:message key="validate.integer"/></formatting:escape>'
+		}
+    </script>
+
+	<script type="text/javascript" language="Javascript1.1">
+		//<!--
+			var HINTS_ITEMS = {
+				'mantem.estudante.uc.alterando.estudante.salva.estudante.param.matricula.title':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.param.matricula.title"/></formatting:escape>',
+				'mantem.estudante.uc.alterando.estudante.salva.estudante.param.matricula.hint.key':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.param.matricula.hint.key"/></formatting:escape>',
+				'mantem.estudante.uc.alterando.estudante.salva.estudante.param.nome.title':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.param.nome.title"/></formatting:escape>',
+				'mantem.estudante.uc.alterando.estudante.salva.estudante.param.nome.hint.key':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.param.nome.hint.key"/></formatting:escape>',
+				'mantem.estudante.uc.alterando.estudante.salva.estudante.param.id.estudante.title':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.param.id.estudante.title"/></formatting:escape>',
+				'mantem.estudante.uc.alterando.estudante.salva.estudante.param.id.estudante.hint.key':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.param.id.estudante.hint.key"/></formatting:escape>',
+				'salvaEstudante':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.title"/></formatting:escape>',
+				'salvaEstudante_column_action_name':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante"/></formatting:escape>',
+				'salvaEstudante_no':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.title.notallowed"/></formatting:escape>',
+				'salvaEstudante_reset':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.title.reset"/></formatting:escape>',
+				'salvaEstudante_noreset':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.salva.estudante.title.reset.not.allowed"/></formatting:escape>',
+				'voltar':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.voltar.title"/></formatting:escape>',
+				'voltar_column_action_name':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.voltar"/></formatting:escape>',
+				'voltar_no':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.voltar.title.notallowed"/></formatting:escape>',
+				'voltar_reset':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.voltar.title.reset"/></formatting:escape>',
+				'voltar_noreset':'<formatting:escape language="javascript"><bean:message key="mantem.estudante.uc.alterando.estudante.voltar.title.reset.not.allowed"/></formatting:escape>',
+				'calendar.popup':'<formatting:escape language="javascript"><bean:message key="calendar.popup"/></formatting:escape>'
+			};
+
+			var hints = new Hints (HINTS_ITEMS);
+		//-->
+	</script>
+	<script type="text/javascript">
+		function UpdateDoubleSelect(combo, valor) {
+			eval('combo = document.' + combo + ';');
+			for(index = 0; index < combo.length; index++) {
+				if(combo[index].id == valor) {
+					combo.selectedIndex = index;
+					combo[index].style.display = "inline";
+				}
+				else
+					combo[index].style.display = "none";
+			}
+		}
+
+		function descriptionDestination(key , componenteNome) {
+		
+			var HINTS_DESTINATION  = {
+			} 
+
+			var componenteDestino = document.getElementsByName(componenteNome);
+			
+			if(componenteDestino[0] != null) {
+				componenteDestino[0].value = HINTS_DESTINATION[key];
+			}
+		}
+	</script>
+</tiles:put>

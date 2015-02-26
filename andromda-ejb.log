@@ -1,0 +1,978 @@
+INFO  2015-02-26 13:54:55,772 - ************************************************************** 
+INFO  2015-02-26 13:54:55,772 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 13:54:55,772 - RuntimeInstance initializing.
+INFO  2015-02-26 13:54:55,772 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 13:54:55,773 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 13:54:55,773 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 13:54:55,773 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 13:54:55,773 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 13:54:55,773 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 13:54:55,773 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,773 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 13:54:55,773 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 13:54:55,774 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 13:54:55,774 - Default ResourceManager initialization complete.
+INFO  2015-02-26 13:54:55,774 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 13:54:55,775 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 13:54:55,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 13:54:55,776 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 13:54:55,777 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 13:54:55,790 - Created: 20 parsers.
+INFO  2015-02-26 13:54:55,793 - Velocimacro : initialization starting.
+INFO  2015-02-26 13:54:55,793 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-26 13:54:55,805 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 13:54:55,805 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 13:54:55,807 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 13:54:55,809 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 13:54:55,810 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 13:54:55,816 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,816 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 13:54:55,816 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 13:54:55,818 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 13:54:55,819 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 13:54:55,821 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 13:54:55,824 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 13:54:55,829 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 13:54:55,831 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 13:54:55,832 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 13:54:55,833 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 13:54:55,849 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,849 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 13:54:55,849 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 13:54:55,849 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 13:54:55,849 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 13:54:55,849 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 13:54:55,849 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 13:54:55,849 - Velocimacro : initialization complete.
+INFO  2015-02-26 13:54:55,849 - Velocity successfully started.
+INFO  2015-02-26 13:54:55,866 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 13:54:55,866 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-26 13:54:55,867 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,869 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,869 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 13:54:55,869 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-26 13:54:55,869 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 13:54:55,869 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-26 13:54:55,869 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,873 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 13:54:55,873 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 13:54:55,874 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-26 13:54:55,874 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,925 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,927 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,929 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,929 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,931 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,931 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,932 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,932 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,933 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,933 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,940 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,940 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,941 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,941 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,942 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,942 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,942 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,943 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,943 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,945 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,945 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,946 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,946 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,947 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,947 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,947 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,948 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,948 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,949 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,957 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,957 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 13:54:55,957 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 13:54:55,957 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 13:54:55,957 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 13:54:55,958 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-26 13:54:55,958 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,960 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 13:54:55,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-26 13:54:55,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 13:54:55,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 13:54:55,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 13:54:55,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 13:54:55,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-26 13:54:55,960 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,967 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,967 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,968 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,969 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,970 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:55,970 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:55,973 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:55,973 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-26 13:54:55,973 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,437 - ************************************************************** 
+INFO  2015-02-26 14:55:12,437 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 14:55:12,437 - RuntimeInstance initializing.
+INFO  2015-02-26 14:55:12,437 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 14:55:12,438 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 14:55:12,438 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 14:55:12,438 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 14:55:12,438 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 14:55:12,438 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 14:55:12,438 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,438 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 14:55:12,438 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 14:55:12,439 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 14:55:12,439 - Default ResourceManager initialization complete.
+INFO  2015-02-26 14:55:12,440 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 14:55:12,440 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 14:55:12,441 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 14:55:12,441 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 14:55:12,442 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 14:55:12,457 - Created: 20 parsers.
+INFO  2015-02-26 14:55:12,459 - Velocimacro : initialization starting.
+INFO  2015-02-26 14:55:12,460 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-26 14:55:12,471 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:55:12,472 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:55:12,474 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:55:12,475 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:55:12,477 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:55:12,483 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,483 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 14:55:12,483 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:55:12,485 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:55:12,487 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:55:12,489 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:55:12,491 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:55:12,495 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:55:12,497 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:55:12,497 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:55:12,498 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:55:12,514 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,514 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 14:55:12,514 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 14:55:12,514 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 14:55:12,514 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 14:55:12,514 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 14:55:12,514 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 14:55:12,514 - Velocimacro : initialization complete.
+INFO  2015-02-26 14:55:12,514 - Velocity successfully started.
+INFO  2015-02-26 14:55:12,528 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,528 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:55:12,529 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-26 14:55:12,530 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,531 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,531 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:55:12,531 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-26 14:55:12,531 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 14:55:12,531 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-26 14:55:12,532 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,536 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:55:12,536 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-26 14:55:12,537 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:55:12,537 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:55:12,537 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-26 14:55:12,537 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:55:12,537 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-26 14:55:12,537 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,597 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,600 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,601 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,602 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,603 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,603 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,604 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,604 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,605 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,605 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,612 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,612 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,613 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,614 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,614 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,615 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,615 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,616 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,616 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,617 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,617 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,618 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,618 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,619 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,619 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,620 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,620 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,621 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,621 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,627 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 14:55:12,627 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 14:55:12,628 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:55:12,628 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:55:12,628 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:55:12,628 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 14:55:12,628 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:55:12,628 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:55:12,628 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 14:55:12,628 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-26 14:55:12,628 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,629 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,629 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:55:12,629 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-26 14:55:12,629 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 14:55:12,629 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 14:55:12,629 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:55:12,629 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:55:12,629 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-26 14:55:12,629 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,633 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,634 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,634 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,635 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,635 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,636 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,638 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,638 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-26 14:55:12,638 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:01,806 - ************************************************************** 
+INFO  2015-02-26 14:56:01,806 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 14:56:01,806 - RuntimeInstance initializing.
+INFO  2015-02-26 14:56:01,806 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 14:56:01,808 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 14:56:01,809 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 14:56:01,809 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 14:56:01,809 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 14:56:01,809 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 14:56:01,809 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:01,809 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 14:56:01,809 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 14:56:01,810 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 14:56:01,810 - Default ResourceManager initialization complete.
+INFO  2015-02-26 14:56:01,811 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 14:56:01,812 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 14:56:01,813 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 14:56:01,814 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 14:56:01,814 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 14:56:01,838 - Created: 20 parsers.
+INFO  2015-02-26 14:56:01,841 - Velocimacro : initialization starting.
+INFO  2015-02-26 14:56:01,842 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-26 14:56:01,859 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:56:01,860 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:56:01,863 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:56:01,866 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:56:01,867 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 14:56:01,876 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:01,876 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 14:56:01,876 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:56:01,880 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:56:01,882 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:56:01,885 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:56:01,888 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:56:01,895 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:56:01,897 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:56:01,898 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:56:01,899 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 14:56:01,924 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:01,924 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 14:56:01,924 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 14:56:01,924 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 14:56:01,924 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 14:56:01,924 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 14:56:01,924 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 14:56:01,924 - Velocimacro : initialization complete.
+INFO  2015-02-26 14:56:01,924 - Velocity successfully started.
+INFO  2015-02-26 14:56:01,945 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:01,945 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:56:01,946 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-26 14:56:01,947 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:01,950 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:01,950 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:56:01,950 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-26 14:56:01,950 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 14:56:01,951 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-26 14:56:01,951 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:01,959 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:01,959 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:56:01,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:56:01,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-26 14:56:01,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:56:01,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-26 14:56:01,961 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,091 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,094 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,095 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,095 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,097 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,097 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,098 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,098 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,099 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,099 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,107 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,107 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,108 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:02,109 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,109 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,110 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,110 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,111 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,111 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,112 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,112 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,113 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,113 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,114 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,114 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,115 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,115 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,116 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,117 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,125 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:02,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:56:02,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 14:56:02,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 14:56:02,126 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-26 14:56:02,127 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,128 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:02,128 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:56:02,128 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-26 14:56:02,128 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 14:56:02,128 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 14:56:02,128 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:56:02,128 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 14:56:02,128 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-26 14:56:02,128 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,135 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,135 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,136 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,136 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,137 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,137 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,140 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:02,140 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-26 14:56:02,140 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,424 - ************************************************************** 
+INFO  2015-02-26 15:21:42,424 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 15:21:42,424 - RuntimeInstance initializing.
+INFO  2015-02-26 15:21:42,424 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 15:21:42,425 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 15:21:42,425 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 15:21:42,425 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 15:21:42,425 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 15:21:42,426 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 15:21:42,426 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,426 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 15:21:42,426 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 15:21:42,426 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 15:21:42,426 - Default ResourceManager initialization complete.
+INFO  2015-02-26 15:21:42,427 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 15:21:42,428 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 15:21:42,428 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 15:21:42,429 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 15:21:42,429 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 15:21:42,446 - Created: 20 parsers.
+INFO  2015-02-26 15:21:42,449 - Velocimacro : initialization starting.
+INFO  2015-02-26 15:21:42,449 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:42,463 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:42,464 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:42,465 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:42,467 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:42,469 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:42,475 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,475 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 15:21:42,475 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:42,478 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:42,479 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:42,481 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:42,484 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:42,489 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:42,491 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:42,491 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:42,492 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:42,510 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,510 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 15:21:42,510 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 15:21:42,510 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 15:21:42,510 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 15:21:42,510 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 15:21:42,510 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 15:21:42,510 - Velocimacro : initialization complete.
+INFO  2015-02-26 15:21:42,510 - Velocity successfully started.
+INFO  2015-02-26 15:21:42,520 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,521 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,521 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,521 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,521 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,521 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,521 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:21:42,521 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:21:42,521 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-26 15:21:42,521 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,524 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,524 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:21:42,524 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-26 15:21:42,524 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 15:21:42,524 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-26 15:21:42,524 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,530 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:21:42,530 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-26 15:21:42,531 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:21:42,531 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-26 15:21:42,531 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,614 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,617 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,619 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,619 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,632 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,632 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,635 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,635 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,639 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,639 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,661 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,661 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,662 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,664 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,664 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,665 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,665 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,667 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,667 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,671 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,672 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,673 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,674 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,676 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,676 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,678 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,678 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,680 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,680 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,690 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:21:42,690 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:21:42,691 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:21:42,691 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:21:42,691 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-26 15:21:42,691 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,692 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,692 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:21:42,692 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-26 15:21:42,692 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 15:21:42,692 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 15:21:42,692 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:21:42,692 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:21:42,692 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-26 15:21:42,693 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,703 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,703 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,704 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,705 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,706 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,706 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,712 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,712 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-26 15:21:42,712 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:59,911 - ************************************************************** 
+INFO  2015-02-26 15:21:59,911 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 15:21:59,911 - RuntimeInstance initializing.
+INFO  2015-02-26 15:21:59,911 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 15:21:59,912 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 15:21:59,913 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 15:21:59,913 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 15:21:59,913 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 15:21:59,913 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 15:21:59,913 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:59,913 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 15:21:59,913 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 15:21:59,913 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 15:21:59,913 - Default ResourceManager initialization complete.
+INFO  2015-02-26 15:21:59,914 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 15:21:59,915 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 15:21:59,915 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 15:21:59,916 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 15:21:59,916 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 15:21:59,931 - Created: 20 parsers.
+INFO  2015-02-26 15:21:59,935 - Velocimacro : initialization starting.
+INFO  2015-02-26 15:21:59,935 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:59,947 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:59,947 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:59,949 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:59,951 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:59,952 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:21:59,959 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:59,960 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 15:21:59,960 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:59,962 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:59,963 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:59,965 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:59,967 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:59,972 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:59,974 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:59,975 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:59,976 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:21:59,994 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:59,994 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 15:21:59,994 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 15:21:59,994 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 15:21:59,994 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 15:21:59,994 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 15:21:59,994 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 15:21:59,994 - Velocimacro : initialization complete.
+INFO  2015-02-26 15:21:59,994 - Velocity successfully started.
+INFO  2015-02-26 15:22:00,004 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:00,005 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-26 15:22:00,006 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,008 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:00,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:00,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-26 15:22:00,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 15:22:00,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-26 15:22:00,008 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,014 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:00,014 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:00,015 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:00,015 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:00,015 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:00,015 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:00,015 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:00,015 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-26 15:22:00,015 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,092 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,095 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,097 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,097 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,099 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,099 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,101 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,102 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,106 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,106 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,128 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,128 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,129 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:00,130 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,130 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,131 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,131 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,132 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,132 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,135 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,135 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,136 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,137 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,138 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,138 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,139 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,139 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,140 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,140 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,150 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:00,150 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:00,150 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:22:00,152 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 15:22:00,152 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:00,153 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-26 15:22:00,153 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,155 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:00,155 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:00,155 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-26 15:22:00,155 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 15:22:00,155 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 15:22:00,155 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:00,155 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:00,155 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-26 15:22:00,155 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,165 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,165 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,166 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,167 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,168 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,168 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,174 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:00,176 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-26 15:22:00,176 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,510 - ************************************************************** 
+INFO  2015-02-26 15:22:12,510 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 15:22:12,510 - RuntimeInstance initializing.
+INFO  2015-02-26 15:22:12,510 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 15:22:12,511 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 15:22:12,512 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 15:22:12,512 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 15:22:12,512 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 15:22:12,512 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 15:22:12,512 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,512 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 15:22:12,512 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 15:22:12,513 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 15:22:12,513 - Default ResourceManager initialization complete.
+INFO  2015-02-26 15:22:12,513 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 15:22:12,514 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 15:22:12,514 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 15:22:12,515 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 15:22:12,516 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 15:22:12,531 - Created: 20 parsers.
+INFO  2015-02-26 15:22:12,534 - Velocimacro : initialization starting.
+INFO  2015-02-26 15:22:12,534 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-26 15:22:12,547 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:22:12,548 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:22:12,550 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:22:12,552 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:22:12,553 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-26 15:22:12,560 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,560 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 15:22:12,560 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:22:12,562 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:22:12,564 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:22:12,566 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:22:12,568 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:22:12,574 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:22:12,575 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:22:12,576 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:22:12,577 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-26 15:22:12,595 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,595 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 15:22:12,595 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 15:22:12,595 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 15:22:12,595 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 15:22:12,595 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 15:22:12,595 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 15:22:12,595 - Velocimacro : initialization complete.
+INFO  2015-02-26 15:22:12,595 - Velocity successfully started.
+INFO  2015-02-26 15:22:12,606 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:12,607 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-26 15:22:12,608 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,610 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,610 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:12,610 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-26 15:22:12,610 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 15:22:12,610 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-26 15:22:12,610 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,616 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,616 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:12,617 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-26 15:22:12,618 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,738 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,772 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,774 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,775 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,777 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,777 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,780 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,780 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,784 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,785 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,814 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,814 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,815 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,816 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,817 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,818 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,818 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,819 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,819 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,822 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,822 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,823 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,823 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,825 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,825 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,826 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,826 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,827 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,827 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,838 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,838 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:12,838 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:22:12,838 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-26 15:22:12,838 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-26 15:22:12,838 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:12,838 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-26 15:22:12,839 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-26 15:22:12,839 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,840 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,840 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:12,840 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-26 15:22:12,840 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 15:22:12,841 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-26 15:22:12,841 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:12,841 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-26 15:22:12,841 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-26 15:22:12,841 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,855 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,855 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,856 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,857 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,858 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:12,858 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:12,864 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:12,864 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-26 15:22:12,864 - Propriedade maxSizeClass não configurada

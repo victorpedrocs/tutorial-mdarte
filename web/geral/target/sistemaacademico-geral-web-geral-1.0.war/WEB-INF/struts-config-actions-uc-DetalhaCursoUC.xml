@@ -1,0 +1,81 @@
+	<action
+    	path="/DetalhaCursoUC/DetalhandoCursoEditaCurso"
+        type="br.mdarte.exemplo.academico.web.geral.detalharCurso.DetalhandoCursoEditaCurso"
+        name="detalhaCursoUCDetalhandoCursoEditaCursoForm"
+        scope="request"
+        input="/br/mdarte/exemplo/academico/web/geral/detalharCurso/detalhando-curso.jsp"
+        unknown="false"
+        validate="true">
+            <exception
+                handler="org.andromda.presentation.bpm4struts.ExceptionHandler"
+                type="java.lang.Throwable"
+                key="error.exception.message"
+                path="/br/mdarte/exemplo/academico/web/geral/detalharCurso/detalhando-curso.jsp"
+                scope="request" />
+		
+       		<forward
+        		name="edita.curso"
+            	path="/MantemCursoUC/MantemCursoUC.action"
+			/>
+	        <forward
+	            name="main"
+	            path="/ForwardAction.do"
+	            redirect="false" /> 
+        </action>
+	<action
+    	path="/DetalhaCursoUC/DetalhaCursoUC"
+        type="br.mdarte.exemplo.academico.web.geral.detalharCurso.DetalhaCursoUC"
+        name="detalhaCursoUCDetalhaCursoUCForm"
+        scope="request"
+        unknown="false"
+        validate="false">
+            <exception
+                handler="org.andromda.presentation.bpm4struts.ExceptionHandler"
+                type="java.lang.Throwable"
+                key="error.exception.message"
+                path="/error-page.jsp?code=exception"
+                scope="request" />
+		
+       		<forward
+        		name="detalhando.curso"
+            	path="/br/mdarte/exemplo/academico/web/geral/detalharCurso/detalhando-curso.jsp"
+			/>
+	        <forward
+	            name="main"
+	            path="/ForwardAction.do"
+	            redirect="false" /> 
+        </action>
+	<action
+    	path="/DetalhaCursoUC/DetalhandoCursoVoltar"
+        type="br.mdarte.exemplo.academico.web.geral.detalharCurso.DetalhandoCursoVoltar"
+        name="detalhaCursoUCDetalhandoCursoVoltarForm"
+        scope="request"
+        input="/br/mdarte/exemplo/academico/web/geral/detalharCurso/detalhando-curso.jsp"
+        unknown="false"
+        validate="false">
+            <exception
+                handler="org.andromda.presentation.bpm4struts.ExceptionHandler"
+                type="java.lang.Throwable"
+                key="error.exception.message"
+                path="/br/mdarte/exemplo/academico/web/geral/detalharCurso/detalhando-curso.jsp"
+                scope="request" />
+		
+       		<forward
+        		name="voltar"
+            	path="/ConsultaCursoUC/ConsultaCursoUC.action"
+			/>
+	        <forward
+	            name="main"
+	            path="/ForwardAction.do"
+	            redirect="false" /> 
+        </action>
+        <action
+            path="/br/mdarte/exemplo/academico/web/geral/detalharCurso/DetalhaCursoUCHelp"
+            type="org.apache.struts.actions.ForwardAction"
+            scope="request"
+            parameter="/br/mdarte/exemplo/academico/web/geral/detalharCurso/Detalha-Curso-UC_help.jsp"/>
+        <action
+            path="/DetalhandoCursoHelp"
+            type="org.apache.struts.actions.ForwardAction"
+            scope="request"
+            parameter="/br/mdarte/exemplo/academico/web/geral/detalharCurso/detalhando-curso_help.jsp"/>

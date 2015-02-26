@@ -1,0 +1,26 @@
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+geral/DetalhaCursoUC/DetalhaCursoUC.do;geral/ConsultaCursoUC/ConsultaCursoUC.action
+geral/ConsultaCursoUC/ConsultaCursoUC.do;geral/ConsultaCursoUC/ConsultaCursoUC.action
+geral/MantemCursoUC/MantemCursoUC.do;geral/ConsultaCursoUC/ConsultaCursoUC.action
+geral/MantemEstudanteUC/MantemEstudanteUC.do;geral/ConsultaEstudanteUC/ConsultaEstudanteUC.action
+geral/ConsultaEstudanteUC/ConsultaEstudanteUC.do;geral/ConsultaEstudanteUC/ConsultaEstudanteUC.action
+geral/DetalhaEstudanteUC/DetalhaEstudanteUC.do;geral/ConsultaEstudanteUC/ConsultaEstudanteUC.action
+geral/ConsultaCursoUC/ConsultaCursoUC.do;geral/DetalhaCursoUC/DetalhaCursoUC.action
+geral/MantemCursoUC/MantemCursoUC.do;geral/DetalhaCursoUC/DetalhaCursoUC.action
+geral/MantemEstudanteUC/MantemEstudanteUC.do;geral/DetalhaEstudanteUC/DetalhaEstudanteUC.action
+geral/ConsultaEstudanteUC/ConsultaEstudanteUC.do;geral/DetalhaEstudanteUC/DetalhaEstudanteUC.action
+geral/DetalhaCursoUC/DetalhaCursoUC.do;geral/MantemCursoUC/MantemCursoUC.action
+geral/DetalhaEstudanteUC/DetalhaEstudanteUC.do;geral/MantemEstudanteUC/MantemEstudanteUC.action
+# useCaseuseCase-geral merge point
+

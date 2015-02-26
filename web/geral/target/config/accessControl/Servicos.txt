@@ -1,0 +1,173 @@
+
+
+
+
+
+
+-- Servicos do caso de uso ConsultaCursoUC
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'/ConsultaCursoUC/ConsultaCursoUC','/ConsultaCursoUC/ConsultaCursoUC',0,0, 'CASO_USO_MODELADO', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'consulta.curso.uc.preencha.campos.consulta.curso','consulta.curso.uc.preencha.campos.consulta.curso',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'consulta.curso.uc.resultado.consulta.nova.consulta','consulta.curso.uc.resultado.consulta.nova.consulta',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'consulta.curso.uc.resultado.consulta.detalha.curso','consulta.curso.uc.resultado.consulta.detalha.curso',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+-- Servicos do caso de uso ConsultaEstudanteUC
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'/ConsultaEstudanteUC/ConsultaEstudanteUC','/ConsultaEstudanteUC/ConsultaEstudanteUC',0,0, 'CASO_USO_MODELADO', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'consulta.estudante.uc.preencha.campos.consulta.estudante','consulta.estudante.uc.preencha.campos.consulta.estudante',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'consulta.estudante.uc.resultado.consulta.nova.consulta','consulta.estudante.uc.resultado.consulta.nova.consulta',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'consulta.estudante.uc.resultado.consulta.detalha.estudante','consulta.estudante.uc.resultado.consulta.detalha.estudante',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+-- Servicos do caso de uso DetalhaCursoUC
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'/DetalhaCursoUC/DetalhaCursoUC','/DetalhaCursoUC/DetalhaCursoUC',0,0, 'CASO_USO_MODELADO', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'detalha.curso.uc.detalhando.curso.voltar','detalha.curso.uc.detalhando.curso.voltar',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'detalha.curso.uc.detalhando.curso.edita.curso','detalha.curso.uc.detalhando.curso.edita.curso',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+-- Servicos do caso de uso DetalhaEstudanteUC
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'/DetalhaEstudanteUC/DetalhaEstudanteUC','/DetalhaEstudanteUC/DetalhaEstudanteUC',0,0, 'CASO_USO_MODELADO', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'detalha.estudante.uc.detalhando.estudante.voltar','detalha.estudante.uc.detalhando.estudante.voltar',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'detalha.estudante.uc.detalhando.estudante.edita.estudante','detalha.estudante.uc.detalhando.estudante.edita.estudante',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+-- Servicos do caso de uso MantemCursoUC
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'/MantemCursoUC/MantemCursoUC','/MantemCursoUC/MantemCursoUC',0,0, 'CASO_USO_MODELADO', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'mantem.curso.uc.alterando.curso.salva.curso','mantem.curso.uc.alterando.curso.salva.curso',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'mantem.curso.uc.alterando.curso.voltar','mantem.curso.uc.alterando.curso.voltar',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+-- Servicos do caso de uso MantemEstudanteUC
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'/MantemEstudanteUC/MantemEstudanteUC','/MantemEstudanteUC/MantemEstudanteUC',0,0, 'CASO_USO_MODELADO', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'mantem.estudante.uc.alterando.estudante.salva.estudante','mantem.estudante.uc.alterando.estudante.salva.estudante',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+
+INSERT INTO SV_CA (ID,NOME,CODIGO,NIVEL_APROVACAO_INICIAL,HIBERNATE_VERSION,TIPO,SIS_CA_FK)
+VALUES (SV_CA_SEQ.NEXTVAL,'mantem.estudante.uc.alterando.estudante.voltar','mantem.estudante.uc.alterando.estudante.voltar',0,0,'FUNCIONALIDADE', (select id from sis_ca where nome ='sistemaacademico'));
+
+-- Servicos agrupados do caso de uso ConsultaCursoUC
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'consulta.curso.uc.preencha.campos.consulta.curso'), (select id from sv where CODIGO = '/ConsultaCursoUC/ConsultaCursoUC'));
+
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'consulta.curso.uc.resultado.consulta.nova.consulta'), (select id from sv where CODIGO = '/ConsultaCursoUC/ConsultaCursoUC'));
+
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'consulta.curso.uc.resultado.consulta.detalha.curso'), (select id from sv where CODIGO = '/ConsultaCursoUC/ConsultaCursoUC'));
+
+-- Servicos agrupados do caso de uso ConsultaEstudanteUC
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'consulta.estudante.uc.preencha.campos.consulta.estudante'), (select id from sv where CODIGO = '/ConsultaEstudanteUC/ConsultaEstudanteUC'));
+
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'consulta.estudante.uc.resultado.consulta.nova.consulta'), (select id from sv where CODIGO = '/ConsultaEstudanteUC/ConsultaEstudanteUC'));
+
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'consulta.estudante.uc.resultado.consulta.detalha.estudante'), (select id from sv where CODIGO = '/ConsultaEstudanteUC/ConsultaEstudanteUC'));
+
+-- Servicos agrupados do caso de uso DetalhaCursoUC
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'detalha.curso.uc.detalhando.curso.voltar'), (select id from sv where CODIGO = '/DetalhaCursoUC/DetalhaCursoUC'));
+
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'detalha.curso.uc.detalhando.curso.edita.curso'), (select id from sv where CODIGO = '/DetalhaCursoUC/DetalhaCursoUC'));
+
+-- Servicos agrupados do caso de uso DetalhaEstudanteUC
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'detalha.estudante.uc.detalhando.estudante.voltar'), (select id from sv where CODIGO = '/DetalhaEstudanteUC/DetalhaEstudanteUC'));
+
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'detalha.estudante.uc.detalhando.estudante.edita.estudante'), (select id from sv where CODIGO = '/DetalhaEstudanteUC/DetalhaEstudanteUC'));
+
+-- Servicos agrupados do caso de uso MantemCursoUC
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'mantem.curso.uc.alterando.curso.salva.curso'), (select id from sv where CODIGO = '/MantemCursoUC/MantemCursoUC'));
+
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'mantem.curso.uc.alterando.curso.voltar'), (select id from sv where CODIGO = '/MantemCursoUC/MantemCursoUC'));
+
+-- Servicos agrupados do caso de uso MantemEstudanteUC
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'mantem.estudante.uc.alterando.estudante.salva.estudante'), (select id from sv where CODIGO = '/MantemEstudanteUC/MantemEstudanteUC'));
+
+
+INSERT INTO SV_SV (AGRUPA_FK, E_AGRUPADO_POR_FK)
+VALUES
+((select id from sv where CODIGO = 'mantem.estudante.uc.alterando.estudante.voltar'), (select id from sv where CODIGO = '/MantemEstudanteUC/MantemEstudanteUC'));
+

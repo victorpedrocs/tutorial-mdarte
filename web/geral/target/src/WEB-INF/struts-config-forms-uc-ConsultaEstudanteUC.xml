@@ -1,0 +1,9 @@
+        <form-bean
+            name="consultaEstudanteUCPreenchaCamposConsultaEstudanteForm"
+            type="br.mdarte.exemplo.academico.web.geral.consultarEstudante.PreenchaCamposConsultaEstudanteFormImpl" />
+        <form-bean
+            name="consultaEstudanteUCConsultaEstudanteUCForm"
+            type="br.mdarte.exemplo.academico.web.geral.consultarEstudante.ConsultaEstudanteUCFormImpl" />
+        <form-bean
+            name="consultaEstudanteUCResultadoConsultaDetalhaEstudanteForm"
+            type="br.mdarte.exemplo.academico.web.geral.consultarEstudante.ResultadoConsultaDetalhaEstudanteFormImpl" />

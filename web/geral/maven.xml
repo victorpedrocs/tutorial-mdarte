@@ -1,0 +1,561 @@
+
+<project default="install"
+         xmlns:ant="jelly:ant"
+         xmlns:u="jelly:util"
+         xmlns:maven="jelly:maven"
+         xmlns:j="jelly:core"
+         xmlns:i="jelly:interaction">
+
+
+
+    <goal name="merge-message-resources">
+		
+		<!-- default -->
+		
+        <ant:concat destfile="${basedir}/target/src/WEB-INF/classes/application-resources.properties" binary="true">
+            <ant:fileset dir="${basedir}/target/src/WEB-INF/classes" includes="application-resources-uc-*.properties"/>
+        </ant:concat>
+<!--
+        <ant:concat destfile="${basedir}/target/src/WEB-INF/classes/application-resources.properties" binary="true">
+            <ant:fileset dir="${basedir}/target/src/WEB-INF/classes" includes="application-resources-modulo.properties"/>
+        </ant:concat>
+-->
+        <ant:concat destfile="${basedir}/target/src/WEB-INF/classes/application-resources.properties" binary="true" append="true">
+            <ant:fileset dir="${basedir}/target/src/WEB-INF/classes" includes="application-resources-global.properties"/>
+        </ant:concat>
+		
+        <ant:concat destfile="${basedir}/target/src/WEB-INF/classes/application-resources.properties" binary="true" append="true">
+            <ant:fileset dir="${basedir}/../conf/properties" includes="custom-resources.properties"/>
+        </ant:concat>
+
+        <ant:concat destfile="${basedir}/target/src/WEB-INF/classes/application-resources.csv" binary="true">
+            <ant:fileset dir="${basedir}/target/src/WEB-INF/classes" includes="application-resources-modulo.csv"/>
+        </ant:concat>
+		
+        <ant:concat destfile="${basedir}/target/src/WEB-INF/classes/application-resources.csv" binary="true" append ="true">
+            <ant:fileset dir="${basedir}/target/src/WEB-INF/classes" includes="application-resources-global.csv"/>
+        </ant:concat>
+    </goal>
+
+    <goal name="merge-validation-xml">
+        <u:available file="${basedir}/target/src/WEB-INF/validation-cabecalho.xml">
+            <ant:concat destfile="${basedir}/target/src/WEB-INF/validation.xml" binary="true">
+                <ant:fileset dir="${basedir}/target/src/WEB-INF" includes="validation-cabecalho.xml"/>
+            </ant:concat>
+            <ant:concat destfile="${basedir}/target/src/WEB-INF/validation.xml" binary="true" append="true">
+                <ant:fileset dir="${basedir}/target/src/WEB-INF" includes="validation-uc-*.xml"/>
+            </ant:concat>
+            <ant:concat destfile="${basedir}/target/src/WEB-INF/validation.xml" binary="true" append="true">
+                <ant:fileset dir="${basedir}/target/src/WEB-INF" includes="validation-rodape.xml"/>
+            </ant:concat>
+        </u:available>
+    </goal>
+
+    <goal name="install" prereqs="geral:install"/>
+
+    <goal name="geral:install" prereqs="copy:shared,merge-message-resources,merge-validation-xml">
+        <ant:mkdir dir="${basedir}/target/classes"/>
+        <ant:mkdir dir="${basedir}/src/java"/>    
+
+        <ant:path id="web.classpath">
+            <ant:path refid="maven.dependency.classpath"/>
+            <ant:path location="${maven.build.dest}"/>
+        </ant:path>
+
+        <ant:path id="compile">
+            <ant:pathelement path="${basedir}/target/src"/>
+            <ant:pathelement path="${basedir}/src/java"/>
+        </ant:path>
+
+        <ant:javac destdir="${basedir}/target/classes" includes="**/*.java" debug="on">
+            <ant:src>
+                <ant:path refid="compile"/>
+            </ant:src>
+            <ant:classpath>
+                <ant:path refid="maven.dependency.classpath"/>
+            </ant:classpath>
+        </ant:javac>
+
+        <ant:copy todir="${basedir}/target/classes">
+            <fileset dir="${basedir}/src/java">
+                <include name="**/*.jasper"/>
+            </fileset>
+        </ant:copy>
+
+        <maven:maven
+            descriptor="${basedir}/project.xml"
+            goals="war:install"/>
+    </goal>
+
+    <goal name="consultarEstudante:install" prereqs="copy:shared,merge-message-resources,merge-validation-xml">
+        <j:set var="compileDir" value="br/mdarte/exemplo/academico/web/geral/consultarEstudante"/>
+        <ant:mkdir dir="${basedir}/target/classes"/>
+        <ant:mkdir dir="${basedir}/src/java"/>
+
+        <ant:path id="web.classpath">
+            <ant:path refid="maven.dependency.classpath"/>
+            <ant:path location="${maven.build.dest}"/>
+        </ant:path>
+
+        <ant:echo>Compilando ${compileDir}</ant:echo>
+
+        <ant:path id="compile">
+            <ant:pathelement path="${basedir}/target/src/org/andromda"/>
+            <ant:pathelement path="${basedir}/target/src/main"/>
+            <u:available file="${basedir}/target/src/accessControl">
+                <ant:pathelement path="${basedir}/target/src/accessControl"/>
+            </u:available>
+            <ant:pathelement path="${basedir}/target/src/${compileDir}"/>
+            <ant:pathelement path="${basedir}/src/java/${compileDir}"/>
+        </ant:path>
+
+        <ant:javac destdir="${basedir}/target/classes" includes="**/*.java" debug="on">
+            <ant:src>
+                <ant:path refid="compile"/>
+            </ant:src>
+            <ant:classpath>
+                <ant:path refid="maven.dependency.classpath"/>
+            </ant:classpath>
+        </ant:javac>
+
+        <ant:copy todir="${basedir}/target/classes">
+            <fileset dir="${basedir}/src/java">
+                <include name="**/*.jasper"/>
+            </fileset>
+        </ant:copy>
+
+        <maven:maven
+            descriptor="${basedir}/project.xml"
+            goals="war:install"/>
+    </goal>
+    <goal name="manterEstudante:install" prereqs="copy:shared,merge-message-resources,merge-validation-xml">
+        <j:set var="compileDir" value="br/mdarte/exemplo/academico/web/geral/manterEstudante"/>
+        <ant:mkdir dir="${basedir}/target/classes"/>
+        <ant:mkdir dir="${basedir}/src/java"/>
+
+        <ant:path id="web.classpath">
+            <ant:path refid="maven.dependency.classpath"/>
+            <ant:path location="${maven.build.dest}"/>
+        </ant:path>
+
+        <ant:echo>Compilando ${compileDir}</ant:echo>
+
+        <ant:path id="compile">
+            <ant:pathelement path="${basedir}/target/src/org/andromda"/>
+            <ant:pathelement path="${basedir}/target/src/main"/>
+            <u:available file="${basedir}/target/src/accessControl">
+                <ant:pathelement path="${basedir}/target/src/accessControl"/>
+            </u:available>
+            <ant:pathelement path="${basedir}/target/src/${compileDir}"/>
+            <ant:pathelement path="${basedir}/src/java/${compileDir}"/>
+        </ant:path>
+
+        <ant:javac destdir="${basedir}/target/classes" includes="**/*.java" debug="on">
+            <ant:src>
+                <ant:path refid="compile"/>
+            </ant:src>
+            <ant:classpath>
+                <ant:path refid="maven.dependency.classpath"/>
+            </ant:classpath>
+        </ant:javac>
+
+        <ant:copy todir="${basedir}/target/classes">
+            <fileset dir="${basedir}/src/java">
+                <include name="**/*.jasper"/>
+            </fileset>
+        </ant:copy>
+
+        <maven:maven
+            descriptor="${basedir}/project.xml"
+            goals="war:install"/>
+    </goal>
+    <goal name="detalharEstudante:install" prereqs="copy:shared,merge-message-resources,merge-validation-xml">
+        <j:set var="compileDir" value="br/mdarte/exemplo/academico/web/geral/detalharEstudante"/>
+        <ant:mkdir dir="${basedir}/target/classes"/>
+        <ant:mkdir dir="${basedir}/src/java"/>
+
+        <ant:path id="web.classpath">
+            <ant:path refid="maven.dependency.classpath"/>
+            <ant:path location="${maven.build.dest}"/>
+        </ant:path>
+
+        <ant:echo>Compilando ${compileDir}</ant:echo>
+
+        <ant:path id="compile">
+            <ant:pathelement path="${basedir}/target/src/org/andromda"/>
+            <ant:pathelement path="${basedir}/target/src/main"/>
+            <u:available file="${basedir}/target/src/accessControl">
+                <ant:pathelement path="${basedir}/target/src/accessControl"/>
+            </u:available>
+            <ant:pathelement path="${basedir}/target/src/${compileDir}"/>
+            <ant:pathelement path="${basedir}/src/java/${compileDir}"/>
+        </ant:path>
+
+        <ant:javac destdir="${basedir}/target/classes" includes="**/*.java" debug="on">
+            <ant:src>
+                <ant:path refid="compile"/>
+            </ant:src>
+            <ant:classpath>
+                <ant:path refid="maven.dependency.classpath"/>
+            </ant:classpath>
+        </ant:javac>
+
+        <ant:copy todir="${basedir}/target/classes">
+            <fileset dir="${basedir}/src/java">
+                <include name="**/*.jasper"/>
+            </fileset>
+        </ant:copy>
+
+        <maven:maven
+            descriptor="${basedir}/project.xml"
+            goals="war:install"/>
+    </goal>
+    <goal name="consultarCurso:install" prereqs="copy:shared,merge-message-resources,merge-validation-xml">
+        <j:set var="compileDir" value="br/mdarte/exemplo/academico/web/geral/consultarCurso"/>
+        <ant:mkdir dir="${basedir}/target/classes"/>
+        <ant:mkdir dir="${basedir}/src/java"/>
+
+        <ant:path id="web.classpath">
+            <ant:path refid="maven.dependency.classpath"/>
+            <ant:path location="${maven.build.dest}"/>
+        </ant:path>
+
+        <ant:echo>Compilando ${compileDir}</ant:echo>
+
+        <ant:path id="compile">
+            <ant:pathelement path="${basedir}/target/src/org/andromda"/>
+            <ant:pathelement path="${basedir}/target/src/main"/>
+            <u:available file="${basedir}/target/src/accessControl">
+                <ant:pathelement path="${basedir}/target/src/accessControl"/>
+            </u:available>
+            <ant:pathelement path="${basedir}/target/src/${compileDir}"/>
+            <ant:pathelement path="${basedir}/src/java/${compileDir}"/>
+        </ant:path>
+
+        <ant:javac destdir="${basedir}/target/classes" includes="**/*.java" debug="on">
+            <ant:src>
+                <ant:path refid="compile"/>
+            </ant:src>
+            <ant:classpath>
+                <ant:path refid="maven.dependency.classpath"/>
+            </ant:classpath>
+        </ant:javac>
+
+        <ant:copy todir="${basedir}/target/classes">
+            <fileset dir="${basedir}/src/java">
+                <include name="**/*.jasper"/>
+            </fileset>
+        </ant:copy>
+
+        <maven:maven
+            descriptor="${basedir}/project.xml"
+            goals="war:install"/>
+    </goal>
+    <goal name="manterCurso:install" prereqs="copy:shared,merge-message-resources,merge-validation-xml">
+        <j:set var="compileDir" value="br/mdarte/exemplo/academico/web/geral/manterCurso"/>
+        <ant:mkdir dir="${basedir}/target/classes"/>
+        <ant:mkdir dir="${basedir}/src/java"/>
+
+        <ant:path id="web.classpath">
+            <ant:path refid="maven.dependency.classpath"/>
+            <ant:path location="${maven.build.dest}"/>
+        </ant:path>
+
+        <ant:echo>Compilando ${compileDir}</ant:echo>
+
+        <ant:path id="compile">
+            <ant:pathelement path="${basedir}/target/src/org/andromda"/>
+            <ant:pathelement path="${basedir}/target/src/main"/>
+            <u:available file="${basedir}/target/src/accessControl">
+                <ant:pathelement path="${basedir}/target/src/accessControl"/>
+            </u:available>
+            <ant:pathelement path="${basedir}/target/src/${compileDir}"/>
+            <ant:pathelement path="${basedir}/src/java/${compileDir}"/>
+        </ant:path>
+
+        <ant:javac destdir="${basedir}/target/classes" includes="**/*.java" debug="on">
+            <ant:src>
+                <ant:path refid="compile"/>
+            </ant:src>
+            <ant:classpath>
+                <ant:path refid="maven.dependency.classpath"/>
+            </ant:classpath>
+        </ant:javac>
+
+        <ant:copy todir="${basedir}/target/classes">
+            <fileset dir="${basedir}/src/java">
+                <include name="**/*.jasper"/>
+            </fileset>
+        </ant:copy>
+
+        <maven:maven
+            descriptor="${basedir}/project.xml"
+            goals="war:install"/>
+    </goal>
+    <goal name="detalharCurso:install" prereqs="copy:shared,merge-message-resources,merge-validation-xml">
+        <j:set var="compileDir" value="br/mdarte/exemplo/academico/web/geral/detalharCurso"/>
+        <ant:mkdir dir="${basedir}/target/classes"/>
+        <ant:mkdir dir="${basedir}/src/java"/>
+
+        <ant:path id="web.classpath">
+            <ant:path refid="maven.dependency.classpath"/>
+            <ant:path location="${maven.build.dest}"/>
+        </ant:path>
+
+        <ant:echo>Compilando ${compileDir}</ant:echo>
+
+        <ant:path id="compile">
+            <ant:pathelement path="${basedir}/target/src/org/andromda"/>
+            <ant:pathelement path="${basedir}/target/src/main"/>
+            <u:available file="${basedir}/target/src/accessControl">
+                <ant:pathelement path="${basedir}/target/src/accessControl"/>
+            </u:available>
+            <ant:pathelement path="${basedir}/target/src/${compileDir}"/>
+            <ant:pathelement path="${basedir}/src/java/${compileDir}"/>
+        </ant:path>
+
+        <ant:javac destdir="${basedir}/target/classes" includes="**/*.java" debug="on">
+            <ant:src>
+                <ant:path refid="compile"/>
+            </ant:src>
+            <ant:classpath>
+                <ant:path refid="maven.dependency.classpath"/>
+            </ant:classpath>
+        </ant:javac>
+
+        <ant:copy todir="${basedir}/target/classes">
+            <fileset dir="${basedir}/src/java">
+                <include name="**/*.jasper"/>
+            </fileset>
+        </ant:copy>
+
+        <maven:maven
+            descriptor="${basedir}/project.xml"
+            goals="war:install"/>
+    </goal>
+
+    <ant:property environment="env"/>
+
+    <j:set var="libDirectory" value="${env.JBOSS_HOME}/server/${jboss.config}/lib"/>
+
+    <goal name="lib">
+        <j:forEach var="dep" items="${pom.dependencies}">
+            <j:if test= "${dep.getProperty('application.dependency') == 'true'}">
+                <ant:delete includeEmptyDirs="false">
+                    <ant:fileset dir="${libDirectory}">
+                        <ant:include name="${dep.artifactId}*.${dep.type}"/>
+                    </ant:fileset>
+                </ant:delete>
+                <ant:copy todir="${libDirectory}">
+                    <fileset dir="${user.home}/.maven/repository/${dep.groupId}/${dep.type}s/">
+                        <include name="${dep.artifact}"/>
+                    </fileset>
+                </ant:copy>
+            </j:if>
+        </j:forEach>
+    </goal>
+
+    <j:set var="deployDirectory" value="${env.JBOSS_HOME}/server/${jboss.config}/deploy"/>
+
+    <goal name="deploy" prereqs="undeploy">
+        <j:choose>
+            <j:when test="${deployExploded}">
+                <ant:copy todir="${deployDirectory}/${pom.artifactId}${artifactIdSuffix}">
+                    <ant:fileset dir="${maven.war.webapp.dir}"/>
+                </ant:copy>
+            </j:when>
+            <j:otherwise>
+                <ant:copy file="${user.home}/.maven/repository/${pom.groupId}/wars/${pom.artifactId}${artifactIdSuffix}-${pom.CurrentVersion}.war"
+                    tofile="${deployDirectory}/${pom.artifactId}${artifactIdSuffix}-${pom.CurrentVersion}.war"/>
+            </j:otherwise>
+        </j:choose>
+    </goal>
+
+    <goal name="undeploy">
+        <ant:delete includeEmptyDirs="true">
+            <ant:fileset dir="${deployDirectory}">
+                <!-- in case previously deployed as a file -->
+                <ant:include name="${pom.artifactId}${artifactIdSuffix}*.war"/>
+            </ant:fileset>
+        </ant:delete>
+    </goal>
+
+
+    <!-- copying custom web files over the generated ones (or just adding them) -->
+<!-- uncomment this section and put files in src/jsp to have them copied over the generated ones
+    <preGoal name="war:init">
+        
+    
+    
+        <ant:copy todir="${maven.war.webapp.dir}" overwrite="true">
+            <ant:fileset dir="${maven.src.dir}/jsp">
+                <include name="**/*"/>
+            </ant:fileset>
+        </ant:copy>
+    </preGoal>
+-->
+
+    <!-- =====================================================================
+             Remove any existing output resulting from precompilation.
+         ===================================================================== -->
+    <goal name="copy:shared">
+        <u:available file="${basedir}/../modelo/compartilhado/src/java">
+            <ant:copy todir="${basedir}/target/src" overwrite="true">
+                <fileset dir="${basedir}/../modelo/compartilhado/src/java">
+                    <exclude name="jsp/**"/>
+                </fileset>
+            </ant:copy>
+        </u:available>
+        <u:available file="${basedir}/../modelo/compartilhado/target/src">
+            <ant:copy todir="${basedir}/target/src" overwrite="true">
+                <fileset dir="${basedir}/../modelo/compartilhado/target/src">
+                    <include name="**/*.*"/>
+                </fileset>
+            </ant:copy>
+        </u:available>
+        <u:available file="${basedir}/../modelo/compartilhado/src/jsp">
+            <ant:copy todir="${basedir}/target/src" overwrite="true">
+                <fileset dir="${basedir}/../modelo/compartilhado/src/jsp">
+                    <include name="**/*.*"/>
+                </fileset>
+            </ant:copy>
+        </u:available>
+        <u:available file="${maven.src.dir}/jsp">
+            <ant:copy todir="${maven.war.webapp.dir}" overwrite="true">
+                <ant:fileset dir="${maven.src.dir}/jsp">
+                    <include name="**/*"/>
+                </ant:fileset>
+            </ant:copy>
+        </u:available>
+
+        <j:if test="${precompileJsps}">
+            <ant:delete dir="${maven.war.build.dir}/precompiled" failonerror="true"/>
+        </j:if>
+    </goal>
+
+    <!--
+        | We are going to make a WAR bundle in which the JSPs have been precompiled,
+        | this means we will need to generate the Java source from those JSPs. This is
+        | all done after the war has been generated.
+    -->
+    <postGoal name="war:war">
+        <j:if test="${precompileJsps}">
+            <!-- setting up the directories to work with -->
+            <ant:property name="war.precompile.jsp" location="${maven.war.build.dir}/precompiled"/>
+            <ant:property name="jsp.precompilation.java" location="${war.precompile.jsp}/jsp-java"/>
+            <ant:property name="jsp.precompilation.classes" location="${war.precompile.jsp}/jsp-classes"/>
+            <ant:property name="jsp.precompilation.servlets" location="${war.precompile.jsp}/jsp-servlets.xml"/>
+            <ant:property name="jsp.precompilation.webapp" location="${maven.war.webapp.dir}"/>
+
+            <!-- clearing old garbage from the target directories -->
+            <ant:mkdir dir="${jsp.precompilation.java}"/>
+            <ant:mkdir dir="${jsp.precompilation.classes}"/>
+
+            <!-- the class path for precompilation -->
+            <ant:path id="jsp.precompilation.classpath">
+                <ant:path refid="maven.dependency.classpath"/>
+                <ant:pathelement location="${jsp.precompilation.webapp}/WEB-INF/classes"/>
+            </ant:path>
+
+            <!-- generating java code from the JSPs -->
+            <ant:echo message="Generating Java sources from JSPs"/>
+            <ant:java classname="org.apache.jasper.JspC" fork="true" classpathref="jsp.precompilation.classpath">
+                <ant:arg value="-webapp"/>
+                <ant:arg value="${jsp.precompilation.webapp}"/>
+                <ant:arg value="-d"/>
+                <ant:arg value="${jsp.precompilation.java}"/>
+                <ant:arg value="-webinc"/>
+                <ant:arg value="${jsp.precompilation.servlets}"/>
+                <ant:arg value="-p"/>
+                <ant:arg value="a"/> <!-- to shorten the package name JspC uses to prefix the compiled jsps -->
+            </ant:java>
+
+            <!-- Compiling the sources generated from the JSPs -->
+            <ant:echo message="Compiling generated java sources"/>
+            <ant:javac srcdir="${jsp.precompilation.java}"
+                classpathref="jsp.precompilation.classpath"
+                destdir="${jsp.precompilation.webapp}/WEB-INF/classes"
+                deprecation="on"/>
+
+
+            <!-- merging additional web.xml directives -->
+            <ant:echo message="Merging additional web.xml directives"/>
+            <ant:loadfile property="jsp.servlets.text" srcFile="${jsp.precompilation.servlets}"/>
+            <ant:replace file="${jsp.precompilation.webapp}/WEB-INF/web.xml"
+                value="${jsp.servlets.text}"
+                token="&lt;!-- precompilation merge-point --&gt;"/>
+
+            <!-- storing this bundle into a new WAR archive -->
+            <ant:echo message="Reconstructing web application WAR bundle"/>
+            <ant:war destfile="${maven.war.build.dir}/${maven.war.final.name}"
+                webxml="${jsp.precompilation.webapp}/WEB-INF/web.xml"
+                update="false">
+                <ant:fileset dir="${jsp.precompilation.webapp}">
+                    <ant:exclude name="*/**/*.jsp*"/> <!-- we don't want the jsp files except for the welcome file -->
+                </ant:fileset>
+            </ant:war>
+        </j:if>
+    </postGoal>
+
+    <goal name="earInstall">
+        <j:set var="earDirectory" value="${basedir}/../../target/ear"/>
+
+        <!-- Copia libs necessarias para o ear -->
+        <j:if test="${packDependencies}">
+            <j:forEach var="dep" items="${pom.dependencies}">
+                <j:if test="${dep.getProperty('application.dependency') == 'true'}">
+                    <ant:copy todir="${earDirectory}">
+                        <fileset dir="${maven.repo.local}/${dep.groupId}/${dep.type}s/">
+                            <include name="$${dep.artifact}" />
+                        </fileset>
+                    </ant:copy>
+                </j:if>
+            </j:forEach>
+        </j:if>
+
+        <!-- Copia .war para a pasta do ear -->
+        <ant:copy file="${maven.repo.local}/${pom.groupId}/wars/${pom.artifactId}${artifactIdSuffix}-${pom.CurrentVersion}.war"
+            tofile="${earDirectory}/${pom.artifactId}${artifactIdSuffix}-${pom.CurrentVersion}.war"/>
+
+        <!-- Gera trecho do arquivo application.xml -->
+        <j:set var="earTempDirectory" value="${basedir}/../../target/ear/temp"/>
+        <j:file name="${earTempDirectory}/web-geral.xml"
+            outputMode="xml"
+            omitXmlDeclaration="true"
+            escapeText="false"
+            trim="false"><![CDATA[
+    <module>
+        <web>
+            <web-uri>${pom.artifactId}${artifactIdSuffix}-${pom.CurrentVersion}.war</web-uri>
+            <context-root>/sistemaacademico/geral</context-root>
+        </web>
+    </module>]]></j:file>
+    </goal>
+
+    <!-- ==================================================================
+           Shows help
+         ================================================================== -->
+    <goal name="help">
+        <ant:echo> 
+
+maven install - Compila o conteudo deste modulo web e gera o war (e o default desta pasta)
+
+maven deploy - Copia os war desta pasta para o seu JBoss
+
+maven clean - Apaga o conteudo da pasta target
+
+        </ant:echo>
+    </goal>
+
+    <!-- ==================================================================
+           Cleans Everything and deletes all implementation classes
+         ================================================================== -->
+    <goal name="nuke">
+        <ant:delete>
+            <fileset dir="src/java">
+                <include name="**/*Impl.java"/>
+            </fileset>
+        </ant:delete>
+        <attainGoal name="clean"/>
+    </goal>
+</project>

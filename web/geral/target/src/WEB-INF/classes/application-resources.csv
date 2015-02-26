@@ -1,0 +1,396 @@
+
+
+;;;main2.title;ConsultaCursoUC
+
+#
+#    Use cases messages
+#
+ConsultaCursoUC;;Ajuda;consulta.curso.uc.online.help;No use-case documentation has been specified<br/>
+ConsultaCursoUC;;Titulo;consulta.curso.uc.title;Consulta Curso UC
+ConsultaCursoUC;PreenchaCampos;Ajuda;consulta.curso.uc.preencha.campos.consulta.curso.online.help;
+ConsultaCursoUC;PreenchaCampos;Documentacao;consulta.curso.uc.preencha.campos.consulta.curso.documentation;
+ConsultaCursoUC;PreenchaCampos;MessagePage;consulta.curso.uc.preencha.campos;Preencha Campos
+ConsultaCursoUC;PreenchaCampos;NaoPermitidoTitulo;consulta.curso.uc.preencha.campos.consulta.curso.title.notallowed;You are not allowed to call this action
+ConsultaCursoUC;PreenchaCampos;OnLineHelp;consulta.curso.uc.preencha.campos.online.help;<br/>
+ConsultaCursoUC;PreenchaCampos;ParametroAjuda;consulta.curso.uc.preencha.campos.consulta.curso.param.codigo.online.help;Este campo é opcional.<br/>
+ConsultaCursoUC;PreenchaCampos;ParametroAjuda;consulta.curso.uc.preencha.campos.consulta.curso.param.nome.online.help;Este campo é opcional.<br/>
+ConsultaCursoUC;PreenchaCampos;ParametroMensagem;consulta.curso.uc.preencha.campos.consulta.curso.param.codigo;Codigo
+ConsultaCursoUC;PreenchaCampos;ParametroMensagem;consulta.curso.uc.preencha.campos.consulta.curso.param.nome;Nome
+ConsultaCursoUC;PreenchaCampos;ParametroTitulo;consulta.curso.uc.preencha.campos.consulta.curso.param.codigo.title;codigo
+ConsultaCursoUC;PreenchaCampos;ParametroTitulo;consulta.curso.uc.preencha.campos.consulta.curso.param.nome.title;nome
+ConsultaCursoUC;PreenchaCampos;ResetMensagem;consulta.curso.uc.preencha.campos.consulta.curso.title.reset.message;Reset
+ConsultaCursoUC;PreenchaCampos;ResetNaoPermitidoTitulo;consulta.curso.uc.preencha.campos.consulta.curso.title.reset.not.allowed;You are not allowed to reset
+ConsultaCursoUC;PreenchaCampos;ResetTitulo;consulta.curso.uc.preencha.campos.consulta.curso.title.reset;Reset
+ConsultaCursoUC;PreenchaCampos;Titulo;consulta.curso.uc.preencha.campos.consulta.curso.title;Consulta Curso
+ConsultaCursoUC;PreenchaCampos;Titulo;consulta.curso.uc.preencha.campos.title;Preencha Campos
+ConsultaCursoUC;PreenchaCampos;ValorTrigger;consulta.curso.uc.preencha.campos.consulta.curso;Consulta Curso
+ConsultaCursoUC;ResultadoConsulta;Ajuda;consulta.curso.uc.resultado.consulta.detalha.curso.online.help;
+ConsultaCursoUC;ResultadoConsulta;Ajuda;consulta.curso.uc.resultado.consulta.nova.consulta.online.help;
+ConsultaCursoUC;ResultadoConsulta;Documentacao;consulta.curso.uc.resultado.consulta.detalha.curso.documentation;
+ConsultaCursoUC;ResultadoConsulta;Documentacao;consulta.curso.uc.resultado.consulta.nova.consulta.documentation;
+ConsultaCursoUC;ResultadoConsulta;MessagePage;consulta.curso.uc.resultado.consulta;Resultado Consulta
+ConsultaCursoUC;ResultadoConsulta;NaoPermitidoTitulo;consulta.curso.uc.resultado.consulta.detalha.curso.title.notallowed;You are not allowed to call this action
+ConsultaCursoUC;ResultadoConsulta;NaoPermitidoTitulo;consulta.curso.uc.resultado.consulta.nova.consulta.title.notallowed;You are not allowed to call this action
+ConsultaCursoUC;ResultadoConsulta;NomeColuna;consulta.curso.uc.resultado.consulta.param.cursos.codigo;Codigo
+ConsultaCursoUC;ResultadoConsulta;NomeColuna;consulta.curso.uc.resultado.consulta.param.cursos.nome;Nome
+ConsultaCursoUC;ResultadoConsulta;OnLineHelp;consulta.curso.uc.resultado.consulta.online.help;<br/>
+ConsultaCursoUC;ResultadoConsulta;ParametroAjuda;consulta.curso.uc.resultado.consulta.detalha.curso.param.id.curso.online.help;Este campo é opcional.<br/>
+ConsultaCursoUC;ResultadoConsulta;ParametroMensagem;consulta.curso.uc.resultado.consulta.detalha.curso.param.id.curso;Id Curso
+ConsultaCursoUC;ResultadoConsulta;ParametroTitulo;consulta.curso.uc.resultado.consulta.detalha.curso.param.id.curso.title;idCurso
+ConsultaCursoUC;ResultadoConsulta;ResetMensagem;consulta.curso.uc.resultado.consulta.detalha.curso.title.reset.message;Reset
+ConsultaCursoUC;ResultadoConsulta;ResetMensagem;consulta.curso.uc.resultado.consulta.nova.consulta.title.reset.message;Reset
+ConsultaCursoUC;ResultadoConsulta;ResetNaoPermitidoTitulo;consulta.curso.uc.resultado.consulta.detalha.curso.title.reset.not.allowed;You are not allowed to reset
+ConsultaCursoUC;ResultadoConsulta;ResetNaoPermitidoTitulo;consulta.curso.uc.resultado.consulta.nova.consulta.title.reset.not.allowed;You are not allowed to reset
+ConsultaCursoUC;ResultadoConsulta;ResetTitulo;consulta.curso.uc.resultado.consulta.detalha.curso.title.reset;Reset
+ConsultaCursoUC;ResultadoConsulta;ResetTitulo;consulta.curso.uc.resultado.consulta.nova.consulta.title.reset;Reset
+ConsultaCursoUC;ResultadoConsulta;Titulo;consulta.curso.uc.resultado.consulta.detalha.curso.title;Detalha Curso
+ConsultaCursoUC;ResultadoConsulta;Titulo;consulta.curso.uc.resultado.consulta.nova.consulta.title;Nova Consulta
+ConsultaCursoUC;ResultadoConsulta;Titulo;consulta.curso.uc.resultado.consulta.title;Resultado Consulta
+ConsultaCursoUC;ResultadoConsulta;ValorTrigger;consulta.curso.uc.resultado.consulta.detalha.curso;Detalha Curso
+ConsultaCursoUC;ResultadoConsulta;ValorTrigger;consulta.curso.uc.resultado.consulta.nova.consulta;Nova Consulta
+ConsultaCursoUC;ResultadoConsulta;VariavelPagina;consulta.curso.uc.resultado.consulta.param.cursos;Cursos
+ConsultaEstudanteUC;;Ajuda;consulta.estudante.uc.online.help;No use-case documentation has been specified<br/>
+ConsultaEstudanteUC;;Titulo;consulta.estudante.uc.title;Consulta Estudante UC
+ConsultaEstudanteUC;PreenchaCampos;Ajuda;consulta.estudante.uc.preencha.campos.consulta.estudante.online.help;
+ConsultaEstudanteUC;PreenchaCampos;Documentacao;consulta.estudante.uc.preencha.campos.consulta.estudante.documentation;
+ConsultaEstudanteUC;PreenchaCampos;MessagePage;consulta.estudante.uc.preencha.campos;Preencha Campos
+ConsultaEstudanteUC;PreenchaCampos;NaoPermitidoTitulo;consulta.estudante.uc.preencha.campos.consulta.estudante.title.notallowed;You are not allowed to call this action
+ConsultaEstudanteUC;PreenchaCampos;OnLineHelp;consulta.estudante.uc.preencha.campos.online.help;<br/>
+ConsultaEstudanteUC;PreenchaCampos;ParametroAjuda;consulta.estudante.uc.preencha.campos.consulta.estudante.param.matricula.online.help;Este campo é opcional.<br/>
+ConsultaEstudanteUC;PreenchaCampos;ParametroAjuda;consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome.online.help;Este campo é opcional.<br/>
+ConsultaEstudanteUC;PreenchaCampos;ParametroMensagem;consulta.estudante.uc.preencha.campos.consulta.estudante.param.matricula;Matricula
+ConsultaEstudanteUC;PreenchaCampos;ParametroMensagem;consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome;Nome
+ConsultaEstudanteUC;PreenchaCampos;ParametroTitulo;consulta.estudante.uc.preencha.campos.consulta.estudante.param.matricula.title;matricula
+ConsultaEstudanteUC;PreenchaCampos;ParametroTitulo;consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome.title;nome
+ConsultaEstudanteUC;PreenchaCampos;ResetMensagem;consulta.estudante.uc.preencha.campos.consulta.estudante.title.reset.message;Reset
+ConsultaEstudanteUC;PreenchaCampos;ResetNaoPermitidoTitulo;consulta.estudante.uc.preencha.campos.consulta.estudante.title.reset.not.allowed;You are not allowed to reset
+ConsultaEstudanteUC;PreenchaCampos;ResetTitulo;consulta.estudante.uc.preencha.campos.consulta.estudante.title.reset;Reset
+ConsultaEstudanteUC;PreenchaCampos;Titulo;consulta.estudante.uc.preencha.campos.consulta.estudante.title;Consulta Estudante
+ConsultaEstudanteUC;PreenchaCampos;Titulo;consulta.estudante.uc.preencha.campos.title;Preencha Campos
+ConsultaEstudanteUC;PreenchaCampos;ValorTrigger;consulta.estudante.uc.preencha.campos.consulta.estudante;Consulta Estudante
+ConsultaEstudanteUC;ResultadoConsulta;Ajuda;consulta.estudante.uc.resultado.consulta.detalha.estudante.online.help;
+ConsultaEstudanteUC;ResultadoConsulta;Ajuda;consulta.estudante.uc.resultado.consulta.nova.consulta.online.help;
+ConsultaEstudanteUC;ResultadoConsulta;Documentacao;consulta.estudante.uc.resultado.consulta.detalha.estudante.documentation;
+ConsultaEstudanteUC;ResultadoConsulta;Documentacao;consulta.estudante.uc.resultado.consulta.nova.consulta.documentation;
+ConsultaEstudanteUC;ResultadoConsulta;MessagePage;consulta.estudante.uc.resultado.consulta;Resultado Consulta
+ConsultaEstudanteUC;ResultadoConsulta;NaoPermitidoTitulo;consulta.estudante.uc.resultado.consulta.detalha.estudante.title.notallowed;You are not allowed to call this action
+ConsultaEstudanteUC;ResultadoConsulta;NaoPermitidoTitulo;consulta.estudante.uc.resultado.consulta.nova.consulta.title.notallowed;You are not allowed to call this action
+ConsultaEstudanteUC;ResultadoConsulta;NomeColuna;consulta.estudante.uc.resultado.consulta.param.estudantes.matricula;Matricula
+ConsultaEstudanteUC;ResultadoConsulta;NomeColuna;consulta.estudante.uc.resultado.consulta.param.estudantes.nome;Nome
+ConsultaEstudanteUC;ResultadoConsulta;OnLineHelp;consulta.estudante.uc.resultado.consulta.online.help;<br/>
+ConsultaEstudanteUC;ResultadoConsulta;ParametroAjuda;consulta.estudante.uc.resultado.consulta.detalha.estudante.param.id.estudante.online.help;Este campo é opcional.<br/>
+ConsultaEstudanteUC;ResultadoConsulta;ParametroMensagem;consulta.estudante.uc.resultado.consulta.detalha.estudante.param.id.estudante;Id Estudante
+ConsultaEstudanteUC;ResultadoConsulta;ParametroTitulo;consulta.estudante.uc.resultado.consulta.detalha.estudante.param.id.estudante.title;idEstudante
+ConsultaEstudanteUC;ResultadoConsulta;ResetMensagem;consulta.estudante.uc.resultado.consulta.detalha.estudante.title.reset.message;Reset
+ConsultaEstudanteUC;ResultadoConsulta;ResetMensagem;consulta.estudante.uc.resultado.consulta.nova.consulta.title.reset.message;Reset
+ConsultaEstudanteUC;ResultadoConsulta;ResetNaoPermitidoTitulo;consulta.estudante.uc.resultado.consulta.detalha.estudante.title.reset.not.allowed;You are not allowed to reset
+ConsultaEstudanteUC;ResultadoConsulta;ResetNaoPermitidoTitulo;consulta.estudante.uc.resultado.consulta.nova.consulta.title.reset.not.allowed;You are not allowed to reset
+ConsultaEstudanteUC;ResultadoConsulta;ResetTitulo;consulta.estudante.uc.resultado.consulta.detalha.estudante.title.reset;Reset
+ConsultaEstudanteUC;ResultadoConsulta;ResetTitulo;consulta.estudante.uc.resultado.consulta.nova.consulta.title.reset;Reset
+ConsultaEstudanteUC;ResultadoConsulta;Titulo;consulta.estudante.uc.resultado.consulta.detalha.estudante.title;Detalha Estudante
+ConsultaEstudanteUC;ResultadoConsulta;Titulo;consulta.estudante.uc.resultado.consulta.nova.consulta.title;Nova Consulta
+ConsultaEstudanteUC;ResultadoConsulta;Titulo;consulta.estudante.uc.resultado.consulta.title;Resultado Consulta
+ConsultaEstudanteUC;ResultadoConsulta;ValorTrigger;consulta.estudante.uc.resultado.consulta.detalha.estudante;Detalha Estudante
+ConsultaEstudanteUC;ResultadoConsulta;ValorTrigger;consulta.estudante.uc.resultado.consulta.nova.consulta;Nova Consulta
+ConsultaEstudanteUC;ResultadoConsulta;VariavelPagina;consulta.estudante.uc.resultado.consulta.param.estudantes;Estudantes
+DetalhaCursoUC;;Ajuda;detalha.curso.uc.online.help;No use-case documentation has been specified<br/>
+DetalhaCursoUC;;Titulo;detalha.curso.uc.title;Detalha Curso UC
+DetalhaCursoUC;DetalhandoCurso;Ajuda;detalha.curso.uc.detalhando.curso.edita.curso.online.help;
+DetalhaCursoUC;DetalhandoCurso;Ajuda;detalha.curso.uc.detalhando.curso.voltar.online.help;
+DetalhaCursoUC;DetalhandoCurso;Documentacao;detalha.curso.uc.detalhando.curso.edita.curso.documentation;
+DetalhaCursoUC;DetalhandoCurso;Documentacao;detalha.curso.uc.detalhando.curso.voltar.documentation;
+DetalhaCursoUC;DetalhandoCurso;MessagePage;detalha.curso.uc.detalhando.curso;Detalhando Curso
+DetalhaCursoUC;DetalhandoCurso;NaoPermitidoTitulo;detalha.curso.uc.detalhando.curso.edita.curso.title.notallowed;You are not allowed to call this action
+DetalhaCursoUC;DetalhandoCurso;NaoPermitidoTitulo;detalha.curso.uc.detalhando.curso.voltar.title.notallowed;You are not allowed to call this action
+DetalhaCursoUC;DetalhandoCurso;OnLineHelp;detalha.curso.uc.detalhando.curso.online.help;<br/>
+DetalhaCursoUC;DetalhandoCurso;ParametroAjuda;detalha.curso.uc.detalhando.curso.edita.curso.param.id.curso.online.help;Este campo é opcional.<br/>
+DetalhaCursoUC;DetalhandoCurso;ParametroAjuda;detalha.curso.uc.detalhando.curso.voltar.param.codigo.online.help;Este campo é opcional.<br/>
+DetalhaCursoUC;DetalhandoCurso;ParametroAjuda;detalha.curso.uc.detalhando.curso.voltar.param.nome.online.help;Este campo é opcional.<br/>
+DetalhaCursoUC;DetalhandoCurso;ParametroMensagem;detalha.curso.uc.detalhando.curso.edita.curso.param.id.curso;Id Curso
+DetalhaCursoUC;DetalhandoCurso;ParametroMensagem;detalha.curso.uc.detalhando.curso.voltar.param.codigo;Codigo
+DetalhaCursoUC;DetalhandoCurso;ParametroMensagem;detalha.curso.uc.detalhando.curso.voltar.param.nome;Nome
+DetalhaCursoUC;DetalhandoCurso;ParametroTitulo;detalha.curso.uc.detalhando.curso.edita.curso.param.id.curso.title;idCurso
+DetalhaCursoUC;DetalhandoCurso;ParametroTitulo;detalha.curso.uc.detalhando.curso.voltar.param.codigo.title;codigo
+DetalhaCursoUC;DetalhandoCurso;ParametroTitulo;detalha.curso.uc.detalhando.curso.voltar.param.nome.title;nome
+DetalhaCursoUC;DetalhandoCurso;ResetMensagem;detalha.curso.uc.detalhando.curso.edita.curso.title.reset.message;Reset
+DetalhaCursoUC;DetalhandoCurso;ResetMensagem;detalha.curso.uc.detalhando.curso.voltar.title.reset.message;Reset
+DetalhaCursoUC;DetalhandoCurso;ResetNaoPermitidoTitulo;detalha.curso.uc.detalhando.curso.edita.curso.title.reset.not.allowed;You are not allowed to reset
+DetalhaCursoUC;DetalhandoCurso;ResetNaoPermitidoTitulo;detalha.curso.uc.detalhando.curso.voltar.title.reset.not.allowed;You are not allowed to reset
+DetalhaCursoUC;DetalhandoCurso;ResetTitulo;detalha.curso.uc.detalhando.curso.edita.curso.title.reset;Reset
+DetalhaCursoUC;DetalhandoCurso;ResetTitulo;detalha.curso.uc.detalhando.curso.voltar.title.reset;Reset
+DetalhaCursoUC;DetalhandoCurso;Titulo;detalha.curso.uc.detalhando.curso.edita.curso.title;Edita Curso
+DetalhaCursoUC;DetalhandoCurso;Titulo;detalha.curso.uc.detalhando.curso.title;Detalhando Curso
+DetalhaCursoUC;DetalhandoCurso;Titulo;detalha.curso.uc.detalhando.curso.voltar.title;Voltar
+DetalhaCursoUC;DetalhandoCurso;ValorTrigger;detalha.curso.uc.detalhando.curso.edita.curso;Edita Curso
+DetalhaCursoUC;DetalhandoCurso;ValorTrigger;detalha.curso.uc.detalhando.curso.voltar;Voltar
+DetalhaEstudanteUC;;Ajuda;detalha.estudante.uc.online.help;No use-case documentation has been specified<br/>
+DetalhaEstudanteUC;;Titulo;detalha.estudante.uc.title;Detalha Estudante UC
+DetalhaEstudanteUC;DetalhandoEstudante;Ajuda;detalha.estudante.uc.detalhando.estudante.edita.estudante.online.help;
+DetalhaEstudanteUC;DetalhandoEstudante;Ajuda;detalha.estudante.uc.detalhando.estudante.voltar.online.help;
+DetalhaEstudanteUC;DetalhandoEstudante;Documentacao;detalha.estudante.uc.detalhando.estudante.edita.estudante.documentation;
+DetalhaEstudanteUC;DetalhandoEstudante;Documentacao;detalha.estudante.uc.detalhando.estudante.voltar.documentation;
+DetalhaEstudanteUC;DetalhandoEstudante;MessagePage;detalha.estudante.uc.detalhando.estudante;Detalhando Estudante
+DetalhaEstudanteUC;DetalhandoEstudante;NaoPermitidoTitulo;detalha.estudante.uc.detalhando.estudante.edita.estudante.title.notallowed;You are not allowed to call this action
+DetalhaEstudanteUC;DetalhandoEstudante;NaoPermitidoTitulo;detalha.estudante.uc.detalhando.estudante.voltar.title.notallowed;You are not allowed to call this action
+DetalhaEstudanteUC;DetalhandoEstudante;OnLineHelp;detalha.estudante.uc.detalhando.estudante.online.help;<br/>
+DetalhaEstudanteUC;DetalhandoEstudante;ParametroAjuda;detalha.estudante.uc.detalhando.estudante.edita.estudante.param.id.estudante.online.help;Este campo é opcional.<br/>
+DetalhaEstudanteUC;DetalhandoEstudante;ParametroAjuda;detalha.estudante.uc.detalhando.estudante.voltar.param.matricula.online.help;Este campo é opcional.<br/>
+DetalhaEstudanteUC;DetalhandoEstudante;ParametroAjuda;detalha.estudante.uc.detalhando.estudante.voltar.param.nome.online.help;Este campo é opcional.<br/>
+DetalhaEstudanteUC;DetalhandoEstudante;ParametroMensagem;detalha.estudante.uc.detalhando.estudante.edita.estudante.param.id.estudante;Id Estudante
+DetalhaEstudanteUC;DetalhandoEstudante;ParametroMensagem;detalha.estudante.uc.detalhando.estudante.voltar.param.matricula;Matricula
+DetalhaEstudanteUC;DetalhandoEstudante;ParametroMensagem;detalha.estudante.uc.detalhando.estudante.voltar.param.nome;Nome
+DetalhaEstudanteUC;DetalhandoEstudante;ParametroTitulo;detalha.estudante.uc.detalhando.estudante.edita.estudante.param.id.estudante.title;idEstudante
+DetalhaEstudanteUC;DetalhandoEstudante;ParametroTitulo;detalha.estudante.uc.detalhando.estudante.voltar.param.matricula.title;matricula
+DetalhaEstudanteUC;DetalhandoEstudante;ParametroTitulo;detalha.estudante.uc.detalhando.estudante.voltar.param.nome.title;nome
+DetalhaEstudanteUC;DetalhandoEstudante;ResetMensagem;detalha.estudante.uc.detalhando.estudante.edita.estudante.title.reset.message;Reset
+DetalhaEstudanteUC;DetalhandoEstudante;ResetMensagem;detalha.estudante.uc.detalhando.estudante.voltar.title.reset.message;Reset
+DetalhaEstudanteUC;DetalhandoEstudante;ResetNaoPermitidoTitulo;detalha.estudante.uc.detalhando.estudante.edita.estudante.title.reset.not.allowed;You are not allowed to reset
+DetalhaEstudanteUC;DetalhandoEstudante;ResetNaoPermitidoTitulo;detalha.estudante.uc.detalhando.estudante.voltar.title.reset.not.allowed;You are not allowed to reset
+DetalhaEstudanteUC;DetalhandoEstudante;ResetTitulo;detalha.estudante.uc.detalhando.estudante.edita.estudante.title.reset;Reset
+DetalhaEstudanteUC;DetalhandoEstudante;ResetTitulo;detalha.estudante.uc.detalhando.estudante.voltar.title.reset;Reset
+DetalhaEstudanteUC;DetalhandoEstudante;Titulo;detalha.estudante.uc.detalhando.estudante.edita.estudante.title;Edita Estudante
+DetalhaEstudanteUC;DetalhandoEstudante;Titulo;detalha.estudante.uc.detalhando.estudante.title;Detalhando Estudante
+DetalhaEstudanteUC;DetalhandoEstudante;Titulo;detalha.estudante.uc.detalhando.estudante.voltar.title;Voltar
+DetalhaEstudanteUC;DetalhandoEstudante;ValorTrigger;detalha.estudante.uc.detalhando.estudante.edita.estudante;Edita Estudante
+DetalhaEstudanteUC;DetalhandoEstudante;ValorTrigger;detalha.estudante.uc.detalhando.estudante.voltar;Voltar
+MantemCursoUC;;Ajuda;mantem.curso.uc.online.help;No use-case documentation has been specified<br/>
+MantemCursoUC;;Titulo;mantem.curso.uc.title;Mantem Curso UC
+MantemCursoUC;AlterandoCurso;Ajuda;mantem.curso.uc.alterando.curso.salva.curso.online.help;
+MantemCursoUC;AlterandoCurso;Ajuda;mantem.curso.uc.alterando.curso.voltar.online.help;
+MantemCursoUC;AlterandoCurso;Documentacao;mantem.curso.uc.alterando.curso.salva.curso.documentation;
+MantemCursoUC;AlterandoCurso;Documentacao;mantem.curso.uc.alterando.curso.voltar.documentation;
+MantemCursoUC;AlterandoCurso;MessagePage;mantem.curso.uc.alterando.curso;Alterando Curso
+MantemCursoUC;AlterandoCurso;NaoPermitidoTitulo;mantem.curso.uc.alterando.curso.salva.curso.title.notallowed;You are not allowed to call this action
+MantemCursoUC;AlterandoCurso;NaoPermitidoTitulo;mantem.curso.uc.alterando.curso.voltar.title.notallowed;You are not allowed to call this action
+MantemCursoUC;AlterandoCurso;OnLineHelp;mantem.curso.uc.alterando.curso.online.help;<br/>
+MantemCursoUC;AlterandoCurso;ParametroAjuda;mantem.curso.uc.alterando.curso.salva.curso.param.codigo.online.help;Este campo é opcional.<br/>
+MantemCursoUC;AlterandoCurso;ParametroAjuda;mantem.curso.uc.alterando.curso.salva.curso.param.id.curso.online.help;Este campo é opcional.<br/>
+MantemCursoUC;AlterandoCurso;ParametroAjuda;mantem.curso.uc.alterando.curso.salva.curso.param.nome.online.help;Este campo é opcional.<br/>
+MantemCursoUC;AlterandoCurso;ParametroMensagem;mantem.curso.uc.alterando.curso.salva.curso.param.codigo;Codigo
+MantemCursoUC;AlterandoCurso;ParametroMensagem;mantem.curso.uc.alterando.curso.salva.curso.param.id.curso;Id Curso
+MantemCursoUC;AlterandoCurso;ParametroMensagem;mantem.curso.uc.alterando.curso.salva.curso.param.nome;Nome
+MantemCursoUC;AlterandoCurso;ParametroTitulo;mantem.curso.uc.alterando.curso.salva.curso.param.codigo.title;codigo
+MantemCursoUC;AlterandoCurso;ParametroTitulo;mantem.curso.uc.alterando.curso.salva.curso.param.id.curso.title;idCurso
+MantemCursoUC;AlterandoCurso;ParametroTitulo;mantem.curso.uc.alterando.curso.salva.curso.param.nome.title;nome
+MantemCursoUC;AlterandoCurso;ResetMensagem;mantem.curso.uc.alterando.curso.salva.curso.title.reset.message;Reset
+MantemCursoUC;AlterandoCurso;ResetMensagem;mantem.curso.uc.alterando.curso.voltar.title.reset.message;Reset
+MantemCursoUC;AlterandoCurso;ResetNaoPermitidoTitulo;mantem.curso.uc.alterando.curso.salva.curso.title.reset.not.allowed;You are not allowed to reset
+MantemCursoUC;AlterandoCurso;ResetNaoPermitidoTitulo;mantem.curso.uc.alterando.curso.voltar.title.reset.not.allowed;You are not allowed to reset
+MantemCursoUC;AlterandoCurso;ResetTitulo;mantem.curso.uc.alterando.curso.salva.curso.title.reset;Reset
+MantemCursoUC;AlterandoCurso;ResetTitulo;mantem.curso.uc.alterando.curso.voltar.title.reset;Reset
+MantemCursoUC;AlterandoCurso;Titulo;mantem.curso.uc.alterando.curso.salva.curso.title;Salva Curso
+MantemCursoUC;AlterandoCurso;Titulo;mantem.curso.uc.alterando.curso.title;Alterando Curso
+MantemCursoUC;AlterandoCurso;Titulo;mantem.curso.uc.alterando.curso.voltar.title;Voltar
+MantemCursoUC;AlterandoCurso;ValorTrigger;mantem.curso.uc.alterando.curso.salva.curso;Salva Curso
+MantemCursoUC;AlterandoCurso;ValorTrigger;mantem.curso.uc.alterando.curso.voltar;Voltar
+MantemEstudanteUC;;Ajuda;mantem.estudante.uc.online.help;No use-case documentation has been specified<br/>
+MantemEstudanteUC;;Titulo;mantem.estudante.uc.title;Mantem Estudante UC
+MantemEstudanteUC;AlterandoEstudante;Ajuda;mantem.estudante.uc.alterando.estudante.salva.estudante.online.help;
+MantemEstudanteUC;AlterandoEstudante;Ajuda;mantem.estudante.uc.alterando.estudante.voltar.online.help;
+MantemEstudanteUC;AlterandoEstudante;Documentacao;mantem.estudante.uc.alterando.estudante.salva.estudante.documentation;
+MantemEstudanteUC;AlterandoEstudante;Documentacao;mantem.estudante.uc.alterando.estudante.voltar.documentation;
+MantemEstudanteUC;AlterandoEstudante;MessagePage;mantem.estudante.uc.alterando.estudante;Alterando Estudante
+MantemEstudanteUC;AlterandoEstudante;NaoPermitidoTitulo;mantem.estudante.uc.alterando.estudante.salva.estudante.title.notallowed;You are not allowed to call this action
+MantemEstudanteUC;AlterandoEstudante;NaoPermitidoTitulo;mantem.estudante.uc.alterando.estudante.voltar.title.notallowed;You are not allowed to call this action
+MantemEstudanteUC;AlterandoEstudante;OnLineHelp;mantem.estudante.uc.alterando.estudante.online.help;<br/>
+MantemEstudanteUC;AlterandoEstudante;ParametroAjuda;mantem.estudante.uc.alterando.estudante.salva.estudante.param.id.estudante.online.help;Este campo é opcional.<br/>
+MantemEstudanteUC;AlterandoEstudante;ParametroAjuda;mantem.estudante.uc.alterando.estudante.salva.estudante.param.matricula.online.help;Este campo é opcional.<br/>
+MantemEstudanteUC;AlterandoEstudante;ParametroAjuda;mantem.estudante.uc.alterando.estudante.salva.estudante.param.nome.online.help;Este campo é opcional.<br/>
+MantemEstudanteUC;AlterandoEstudante;ParametroMensagem;mantem.estudante.uc.alterando.estudante.salva.estudante.param.id.estudante;Id Estudante
+MantemEstudanteUC;AlterandoEstudante;ParametroMensagem;mantem.estudante.uc.alterando.estudante.salva.estudante.param.matricula;Matricula
+MantemEstudanteUC;AlterandoEstudante;ParametroMensagem;mantem.estudante.uc.alterando.estudante.salva.estudante.param.nome;Nome
+MantemEstudanteUC;AlterandoEstudante;ParametroTitulo;mantem.estudante.uc.alterando.estudante.salva.estudante.param.id.estudante.title;idEstudante
+MantemEstudanteUC;AlterandoEstudante;ParametroTitulo;mantem.estudante.uc.alterando.estudante.salva.estudante.param.matricula.title;matricula
+MantemEstudanteUC;AlterandoEstudante;ParametroTitulo;mantem.estudante.uc.alterando.estudante.salva.estudante.param.nome.title;nome
+MantemEstudanteUC;AlterandoEstudante;ResetMensagem;mantem.estudante.uc.alterando.estudante.salva.estudante.title.reset.message;Reset
+MantemEstudanteUC;AlterandoEstudante;ResetMensagem;mantem.estudante.uc.alterando.estudante.voltar.title.reset.message;Reset
+MantemEstudanteUC;AlterandoEstudante;ResetNaoPermitidoTitulo;mantem.estudante.uc.alterando.estudante.salva.estudante.title.reset.not.allowed;You are not allowed to reset
+MantemEstudanteUC;AlterandoEstudante;ResetNaoPermitidoTitulo;mantem.estudante.uc.alterando.estudante.voltar.title.reset.not.allowed;You are not allowed to reset
+MantemEstudanteUC;AlterandoEstudante;ResetTitulo;mantem.estudante.uc.alterando.estudante.salva.estudante.title.reset;Reset
+MantemEstudanteUC;AlterandoEstudante;ResetTitulo;mantem.estudante.uc.alterando.estudante.voltar.title.reset;Reset
+MantemEstudanteUC;AlterandoEstudante;Titulo;mantem.estudante.uc.alterando.estudante.salva.estudante.title;Salva Estudante
+MantemEstudanteUC;AlterandoEstudante;Titulo;mantem.estudante.uc.alterando.estudante.title;Alterando Estudante
+MantemEstudanteUC;AlterandoEstudante;Titulo;mantem.estudante.uc.alterando.estudante.voltar.title;Voltar
+MantemEstudanteUC;AlterandoEstudante;ValorTrigger;mantem.estudante.uc.alterando.estudante.salva.estudante;Salva Estudante
+MantemEstudanteUC;AlterandoEstudante;ValorTrigger;mantem.estudante.uc.alterando.estudante.voltar;Voltar
+
+#
+#   Messages for error pages
+#
+;;;error.link.title;Click here to go to the application's home page
+;;;error.link.text;Application Home
+
+;;;error.400.title;Bad request
+;;;error.400.message;The request sent by your browser could not properly be interpreted, please try again.
+;;;error.403.title;Forbidden
+;;;error.403.message;You are not allowed to access this part of the application.
+;;;error.404.title;Not found
+;;;error.404.message;The resource could not be located on the server, please contact your system administrator.
+;;;error.500.title;Server error
+;;;error.500.message;An internal server error occurred, please contact your system administrator.
+;;;error.exception.title;Application error
+;;;error.exception.message;The application encountered an unexpected exception, please contact your system administrator and notify him/her of this problem.
+;;;erro.copia.parametros;Erro na passagem de parametros entre casos de uso, tipos incompativeis para o parametro {0}
+
+;;;erro.stack.trace;Um erro ocorreu. Clique aqui para ver o StackTrace
+
+;;;select.deselect.all;Select/Deselect All
+;;;select.deselect.this.row;Select/Deselect this row
+;;;breadcrumbs.error;Error on page
+;;;required.fields.asterisk;Fields marked with an asterisk are required
+;;;online.help.href;Help
+;;;online.help.main;Overview
+;;;online.help.close;Close
+;;;online.help.title;Online Help:
+;;;online.help.inputfield;Field
+;;;online.help.description;Description
+;;;click.to.go.back;Click to go back
+;;;form.already.submitted;This form has already been submitted
+
+
+;;;error.default.hibernate.exception;Erro no hibernate
+;;;error.dafault.constraint.violation.exception;ViolaÃ§Ã£o da constraint
+;;;error.default.data.exception;Erro na avaliaÃ§Ã£o da expressÃ£o sql
+;;;error.default.generic.jdbc.exception;Erro inesperado do banco de dados
+;;;error.default.jdbc.connection.exception;Erro de conexÃ£o ao banco
+;;;error.default.lock.acquisition.exception;Erro ao tenatr dar lock na base
+;;;error.default.sql.grammar.exception;Erro na sintaxe do sql
+;;;error.default.stale.stale.exception;Erro: o registro jÃ¡ foi alterado por outro usuÃ¡rio
+;;;error.default.privileged.action.exception;O usuÃ¡rio nÃ£o tem permissÃ£o para executar a aÃ§Ã£o
+;;;error.default.exportid.notunique.exception;Busca de entidade pelo ExportId retornou mais de um elemento: {0}, {1}...
+;;;error.default.importaction.exception;NÃ£o foi possÃ­vel concluir a importaÃ§Ã£o, entidades referenciadas nÃ£o foram encontradas na base
+
+;;;error.port.configuration;Erro na configuraÃ§Ã£o das portas
+;;;port.file.not.found;Arquivo de configuraÃ§Ã£o de portas nÃ£o encontrado
+
+#
+#   Messages for the menu
+#
+;;;menu.usecases.title;Other links
+
+#
+#   Messages for the calendar
+#
+;;;calendar.title;Calendar
+;;;calendar.popup;Click here to popup a calendar to choose the date from
+;;;calendar.info;About this calendar
+;;;calendar.toggle;Toggle
+;;;calendar.previous.year;Prev. year (hold for menu)
+;;;calendar.previous.month;Prev. month (hold for menu)
+;;;calendar.go.today;Go Today
+;;;calendar.next.month;Next month (hold for menu)
+;;;calendar.next.year;Next year (hold for menu)
+;;;calendar.select.date;Select date
+;;;calendar.drag.to.move;Drag to move
+;;;calendar.part.today; (today)
+;;;calendar.week;wk
+;;;calendar.time;Time:
+;;;calendar.time.part;(Shift-)Click or drag to change value
+;;;calendar.day.first;Display %s first
+;;;calendar.today;Today
+;;;calendar.close;Close
+
+;;;month.0;January
+;;;month.1;February
+;;;month.2;March
+;;;month.3;April
+;;;month.4;May
+;;;month.5;June
+;;;month.6;July
+;;;month.7;August
+;;;month.8;September
+;;;month.9;October
+;;;month.10;November
+;;;month.11;December
+
+;;;day.0;Sunday
+;;;day.1;Monday
+;;;day.2;Tuesday
+;;;day.3;Wednesday
+;;;day.4;Thursday
+;;;day.5;Friday
+;;;day.6;Saturday
+
+#
+#   Messages for the login page
+#
+;;;login.title;Login
+;;;login.username;User
+;;;login.password;Password
+;;;login.failed;Login failed, please try again
+;;;login.submit;Login
+;;;login.submit.title;Click to submit these credentials
+;;;login.reset;Reset
+;;;login.reset.title;Click to reset these credentials
+
+;;;login.error;Login failed, please try again or register as a new user.
+
+;;;login.howto.title;How to login
+;;;login.howto;If you are a registered user you simply enter your user name and password and click on the submit button. In case this is your first time, you should register yourself to the system.
+
+;;;login.register.user;Register a new user
+;;;login.login.user;Log in a registered user
+
+;;;login.na;This feature is not available yet
+
+;;;login.entrar.login.title;Login
+;;;login.entrar.login.param.login;Login
+;;;login.entrar.login.param.senha;Senha
+;;;login.entrar.login.validar;OK
+;;;login.entrar.login.validar.title.reset.message;Limpar
+;;;login.troca.de.senha.obrigatoria.param.usuario;Login
+;;;login.troca.de.senha.obrigatoria.param.senha;Senha
+;;;login.troca.de.senha.obrigatoria.title;Troca de Senha 
+;;;login.troca.de.senha.obrigatoria.param.nova.senha;Nova senha
+;;;login.troca.de.senha.obrigatoria.param.confirmacao;Repita nova senha
+;;;login.troca.de.senha.obrigatoria.processar;Ok
+;;;login.troca.de.senha.obrigatoria.validwhen;Os campos Nova senha e Repita nova senha devem ser iguais
+;;;login.troca.de.senha.obrigatoria.processar.error;Ocorreu um erro no processament da troca de senha
+;;;login.troca.de.senha.obrigatoria.processar.success;A senha foi trocada com sucesso
+;;;login.troca.de.senha.obrigatoria.senha.antiga.igual.senha.nova;A nova senha deve ser diferente da senha atual
+;;;login.troca.de.senha.obrigatoria.senha.fraca;A senha digitada no atende aos requisitos de segurana
+;;;login.troca.de.senha.obrigatoria.senha.nova.diferente.confirmacao;A nova senha estÃ¡ diferente da confirmaÃ§Ã£o
+;;;main.tela.principal.title;Tela inicial
+;;;login.troca.de.senha.tile;Troca de senha
+;;;saida.sistema.confirma.saida;Deseja sair do sistema?
+;;;saida.sistema.nova.conexao;Nova conexao
+;;;saida.sistema.fecha.browser;Sair
+;;;saida.sistema.title;Logout
+;;;login.logo;/layout/sgdc/LoginLogo.gif
+;;;main.tela.principal.image;/layout/sgdc/LoginLogo.gif
+;;;acesso.negado;O usuario nÃ£o possui permissÃ£o para acessar este serviÃ§o.
+;;;subject.null;O usuario nÃ£o estÃ¡ logado no sistema.
+;;;senha.incorreta;Senha incorreta
+;;;usuario.incorreto;Login incorreto
+;;;usuario.bloqueado;Este login foi bloqueado. Entre em contato com o administrador do sistema.
+
+#
+#   Messages for the validator plugin
+#
+;;;errors.required;{0} is required.
+;;;errors.minlength;{0} can not be less than {1} characters.
+;;;errors.maxlength;{0} can not be greater than {1} characters.
+;;;errors.invalid;{0} is invalid.
+
+;;;errors.byte;{0} must be a byte.
+;;;errors.short;{0} must be a short.
+;;;errors.integer;{0} must be an integer.
+;;;errors.long;{0} must be a long.
+;;;errors.float;{0} must be a float.
+;;;errors.double;{0} must be a double.
+
+;;;errors.date;{0} is not a valid date or does not respect the '{1}' format.
+;;;errors.time;{0} is not a valid time or does not respect the '{1}' format.
+;;;errors.range;{0} is not in the range {1} through {2}.
+;;;errors.creditcard;{0} is an invalid credit card number.
+;;;errors.email;{0} is an invalid e-mail address.
+;;;errors.url;{0} is an invalid URL.
+
+;;;pagina.expirou;A pÃ¡gina expirou
+#
+#   Messages for enumerations
+#
+
+#   CUSTOM MESSAGES-CONTEXT
+# custom-messages-context merge-point
+

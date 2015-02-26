@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.custom.i18n.resources" value="application-resources" />
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.locale" value="en" />
+<!-- including actions from respective modules -->
+
+	<include file="struts-actions-uc-ConsultaCursoUC.xml" />
+
+	<include file="struts-actions-uc-ConsultaEstudanteUC.xml" />
+
+	<include file="struts-actions-uc-DetalhaCursoUC.xml" />
+
+	<include file="struts-actions-uc-DetalhaEstudanteUC.xml" />
+
+	<include file="struts-actions-uc-MantemCursoUC.xml" />
+
+	<include file="struts-actions-uc-MantemEstudanteUC.xml" />
+
+
+	<package name="" namespace="/" extends="mdarte-struts-default">
+		<action name="treeview" class="fr.improve.struts.taglib.layout.treeview.TreeviewAction">
+		</action>
+	</package>
+
+	<package name="mdarte-struts-default" extends="struts-default">
+		<interceptors>
+			<interceptor name="MDArteExceptionInterceptor" class="org.andromda.presentation.bpm4struts.ExceptionInterceptor"></interceptor>
+			<interceptor-stack name="mdarteStack">
+				<interceptor-ref name="MDArteExceptionInterceptor"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+
+		<default-interceptor-ref name="mdarteStack"></default-interceptor-ref>
+
+		<global-results>
+			<result name="entrar.login" type="redirect">
+				<param name="location">/secure/entrar-login.jsp</param>
+				<param name="parse">true</param> 
+				<param name="nextPath">${nextPath}</param>
+			</result>
+			<result name="troca.de.senha.obrigatoria">/secure/troca-de-senha-obrigatoria.jsp</result>
+		</global-results>
+	</package>
+</struts>

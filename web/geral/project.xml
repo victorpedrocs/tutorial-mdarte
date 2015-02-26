@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <extend>../project.xml</extend>
+    <artifactId>${pom.groupId}-geral-web</artifactId>
+    <name>${projectName} geral Web</name>
+    <currentVersion>${application.version}</currentVersion>
+    <shortDescription>${pom.name} geral Web Component</shortDescription>
+    <description>
+        Contains the ${pom.name}-geral's web module.
+    </description>
+</project>

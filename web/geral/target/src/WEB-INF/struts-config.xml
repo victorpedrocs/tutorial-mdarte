@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+    "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd"[
+
+		    <!ENTITY forms_ConsultaCursoUC SYSTEM "struts-config-forms-uc-ConsultaCursoUC.xml">
+	<!ENTITY actions_ConsultaCursoUC SYSTEM "struts-config-actions-uc-ConsultaCursoUC.xml">
+		    <!ENTITY forms_ConsultaEstudanteUC SYSTEM "struts-config-forms-uc-ConsultaEstudanteUC.xml">
+	<!ENTITY actions_ConsultaEstudanteUC SYSTEM "struts-config-actions-uc-ConsultaEstudanteUC.xml">
+		    <!ENTITY forms_DetalhaCursoUC SYSTEM "struts-config-forms-uc-DetalhaCursoUC.xml">
+	<!ENTITY actions_DetalhaCursoUC SYSTEM "struts-config-actions-uc-DetalhaCursoUC.xml">
+		    <!ENTITY forms_DetalhaEstudanteUC SYSTEM "struts-config-forms-uc-DetalhaEstudanteUC.xml">
+	<!ENTITY actions_DetalhaEstudanteUC SYSTEM "struts-config-actions-uc-DetalhaEstudanteUC.xml">
+		    <!ENTITY forms_MantemCursoUC SYSTEM "struts-config-forms-uc-MantemCursoUC.xml">
+	<!ENTITY actions_MantemCursoUC SYSTEM "struts-config-actions-uc-MantemCursoUC.xml">
+		    <!ENTITY forms_MantemEstudanteUC SYSTEM "struts-config-forms-uc-MantemEstudanteUC.xml">
+	<!ENTITY actions_MantemEstudanteUC SYSTEM "struts-config-actions-uc-MantemEstudanteUC.xml">
+
+]>
+
+<struts-config>
+
+    <!-- display-name merge point -->
+
+    <!-- description merge point -->
+
+    <data-sources>
+        <!-- data-sources merge point -->
+    </data-sources>
+
+    <form-beans>
+		<!-- form-beans merge-point -->
+        
+
+        &forms_ConsultaCursoUC;
+        &forms_ConsultaEstudanteUC;
+        &forms_DetalhaCursoUC;
+        &forms_DetalhaEstudanteUC;
+        &forms_MantemCursoUC;
+        &forms_MantemEstudanteUC;
+        <form-bean
+            name="forwardForm"
+            type="org.andromda.presentation.bpm4struts.ForwardForm"/>
+        <form-bean
+            name="mainMainForm"
+            type="main.MainFormImpl" />
+
+        
+        <form-bean
+            name="loginTrocaDeSenhaObrigatoriaProcessarForm"
+            type="br.mdarte.exemplo.academico.accessControl.TrocaDeSenhaObrigatoriaProcessarFormImpl" />
+        <form-bean
+            name="loginLoginForm"
+            type="br.mdarte.exemplo.academico.accessControl.LoginFormImpl" />
+        <form-bean
+            name="loginEntrarLoginValidarForm"
+            type="br.mdarte.exemplo.academico.accessControl.EntrarLoginValidarFormImpl" />
+
+    </form-beans>
+
+    <global-forwards>
+        
+        <forward
+            name="consulta.curso.uc"
+            path="/ConsultaCursoUC/ConsultaCursoUC.do"
+            redirect="false" />
+        <forward
+            name="consulta.estudante.uc"
+            path="/ConsultaEstudanteUC/ConsultaEstudanteUC.do"
+            redirect="false" />
+        <forward
+            name="detalha.curso.uc"
+            path="/DetalhaCursoUC/DetalhaCursoUC.do"
+            redirect="false" />
+        <forward
+            name="detalha.estudante.uc"
+            path="/DetalhaEstudanteUC/DetalhaEstudanteUC.do"
+            redirect="false" />
+        <forward
+            name="mantem.curso.uc"
+            path="/MantemCursoUC/MantemCursoUC.do"
+            redirect="false" />
+        <forward
+            name="mantem.estudante.uc"
+            path="/MantemEstudanteUC/MantemEstudanteUC.do"
+            redirect="false" />
+        <forward
+            name="main"
+            path="/Main/Main.do"
+            redirect="false"/>
+
+        <forward
+            name="forwardAction"
+            path="/ForwardAction.do"
+            redirect="false"/>
+
+		<forward
+			name="entrar.login"
+			path="/secure/entrar-login.jsp"
+			redirect="false"/>
+
+		<forward
+			name="troca.de.senha.obrigatoria"
+			path="/secure/troca-de-senha-obrigatoria.jsp"
+			redirect="false" /> 
+    </global-forwards>
+
+    <action-mappings>
+        <!-- action-mappings merge-point -->
+        &actions_ConsultaCursoUC;
+        &actions_ConsultaEstudanteUC;
+        &actions_DetalhaCursoUC;
+        &actions_DetalhaEstudanteUC;
+        &actions_MantemCursoUC;
+        &actions_MantemEstudanteUC;
+
+        <action
+            path="/applicationHelp"
+            type="org.apache.struts.actions.ForwardAction"
+            scope="request"
+            parameter="/application-help.jsp"/>
+        <action
+            path="/calendar"
+            type="org.apache.struts.actions.ForwardAction"
+            scope="request"
+            parameter="/calendar-js.jsp"/>
+        <action
+            path="/formValidation"
+            type="org.apache.struts.actions.ForwardAction"
+            scope="request"
+            parameter="/form-validation.jsp"/>
+       <!-- <action
+            path="/secure"
+            type="org.apache.struts.actions.ForwardAction"
+            scope="request"
+            parameter="/secure/login-form.jsp"/> -->
+            
+            <action
+            path="/ForwardAction"
+            type="org.andromda.presentation.bpm4struts.ForwardAction"
+            name="forwardForm"
+            scope="request"
+            unknown="false"
+            validate="false"/>
+
+            <action
+                path="/Main/Main"
+                type="main.Main"
+                name="mainMainForm"
+                scope="request"
+                unknown="false"
+                validate="false">
+                <forward
+                    name="main"
+                    path="/ForwardAction.do"
+                    redirect="false" />
+            </action> 
+
+
+
+        <action
+            path="/secure/Login"
+            type="br.mdarte.exemplo.academico.accessControl.Login"
+            name="loginLoginForm"
+            scope="request"
+            unknown="false"
+            validate="false">    
+            <forward
+                    name="main"
+                    path="/ForwardAction.do"
+                    redirect="false" /> 
+        </action>
+        <action
+            path="/secure/EntrarLoginValidar"
+            type="br.mdarte.exemplo.academico.accessControl.EntrarLoginValidar"
+            name="loginEntrarLoginValidarForm"
+            scope="request"
+            input="/secure/entrar-login.jsp"
+            unknown="false"
+            validate="true">
+            <exception
+                type="java.lang.Exception"
+                key="login.entrar.login.exception"
+                path="/secure/entrar-login.jsp"
+                scope="request" />
+            <forward
+                    name="main"
+                    path="/ForwardAction.do"
+                    redirect="false" /> 
+        </action>
+        <action
+            path="/secure/TrocaDeSenhaObrigatoriaProcessar"
+            type="br.mdarte.exemplo.academico.accessControl.TrocaDeSenhaObrigatoriaProcessar"
+            name="loginTrocaDeSenhaObrigatoriaProcessarForm"
+            scope="request"
+            input="/secure/troca-de-senha-obrigatoria.jsp"
+            unknown="false"
+            validate="true">
+            <exception
+                type="java.lang.Exception"
+                key="login.troca.de.senha.obrigatoria.exception"
+                path="/secure/troca-de-senha-obrigatoria.jsp"
+                scope="request" />
+            <forward
+                    name="main"
+                    path="/ForwardAction.do"
+                    redirect="false" /> 
+        </action>  
+        <action
+            path="/secure/NovaConexao"
+            type="br.mdarte.exemplo.academico.accessControl.NovaConexao"
+            name="novaConexaoForm"
+            scope="request"
+            input="/secure/entrar-login.jsp"
+            unknown="false"
+            validate="false"/>         
+        <action
+            path="/secure/ApagaSessao"
+            type="br.mdarte.exemplo.academico.accessControl.ApagaSessao"/>
+        
+        <action
+            path="/secure/SaidaSistema"
+            type="br.mdarte.exemplo.academico.accessControl.SaidaSistema"
+            name="saidaSistemaForm"
+            scope="request"
+            input="/secure/saida-sistema.jsp"
+            unknown="false"
+            validate="false">
+            <forward
+                name="saida.sistema"
+                path="/secure/saida-sistema.jsp"
+                redirect="false" />
+        </action>
+    	<action path="/treeview"
+       		type="fr.improve.struts.taglib.layout.treeview.TreeviewAction"
+        	scope="request"
+        	validate="false">
+        </action> 
+    </action-mappings>
+
+    <!-- controller merge point -->
+    <controller processorClass = "fr.improve.struts.taglib.layout.workflow.LayoutRequestProcessor"/>
+    <!-- message-resources merge-point -->
+    <message-resources parameter="application-resources" null="false"/>
+
+    <!-- plug-in merge-point -->
+    <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+        <set-property property="pathnames" value="/WEB-INF/validation.xml,/WEB-INF/validator-rules.xml"/>
+        <set-property property="stopOnFirstError" value="false"/>
+    </plug-in>
+
+    <plug-in className="org.apache.struts.tiles.TilesPlugin">
+        <set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml,/WEB-INF/tiles-defs-impl.xml"/>
+        <set-property property="definitions-parser-validate" value="true"/>
+        <set-property property="moduleAware" value="true"/>
+    </plug-in>
+
+<plug-in className="fr.improve.struts.taglib.layout.workflow.LayoutPlugin"/>
+<!--
+  UNCOMMENT TO EXPOSE THE STRUTS-MENU TAGLIB
+
+    <plug-in className="net.sf.navigator.menu.MenuPlugIn">
+        <set-property property="menuConfig" value="/WEB-INF/menu-config.xml"/>
+    </plug-in>
+-->
+</struts-config>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="MantemCursoUC" namespace="/MantemCursoUC" extends="mdarte-struts-default">
+		<action name="MantemCursoUC" class="br.mdarte.exemplo.academico.web.geral.manterCurso.MantemCursoUC" method="execute">
+			<result name="alterando.curso">/br/mdarte/exemplo/academico/web/geral/manterCurso/alterando-curso.jsp</result>
+			<result name="handleException">/error-page.jsp?code=exception</result>
+		</action>
+		<action name="AlterandoCursoSalvaCurso" class="br.mdarte.exemplo.academico.web.geral.manterCurso.AlterandoCursoSalvaCurso" method="execute">
+			<result name="detalha.curso" type="redirectAction">
+				<param name="actionName">DetalhaCursoUC/DetalhaCursoUC.action</param>
+				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="prependServletContext">false</param>
+			</result>
+			<result name="input">/br/mdarte/exemplo/academico/web/geral/manterCurso/alterando-curso.jsp</result>
+			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/manterCurso/alterando-curso.jsp</result>
+		</action>
+		<action name="AlterandoCursoVoltar" class="br.mdarte.exemplo.academico.web.geral.manterCurso.AlterandoCursoVoltar" method="execute">
+			<result name="voltar" type="redirectAction">
+				<param name="actionName">ConsultaCursoUC/ConsultaCursoUC.action</param>
+				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="prependServletContext">false</param>
+			</result>
+			<result name="input">/br/mdarte/exemplo/academico/web/geral/manterCurso/alterando-curso.jsp</result>
+			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/manterCurso/alterando-curso.jsp</result>
+		</action>
+	</package>
+	<!-- It is supposed to work such as FowardAction. It takes the name of the HelpAction and
+	redirects to the jsp page-->
+	<package name="MantemCursoUCOnlineHelp" namespace="/" extends="struts-default">
+		<action name="/br/mdarte/exemplo/academico/web/geral/manterCurso/MantemCursoUCHelp">
+			<result>/br/mdarte/exemplo/academico/web/geral/manterCurso/Mantem-Curso-UC_help.jsp</result>
+		</action>
+
+		<action name="/AlterandoCursoHelp">
+			<result>/br/mdarte/exemplo/academico/web/geral/manterCurso/alterando-curso_help.jsp</result>
+		</action>
+	</package>
+
+</struts>

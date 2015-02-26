@@ -1,0 +1,312 @@
+INFO  2015-02-26 13:54:56,155 - ************************************************************** 
+INFO  2015-02-26 13:54:56,155 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 13:54:56,155 - RuntimeInstance initializing.
+INFO  2015-02-26 13:54:56,155 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 13:54:56,155 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 13:54:56,155 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 13:54:56,155 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 13:54:56,155 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 13:54:56,155 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 13:54:56,155 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 13:54:56,155 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 13:54:56,155 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 13:54:56,155 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 13:54:56,155 - Default ResourceManager initialization complete.
+INFO  2015-02-26 13:54:56,156 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 13:54:56,156 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 13:54:56,156 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 13:54:56,156 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 13:54:56,156 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 13:54:56,156 - Created: 20 parsers.
+INFO  2015-02-26 13:54:56,156 - Velocimacro : initialization starting.
+INFO  2015-02-26 13:54:56,156 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-02-26 13:54:56,157 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-02-26 13:54:56,157 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-02-26 13:54:56,157 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 13:54:56,157 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 13:54:56,157 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 13:54:56,157 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 13:54:56,157 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 13:54:56,157 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 13:54:56,157 - Velocimacro : initialization complete.
+INFO  2015-02-26 13:54:56,157 - Velocity successfully started.
+INFO  2015-02-26 13:54:56,161 - ResourceManager : found templates/java/ProjectLogger.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,161 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:56,171 - ResourceManager : found templates/java/Constantes.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,171 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:56,172 - ResourceManager : found templates/java/PaginationStrategy.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,172 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:56,173 - ResourceManager : found templates/java/PaginationDisplaytag.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,173 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:56,173 - ResourceManager : found templates/java/PaginationSimple.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,173 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:56,174 - ResourceManager : found templates/java/NoPagination.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,174 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:56,175 - ResourceManager : found templates/java/CriptoUtils.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,175 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:56,176 - ResourceManager : found templates/java/zip.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,176 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:56,177 - ResourceManager : found templates/java/UtilAbstract.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,177 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 13:54:56,178 - ResourceManager : found templates/java/Util.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 13:54:56,178 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,801 - ************************************************************** 
+INFO  2015-02-26 14:55:12,801 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 14:55:12,801 - RuntimeInstance initializing.
+INFO  2015-02-26 14:55:12,801 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 14:55:12,801 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 14:55:12,801 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 14:55:12,801 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 14:55:12,801 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 14:55:12,801 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 14:55:12,801 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:55:12,801 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 14:55:12,801 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 14:55:12,801 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 14:55:12,801 - Default ResourceManager initialization complete.
+INFO  2015-02-26 14:55:12,801 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 14:55:12,801 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 14:55:12,801 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 14:55:12,801 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 14:55:12,802 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 14:55:12,803 - Created: 20 parsers.
+INFO  2015-02-26 14:55:12,803 - Velocimacro : initialization starting.
+INFO  2015-02-26 14:55:12,803 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-02-26 14:55:12,803 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-02-26 14:55:12,803 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-02-26 14:55:12,803 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 14:55:12,803 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 14:55:12,803 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 14:55:12,803 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 14:55:12,803 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 14:55:12,803 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 14:55:12,803 - Velocimacro : initialization complete.
+INFO  2015-02-26 14:55:12,803 - Velocity successfully started.
+INFO  2015-02-26 14:55:12,807 - ResourceManager : found templates/java/ProjectLogger.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,808 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,819 - ResourceManager : found templates/java/Constantes.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,819 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,820 - ResourceManager : found templates/java/PaginationStrategy.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,820 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,821 - ResourceManager : found templates/java/PaginationDisplaytag.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,821 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,822 - ResourceManager : found templates/java/PaginationSimple.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,822 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,823 - ResourceManager : found templates/java/NoPagination.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,823 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,824 - ResourceManager : found templates/java/CriptoUtils.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,824 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,825 - ResourceManager : found templates/java/zip.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,825 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,826 - ResourceManager : found templates/java/UtilAbstract.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,826 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:55:12,827 - ResourceManager : found templates/java/Util.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:55:12,827 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,621 - ************************************************************** 
+INFO  2015-02-26 14:56:02,621 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 14:56:02,621 - RuntimeInstance initializing.
+INFO  2015-02-26 14:56:02,621 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 14:56:02,621 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 14:56:02,621 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 14:56:02,621 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 14:56:02,621 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 14:56:02,621 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 14:56:02,622 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 14:56:02,622 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 14:56:02,622 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 14:56:02,622 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 14:56:02,622 - Default ResourceManager initialization complete.
+INFO  2015-02-26 14:56:02,622 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 14:56:02,622 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 14:56:02,622 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 14:56:02,622 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 14:56:02,622 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 14:56:02,623 - Created: 20 parsers.
+INFO  2015-02-26 14:56:02,623 - Velocimacro : initialization starting.
+INFO  2015-02-26 14:56:02,623 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-02-26 14:56:02,623 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-02-26 14:56:02,623 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-02-26 14:56:02,623 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 14:56:02,623 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 14:56:02,623 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 14:56:02,623 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 14:56:02,623 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 14:56:02,623 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 14:56:02,623 - Velocimacro : initialization complete.
+INFO  2015-02-26 14:56:02,623 - Velocity successfully started.
+INFO  2015-02-26 14:56:02,629 - ResourceManager : found templates/java/ProjectLogger.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,629 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,645 - ResourceManager : found templates/java/Constantes.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,646 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,647 - ResourceManager : found templates/java/PaginationStrategy.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,647 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,648 - ResourceManager : found templates/java/PaginationDisplaytag.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,648 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,649 - ResourceManager : found templates/java/PaginationSimple.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,649 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,650 - ResourceManager : found templates/java/NoPagination.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,650 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,651 - ResourceManager : found templates/java/CriptoUtils.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,651 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,652 - ResourceManager : found templates/java/zip.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,652 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,653 - ResourceManager : found templates/java/UtilAbstract.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,653 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 14:56:02,654 - ResourceManager : found templates/java/Util.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 14:56:02,655 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,922 - ************************************************************** 
+INFO  2015-02-26 15:21:42,922 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 15:21:42,922 - RuntimeInstance initializing.
+INFO  2015-02-26 15:21:42,922 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 15:21:42,922 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 15:21:42,922 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 15:21:42,922 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 15:21:42,922 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 15:21:42,922 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 15:21:42,922 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:21:42,922 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 15:21:42,922 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 15:21:42,922 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 15:21:42,922 - Default ResourceManager initialization complete.
+INFO  2015-02-26 15:21:42,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 15:21:42,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 15:21:42,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 15:21:42,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 15:21:42,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 15:21:42,923 - Created: 20 parsers.
+INFO  2015-02-26 15:21:42,923 - Velocimacro : initialization starting.
+INFO  2015-02-26 15:21:42,923 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-02-26 15:21:42,923 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-02-26 15:21:42,923 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-02-26 15:21:42,923 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 15:21:42,923 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 15:21:42,923 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 15:21:42,923 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 15:21:42,923 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 15:21:42,923 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 15:21:42,923 - Velocimacro : initialization complete.
+INFO  2015-02-26 15:21:42,923 - Velocity successfully started.
+INFO  2015-02-26 15:21:42,926 - ResourceManager : found templates/java/ProjectLogger.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,926 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,933 - ResourceManager : found templates/java/Constantes.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,933 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,935 - ResourceManager : found templates/java/PaginationStrategy.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,935 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,936 - ResourceManager : found templates/java/PaginationDisplaytag.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,936 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,937 - ResourceManager : found templates/java/PaginationSimple.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,937 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,938 - ResourceManager : found templates/java/NoPagination.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,938 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,939 - ResourceManager : found templates/java/CriptoUtils.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,939 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,940 - ResourceManager : found templates/java/zip.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,941 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,942 - ResourceManager : found templates/java/UtilAbstract.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,942 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:21:42,943 - ResourceManager : found templates/java/Util.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:21:42,943 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,548 - ************************************************************** 
+INFO  2015-02-26 15:22:00,548 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 15:22:00,548 - RuntimeInstance initializing.
+INFO  2015-02-26 15:22:00,548 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 15:22:00,548 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 15:22:00,549 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 15:22:00,549 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 15:22:00,549 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 15:22:00,549 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 15:22:00,549 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:00,549 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 15:22:00,549 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 15:22:00,549 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 15:22:00,549 - Default ResourceManager initialization complete.
+INFO  2015-02-26 15:22:00,549 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 15:22:00,549 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 15:22:00,549 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 15:22:00,549 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 15:22:00,549 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 15:22:00,550 - Created: 20 parsers.
+INFO  2015-02-26 15:22:00,550 - Velocimacro : initialization starting.
+INFO  2015-02-26 15:22:00,550 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-02-26 15:22:00,550 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-02-26 15:22:00,550 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-02-26 15:22:00,550 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 15:22:00,550 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 15:22:00,550 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 15:22:00,550 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 15:22:00,551 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 15:22:00,551 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 15:22:00,551 - Velocimacro : initialization complete.
+INFO  2015-02-26 15:22:00,551 - Velocity successfully started.
+INFO  2015-02-26 15:22:00,560 - ResourceManager : found templates/java/ProjectLogger.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,560 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,579 - ResourceManager : found templates/java/Constantes.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,579 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,583 - ResourceManager : found templates/java/PaginationStrategy.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,583 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,586 - ResourceManager : found templates/java/PaginationDisplaytag.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,587 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,590 - ResourceManager : found templates/java/PaginationSimple.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,590 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,593 - ResourceManager : found templates/java/NoPagination.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,593 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,602 - ResourceManager : found templates/java/CriptoUtils.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,602 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,606 - ResourceManager : found templates/java/zip.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,606 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,610 - ResourceManager : found templates/java/UtilAbstract.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,611 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:00,614 - ResourceManager : found templates/java/Util.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:00,614 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,065 - ************************************************************** 
+INFO  2015-02-26 15:22:14,065 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-26 15:22:14,065 - RuntimeInstance initializing.
+INFO  2015-02-26 15:22:14,065 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-26 15:22:14,065 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-26 15:22:14,065 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-26 15:22:14,065 - FileResourceLoader : initialization starting.
+INFO  2015-02-26 15:22:14,065 - FileResourceLoader : adding path '.'
+INFO  2015-02-26 15:22:14,065 - FileResourceLoader : initialization complete.
+INFO  2015-02-26 15:22:14,065 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-26 15:22:14,065 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-26 15:22:14,065 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-26 15:22:14,065 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-26 15:22:14,065 - Default ResourceManager initialization complete.
+INFO  2015-02-26 15:22:14,065 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-26 15:22:14,065 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-26 15:22:14,065 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-26 15:22:14,065 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-26 15:22:14,065 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-26 15:22:14,066 - Created: 20 parsers.
+INFO  2015-02-26 15:22:14,066 - Velocimacro : initialization starting.
+INFO  2015-02-26 15:22:14,066 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-02-26 15:22:14,066 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-02-26 15:22:14,066 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-02-26 15:22:14,066 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-26 15:22:14,066 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-26 15:22:14,066 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-26 15:22:14,066 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-26 15:22:14,066 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-26 15:22:14,066 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-26 15:22:14,066 - Velocimacro : initialization complete.
+INFO  2015-02-26 15:22:14,066 - Velocity successfully started.
+INFO  2015-02-26 15:22:14,075 - ResourceManager : found templates/java/ProjectLogger.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,075 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,092 - ResourceManager : found templates/java/Constantes.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,093 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,096 - ResourceManager : found templates/java/PaginationStrategy.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,096 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,098 - ResourceManager : found templates/java/PaginationDisplaytag.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,099 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,101 - ResourceManager : found templates/java/PaginationSimple.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,101 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,103 - ResourceManager : found templates/java/NoPagination.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,103 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,109 - ResourceManager : found templates/java/CriptoUtils.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,109 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,112 - ResourceManager : found templates/java/zip.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,112 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,115 - ResourceManager : found templates/java/UtilAbstract.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,115 - Propriedade maxSizeClass não configurada
+INFO  2015-02-26 15:22:14,117 - ResourceManager : found templates/java/Util.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-26 15:22:14,117 - Propriedade maxSizeClass não configurada

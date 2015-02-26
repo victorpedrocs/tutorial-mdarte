@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE form-validation PUBLIC
+    "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.1//EN"
+    "http://jakarta.apache.org/commons/dtds/validator_1_1.dtd">
+
+<form-validation>
+
+    <formset>
+	
+
+        <form name="loginEntrarLoginValidarForm">
+            <field property="login" depends="required,genericValidator">
+                <arg position="0" key="login.entrar.login.param.login" />
+            </field>
+            <field property="senha" depends="required">
+                <arg position="0" key="login.entrar.login.param.senha" />
+            </field>            
+        </form>
+        <form name="loginTrocaDeSenhaObrigatoriaProcessarForm">
+            <field property="senha" depends="required">
+                <arg position="0" key="login.troca.de.senha.obrigatoria.param.senha" />
+            </field>         
+            <field property="novaSenha" depends="required">
+                <arg position="0" key="login.troca.de.senha.obrigatoria.param.nova.senha" />
+            </field>
+            <field property="confirmacao" depends="required">
+                <arg position="0" key="login.troca.de.senha.obrigatoria.param.confirmacao" />
+            </field>           
+        </form>
+    </formset>
+
+</form-validation>

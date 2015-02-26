@@ -1,0 +1,42 @@
+<%@ include file="/taglib-imports.jspf" %>
+<% String acao_cursos;
+   if (session.getAttribute(br.mdarte.exemplo.academico.util.Constantes.ACAO_ATUAL).toString().indexOf("/") == 0) {
+	acao_cursos = request.getContextPath() + session.getAttribute(br.mdarte.exemplo.academico.util.Constantes.ACAO_ATUAL);
+   }else{
+	acao_cursos = request.getContextPath() + "/" + session.getAttribute(br.mdarte.exemplo.academico.util.Constantes.ACAO_ATUAL);
+   }
+%>
+
+<div id="cursos" class="table">
+		<display:table name="${form.cursos}" id="row" class="table table-bordered table-striped"
+			requestURI="${pageContext.request.requestURL}" requestURIAction="<%=acao_cursos%>" tableName="cursos"
+			export="true" pagesize="15" sort="list" defaultsort="0">
+		<display:setProperty name="export.pdf.filename" value="resultado-consulta-cursos.pdf" />
+			<display:column media="xml csv excel pdf"
+				titleKey="consulta.curso.uc.resultado.consulta.param.cursos.codigo"
+				autolink="true" paramId="codigo">
+				<c:out value="${row.codigo}"/>
+			</display:column>
+			<display:column media="html"
+				headerClass="codigo" paramId="codigo"
+				titleKey="consulta.curso.uc.resultado.consulta.param.cursos.codigo">
+				<div class="codigo"><c:out value="${row.codigo}"/></div>
+			</display:column>
+			<display:column media="xml csv excel pdf"
+				titleKey="consulta.curso.uc.resultado.consulta.param.cursos.nome"
+				autolink="true" paramId="nome">
+				<c:out value="${row.nome}"/>
+			</display:column>
+			<display:column media="html"
+				headerClass="nome" paramId="nome"
+				titleKey="consulta.curso.uc.resultado.consulta.param.cursos.nome">
+				<div class="nome"><c:out value="${row.nome}"/></div>
+			</display:column>
+			<display:column media="html">
+				<c:set var="link">'/sistemaacademico/geral/ConsultaCursoUC/ResultadoConsultaDetalhaCurso.action?idCurso='+getDiv('cursosIdCurso${row_rowNum}').value</c:set>
+					<security:containsPermission name="consulta.curso.uc.resultado.consulta.detalha.curso">
+						<nobr><a id="buttonLinkdetalhaCurso" href="javascript:document.location=${link};" class="buttonLink" ><s:property value="%{getText('consulta.curso.uc.resultado.consulta.detalha.curso')}" /></a></nobr>
+					</security:containsPermission>
+			</display:column>
+		</display:table>
+</div>

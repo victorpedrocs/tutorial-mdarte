@@ -1,0 +1,8 @@
+
+
+geral/ConsultaCursoUC/ConsultaCursoUC.do;web/geral/src/java/br/mdarte/exemplo/academico/web/geral/consultarCurso/ConsultaCursoControleImpl.java
+geral/ConsultaEstudanteUC/ConsultaEstudanteUC.do;web/geral/src/java/br/mdarte/exemplo/academico/web/geral/consultarEstudante/ConsultaEstudanteControleImpl.java
+geral/DetalhaCursoUC/DetalhaCursoUC.do;web/geral/src/java/br/mdarte/exemplo/academico/web/geral/detalharCurso/DetalhaCursoControleImpl.java
+geral/DetalhaEstudanteUC/DetalhaEstudanteUC.do;web/geral/src/java/br/mdarte/exemplo/academico/web/geral/detalharEstudante/DetalhaEstudanteControleImpl.java
+geral/MantemCursoUC/MantemCursoUC.do;web/geral/src/java/br/mdarte/exemplo/academico/web/geral/manterCurso/MantemCursoControleImpl.java
+geral/MantemEstudanteUC/MantemEstudanteUC.do;web/geral/src/java/br/mdarte/exemplo/academico/web/geral/manterEstudante/MantemEstudanteControleImpl.java

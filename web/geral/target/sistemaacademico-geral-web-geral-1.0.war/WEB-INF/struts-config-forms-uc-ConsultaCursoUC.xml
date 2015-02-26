@@ -1,0 +1,9 @@
+        <form-bean
+            name="consultaCursoUCConsultaCursoUCForm"
+            type="br.mdarte.exemplo.academico.web.geral.consultarCurso.ConsultaCursoUCFormImpl" />
+        <form-bean
+            name="consultaCursoUCPreenchaCamposConsultaCursoForm"
+            type="br.mdarte.exemplo.academico.web.geral.consultarCurso.PreenchaCamposConsultaCursoFormImpl" />
+        <form-bean
+            name="consultaCursoUCResultadoConsultaDetalhaCursoForm"
+            type="br.mdarte.exemplo.academico.web.geral.consultarCurso.ResultadoConsultaDetalhaCursoFormImpl" />

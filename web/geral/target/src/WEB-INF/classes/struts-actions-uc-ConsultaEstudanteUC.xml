@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="ConsultaEstudanteUC" namespace="/ConsultaEstudanteUC" extends="mdarte-struts-default">
+		<action name="PreenchaCamposConsultaEstudante" class="br.mdarte.exemplo.academico.web.geral.consultarEstudante.PreenchaCamposConsultaEstudante" method="execute">
+			<result name="resultado.consulta">/br/mdarte/exemplo/academico/web/geral/consultarEstudante/resultado-consulta.jsp</result>
+			<result name="input">/br/mdarte/exemplo/academico/web/geral/consultarEstudante/preencha-campos.jsp</result>
+			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/consultarEstudante/preencha-campos.jsp</result>
+		</action>
+		<action name="ConsultaEstudanteUC" class="br.mdarte.exemplo.academico.web.geral.consultarEstudante.ConsultaEstudanteUC" method="execute">
+			<result name="preencha.campos">/br/mdarte/exemplo/academico/web/geral/consultarEstudante/preencha-campos.jsp</result>
+			<result name="handleException">/error-page.jsp?code=exception</result>
+		</action>
+		<action name="ResultadoConsultaDetalhaEstudante" class="br.mdarte.exemplo.academico.web.geral.consultarEstudante.ResultadoConsultaDetalhaEstudante" method="execute">
+			<result name="detalha.estudante" type="redirectAction">
+				<param name="actionName">DetalhaEstudanteUC/DetalhaEstudanteUC.action</param>
+				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="prependServletContext">false</param>
+			</result>
+			<result name="input">/br/mdarte/exemplo/academico/web/geral/consultarEstudante/resultado-consulta.jsp</result>
+			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/consultarEstudante/resultado-consulta.jsp</result>
+		</action>
+		<action name="ResultadoConsultaNovaConsulta" class="br.mdarte.exemplo.academico.web.geral.consultarEstudante.ResultadoConsultaNovaConsulta" method="execute">
+			<result name="nova.consulta" type="redirectAction">
+				<param name="actionName">ConsultaEstudanteUC/ConsultaEstudanteUC.action</param>
+				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="prependServletContext">false</param>
+			</result>
+			<result name="input">/br/mdarte/exemplo/academico/web/geral/consultarEstudante/resultado-consulta.jsp</result>
+			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/consultarEstudante/resultado-consulta.jsp</result>
+		</action>
+	</package>
+	<!-- It is supposed to work such as FowardAction. It takes the name of the HelpAction and
+	redirects to the jsp page-->
+	<package name="ConsultaEstudanteUCOnlineHelp" namespace="/" extends="struts-default">
+		<action name="/br/mdarte/exemplo/academico/web/geral/consultarEstudante/ConsultaEstudanteUCHelp">
+			<result>/br/mdarte/exemplo/academico/web/geral/consultarEstudante/Consulta-Estudante-UC_help.jsp</result>
+		</action>
+
+		<action name="/PreenchaCamposHelp">
+			<result>/br/mdarte/exemplo/academico/web/geral/consultarEstudante/preencha-campos_help.jsp</result>
+		</action>
+		<action name="/ResultadoConsultaHelp">
+			<result>/br/mdarte/exemplo/academico/web/geral/consultarEstudante/resultado-consulta_help.jsp</result>
+		</action>
+	</package>
+
+</struts>

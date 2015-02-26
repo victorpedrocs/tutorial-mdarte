@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="MantemEstudanteUC" namespace="/MantemEstudanteUC" extends="mdarte-struts-default">
+		<action name="MantemEstudanteUC" class="br.mdarte.exemplo.academico.web.geral.manterEstudante.MantemEstudanteUC" method="execute">
+			<result name="alterando.estudante">/br/mdarte/exemplo/academico/web/geral/manterEstudante/alterando-estudante.jsp</result>
+			<result name="handleException">/error-page.jsp?code=exception</result>
+		</action>
+		<action name="AlterandoEstudanteSalvaEstudante" class="br.mdarte.exemplo.academico.web.geral.manterEstudante.AlterandoEstudanteSalvaEstudante" method="execute">
+			<result name="detalha.estudante" type="redirectAction">
+				<param name="actionName">DetalhaEstudanteUC/DetalhaEstudanteUC.action</param>
+				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="prependServletContext">false</param>
+			</result>
+			<result name="input">/br/mdarte/exemplo/academico/web/geral/manterEstudante/alterando-estudante.jsp</result>
+			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/manterEstudante/alterando-estudante.jsp</result>
+		</action>
+		<action name="AlterandoEstudanteVoltar" class="br.mdarte.exemplo.academico.web.geral.manterEstudante.AlterandoEstudanteVoltar" method="execute">
+			<result name="voltar" type="redirectAction">
+				<param name="actionName">ConsultaEstudanteUC/ConsultaEstudanteUC.action</param>
+				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="prependServletContext">false</param>
+			</result>
+			<result name="input">/br/mdarte/exemplo/academico/web/geral/manterEstudante/alterando-estudante.jsp</result>
+			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/manterEstudante/alterando-estudante.jsp</result>
+		</action>
+	</package>
+	<!-- It is supposed to work such as FowardAction. It takes the name of the HelpAction and
+	redirects to the jsp page-->
+	<package name="MantemEstudanteUCOnlineHelp" namespace="/" extends="struts-default">
+		<action name="/br/mdarte/exemplo/academico/web/geral/manterEstudante/MantemEstudanteUCHelp">
+			<result>/br/mdarte/exemplo/academico/web/geral/manterEstudante/Mantem-Estudante-UC_help.jsp</result>
+		</action>
+
+		<action name="/AlterandoEstudanteHelp">
+			<result>/br/mdarte/exemplo/academico/web/geral/manterEstudante/alterando-estudante_help.jsp</result>
+		</action>
+	</package>
+
+</struts>

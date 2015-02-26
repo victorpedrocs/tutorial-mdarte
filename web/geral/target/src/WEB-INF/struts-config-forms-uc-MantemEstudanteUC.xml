@@ -1,0 +1,6 @@
+        <form-bean
+            name="mantemEstudanteUCMantemEstudanteUCForm"
+            type="br.mdarte.exemplo.academico.web.geral.manterEstudante.MantemEstudanteUCFormImpl" />
+        <form-bean
+            name="mantemEstudanteUCAlterandoEstudanteSalvaEstudanteForm"
+            type="br.mdarte.exemplo.academico.web.geral.manterEstudante.AlterandoEstudanteSalvaEstudanteFormImpl" />

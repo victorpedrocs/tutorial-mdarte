@@ -1,0 +1,7 @@
+<server>
+	<mbean code="br.mdarte.exemplo.academico.InitialService" 
+		name="mdarte:service=sistemaacademicoInitialService">
+		<depends>jboss.jca:service=DataSourceBinding,name=sistemaacademicoDS</depends>
+	</mbean>
+</server>
+
