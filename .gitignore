@@ -28,3 +28,5 @@
 /web/layout/target/*
 /web/modulo/target/*
 /web/test/target/*
+
+*.class
