@@ -160,6 +160,6 @@ public class AlterandoCursoVoltar extends br.mdarte.exemplo.academico.accessCont
 		__casoDeUso = "MantemCursoUC";
 		__urlCasoDeUso = "/MantemCursoUC/AlterandoCursoVoltar.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

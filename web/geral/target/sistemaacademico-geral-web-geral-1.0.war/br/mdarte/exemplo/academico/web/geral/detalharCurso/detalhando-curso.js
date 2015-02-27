@@ -1,5 +1,5 @@
 function getPath() {
-	return "/sistemaacademico/geral";
+	return "/sistemaacademico";
 }
 
 function setaLocation(nomeAcao, parameters){

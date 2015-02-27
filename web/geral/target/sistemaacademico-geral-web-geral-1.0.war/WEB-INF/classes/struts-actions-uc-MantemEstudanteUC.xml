@@ -12,7 +12,7 @@
 		<action name="AlterandoEstudanteSalvaEstudante" class="br.mdarte.exemplo.academico.web.geral.manterEstudante.AlterandoEstudanteSalvaEstudante" method="execute">
 			<result name="detalha.estudante" type="redirectAction">
 				<param name="actionName">DetalhaEstudanteUC/DetalhaEstudanteUC.action</param>
-				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="namespace">/sistemaacademico</param>
 				<param name="prependServletContext">false</param>
 			</result>
 			<result name="input">/br/mdarte/exemplo/academico/web/geral/manterEstudante/alterando-estudante.jsp</result>
@@ -21,7 +21,7 @@
 		<action name="AlterandoEstudanteVoltar" class="br.mdarte.exemplo.academico.web.geral.manterEstudante.AlterandoEstudanteVoltar" method="execute">
 			<result name="voltar" type="redirectAction">
 				<param name="actionName">ConsultaEstudanteUC/ConsultaEstudanteUC.action</param>
-				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="namespace">/sistemaacademico</param>
 				<param name="prependServletContext">false</param>
 			</result>
 			<result name="input">/br/mdarte/exemplo/academico/web/geral/manterEstudante/alterando-estudante.jsp</result>

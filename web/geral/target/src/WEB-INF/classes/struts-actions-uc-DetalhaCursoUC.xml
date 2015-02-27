@@ -8,7 +8,7 @@
 		<action name="DetalhandoCursoEditaCurso" class="br.mdarte.exemplo.academico.web.geral.detalharCurso.DetalhandoCursoEditaCurso" method="execute">
 			<result name="edita.curso" type="redirectAction">
 				<param name="actionName">MantemCursoUC/MantemCursoUC.action</param>
-				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="namespace">/sistemaacademico</param>
 				<param name="prependServletContext">false</param>
 			</result>
 			<result name="input">/br/mdarte/exemplo/academico/web/geral/detalharCurso/detalhando-curso.jsp</result>
@@ -21,7 +21,7 @@
 		<action name="DetalhandoCursoVoltar" class="br.mdarte.exemplo.academico.web.geral.detalharCurso.DetalhandoCursoVoltar" method="execute">
 			<result name="voltar" type="redirectAction">
 				<param name="actionName">ConsultaCursoUC/ConsultaCursoUC.action</param>
-				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="namespace">/sistemaacademico</param>
 				<param name="prependServletContext">false</param>
 			</result>
 			<result name="input">/br/mdarte/exemplo/academico/web/geral/detalharCurso/detalhando-curso.jsp</result>

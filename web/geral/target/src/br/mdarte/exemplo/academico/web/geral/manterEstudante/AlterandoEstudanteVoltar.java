@@ -160,6 +160,6 @@ public class AlterandoEstudanteVoltar extends br.mdarte.exemplo.academico.access
 		__casoDeUso = "MantemEstudanteUC";
 		__urlCasoDeUso = "/MantemEstudanteUC/AlterandoEstudanteVoltar.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

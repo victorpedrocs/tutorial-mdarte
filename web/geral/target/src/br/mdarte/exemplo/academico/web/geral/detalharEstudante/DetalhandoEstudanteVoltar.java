@@ -229,6 +229,6 @@ public class DetalhandoEstudanteVoltar extends br.mdarte.exemplo.academico.acces
 		__casoDeUso = "DetalhaEstudanteUC";
 		__urlCasoDeUso = "/DetalhaEstudanteUC/DetalhandoEstudanteVoltar.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

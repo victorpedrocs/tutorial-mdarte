@@ -235,6 +235,6 @@ public class ConsultaCursoUC extends br.mdarte.exemplo.academico.accessControl.L
 		__casoDeUso = "ConsultaCursoUC";
 		__urlCasoDeUso = "/ConsultaCursoUC/ConsultaCursoUC.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

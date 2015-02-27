@@ -277,6 +277,6 @@ public class DetalhaCursoUC extends br.mdarte.exemplo.academico.accessControl.Lo
 		__casoDeUso = "DetalhaCursoUC";
 		__urlCasoDeUso = "/DetalhaCursoUC/DetalhaCursoUC.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

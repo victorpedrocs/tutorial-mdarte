@@ -28,14 +28,14 @@ public class DetalhaCursoUCViewTest {
 	 * Opens the URL of the use case from the current module.
 	 */
 	public void openUseCase() {
-		this.viewTestController.open("/sistemaacademico/geral/DetalhaCursoUC/DetalhaCursoUC.do");
+		this.viewTestController.open("/sistemaacademico/DetalhaCursoUC/DetalhaCursoUC.do");
 	}
 
 	/**
 	 * Opens the URL of the use case from the principal module.
 	 */
 	public void openUseCaseFromPrincipalModule() {
-		this.viewTestController.open("/sistemaacademico/ForwardAction.do?modulo=&path=/geral/DetalhaCursoUC/DetalhaCursoUC.do");
+		this.viewTestController.open("/sistemaacademico/ForwardAction.do?modulo=&path=/DetalhaCursoUC/DetalhaCursoUC.do");
 	}
 
 	/**
@@ -53,7 +53,7 @@ public class DetalhaCursoUCViewTest {
 	}
 
 	public void open_action1_voltar() {
-		this.viewTestController.open("/sistemaacademico/geral/DetalhaCursoUC/DetalhandoCursoVoltar.do");
+		this.viewTestController.open("/sistemaacademico/DetalhaCursoUC/DetalhandoCursoVoltar.do");
 	}
 
 	/**
@@ -71,7 +71,7 @@ public class DetalhaCursoUCViewTest {
 	}
 
 	public void open_action2_editaCurso() {
-		this.viewTestController.open("/sistemaacademico/geral/DetalhaCursoUC/DetalhandoCursoEditaCurso.do");
+		this.viewTestController.open("/sistemaacademico/DetalhaCursoUC/DetalhandoCursoEditaCurso.do");
 	}
 
 

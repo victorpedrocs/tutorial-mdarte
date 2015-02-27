@@ -276,6 +276,6 @@ public class PreenchaCamposConsultaCurso extends br.mdarte.exemplo.academico.acc
 		__casoDeUso = "ConsultaCursoUC";
 		__urlCasoDeUso = "/ConsultaCursoUC/PreenchaCamposConsultaCurso.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

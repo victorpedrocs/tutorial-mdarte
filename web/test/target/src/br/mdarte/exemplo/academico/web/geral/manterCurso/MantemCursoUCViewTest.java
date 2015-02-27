@@ -28,14 +28,14 @@ public class MantemCursoUCViewTest {
 	 * Opens the URL of the use case from the current module.
 	 */
 	public void openUseCase() {
-		this.viewTestController.open("/sistemaacademico/geral/MantemCursoUC/MantemCursoUC.do");
+		this.viewTestController.open("/sistemaacademico/MantemCursoUC/MantemCursoUC.do");
 	}
 
 	/**
 	 * Opens the URL of the use case from the principal module.
 	 */
 	public void openUseCaseFromPrincipalModule() {
-		this.viewTestController.open("/sistemaacademico/ForwardAction.do?modulo=&path=/geral/MantemCursoUC/MantemCursoUC.do");
+		this.viewTestController.open("/sistemaacademico/ForwardAction.do?modulo=&path=/MantemCursoUC/MantemCursoUC.do");
 	}
 
 	/**
@@ -63,7 +63,7 @@ public class MantemCursoUCViewTest {
 	}
 
 	public void open_action1_salvaCurso() {
-		this.viewTestController.open("/sistemaacademico/geral/MantemCursoUC/AlterandoCursoSalvaCurso.do");
+		this.viewTestController.open("/sistemaacademico/MantemCursoUC/AlterandoCursoSalvaCurso.do");
 	}
 
 	/**
@@ -81,7 +81,7 @@ public class MantemCursoUCViewTest {
 	}
 
 	public void open_action2_voltar() {
-		this.viewTestController.open("/sistemaacademico/geral/MantemCursoUC/AlterandoCursoVoltar.do");
+		this.viewTestController.open("/sistemaacademico/MantemCursoUC/AlterandoCursoVoltar.do");
 	}
 
 

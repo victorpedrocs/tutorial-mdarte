@@ -28,14 +28,14 @@ public class MantemEstudanteUCViewTest {
 	 * Opens the URL of the use case from the current module.
 	 */
 	public void openUseCase() {
-		this.viewTestController.open("/sistemaacademico/geral/MantemEstudanteUC/MantemEstudanteUC.do");
+		this.viewTestController.open("/sistemaacademico/MantemEstudanteUC/MantemEstudanteUC.do");
 	}
 
 	/**
 	 * Opens the URL of the use case from the principal module.
 	 */
 	public void openUseCaseFromPrincipalModule() {
-		this.viewTestController.open("/sistemaacademico/ForwardAction.do?modulo=&path=/geral/MantemEstudanteUC/MantemEstudanteUC.do");
+		this.viewTestController.open("/sistemaacademico/ForwardAction.do?modulo=&path=/MantemEstudanteUC/MantemEstudanteUC.do");
 	}
 
 	/**
@@ -63,7 +63,7 @@ public class MantemEstudanteUCViewTest {
 	}
 
 	public void open_action1_salvaEstudante() {
-		this.viewTestController.open("/sistemaacademico/geral/MantemEstudanteUC/AlterandoEstudanteSalvaEstudante.do");
+		this.viewTestController.open("/sistemaacademico/MantemEstudanteUC/AlterandoEstudanteSalvaEstudante.do");
 	}
 
 	/**
@@ -81,7 +81,7 @@ public class MantemEstudanteUCViewTest {
 	}
 
 	public void open_action2_voltar() {
-		this.viewTestController.open("/sistemaacademico/geral/MantemEstudanteUC/AlterandoEstudanteVoltar.do");
+		this.viewTestController.open("/sistemaacademico/MantemEstudanteUC/AlterandoEstudanteVoltar.do");
 	}
 
 

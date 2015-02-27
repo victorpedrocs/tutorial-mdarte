@@ -262,6 +262,6 @@ public class AlterandoEstudanteSalvaEstudante extends br.mdarte.exemplo.academic
 		__casoDeUso = "MantemEstudanteUC";
 		__urlCasoDeUso = "/MantemEstudanteUC/AlterandoEstudanteSalvaEstudante.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

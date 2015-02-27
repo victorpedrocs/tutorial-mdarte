@@ -32,6 +32,14 @@ import org.apache.struts.action.ActionMapping;
 
 public class NovaConexao extends Action {
 
+	private final String NOME_SISTEMA_PRINCIPAL = "sistemaacademico";
+	private final String NOME_MODULO_PRINCIPAL = "geral";
+	private final String NOME_ATRIBUTO_MODULOS_FECHADOS = "SECURE_FECHAR_SESSAO_MODULOS_FECHADOS";
+	private final static List<String> modulosIgnorados = new ArrayList<String>();
+	static {
+		modulosIgnorados.add("layout");
+		modulosIgnorados.add("help");
+	}
 
 	private class SistemaModulo {
 		public String sistema;
@@ -42,9 +50,126 @@ public class NovaConexao extends Action {
 	{
 		ActionForward forward = null;
 
-		// redireciona para o NovaConexao do modulo principal
-		String uriForward = request.getScheme() + "://" + (request.getServerName() + (request.getServerPort( ) != 80 ? ":" + request.getServerPort( ) : "")).replace("//","/");
-		forward = new ActionForward(uriForward + "/sistemaacademico/secure/NovaConexao.do", true);
-		return forward;
+		java.util.Properties ports = new java.util.Properties();
+
+		try
+		{
+			ports.load(new java.io.FileInputStream(new java.io.File((new java.net.URL(System.getProperty("jboss.server.config.url") + java.io.File.separator + "sistemaacademico-port.properties")).getFile())));
+			if(ports.getProperty("https.port") == null || ports.getProperty("http.port") == null)
+				throw new RuntimeException("error.port.configuration");
+		}
+		catch(java.io.IOException e){
+			throw new RuntimeException("port.file.not.found");
+		}
+
+		// busca modulos da aplicacao
+		boolean serverJbossEncontrado = false;
+		MBeanServer server = null;
+		for (Iterator i = MBeanServerFactory.findMBeanServer(null).iterator(); i.hasNext(); ) {
+			server = (MBeanServer) i.next();
+			if (server.getDefaultDomain().equals("jboss")) {
+				serverJbossEncontrado = true;
+				break;
+			}
+		}
+
+		if (!serverJbossEncontrado)
+			throw new IllegalStateException("No 'jboss' MBeanServer found!");
+
+		String query = "jboss.web.deployment:*";
+		Set matches = server.queryNames( new ObjectName( query ), null );
+		Iterator it = matches.iterator();
+
+		List<SistemaModulo> sistemaModulos = new ArrayList<SistemaModulo>(); 
+
+		String sharedLoginPattern = ".*=(.*)-(.*)-web-.*";
+
+		if (ports.getProperty("shared.login.pattern") != null)
+			sharedLoginPattern = ports.getProperty("shared.login.pattern");
+
+		Pattern pattern = Pattern.compile(sharedLoginPattern);
+		Matcher matcher = null;
+
+		while( it.hasNext() ) {
+			ObjectName objName = (ObjectName) it.next();
+			String objectNameString = objName.toString();
+			matcher = pattern.matcher(objectNameString);
+			if (matcher.matches()) {
+				SistemaModulo sistemaModulo = new SistemaModulo();
+				sistemaModulo.sistema = matcher.group(1);
+				sistemaModulo.modulo = matcher.group(2);
+				sistemaModulos.add(sistemaModulo);
+			}
+		}
+
+		List <SistemaModulo> sistemaModulosFechados = (List) request.getSession().getAttribute(NOME_ATRIBUTO_MODULOS_FECHADOS);
+		if (sistemaModulosFechados == null)
+			sistemaModulosFechados = new ArrayList<SistemaModulo>();
+
+		// busca um modulo que ainda nao tenha sido fechado e o fecha (atraves da action NovaConexao.do)
+		for (SistemaModulo sistemaModulo : sistemaModulos) {
+			boolean moduloFechado = false;
+
+			for (SistemaModulo sistemaModuloFechado : sistemaModulosFechados) {
+				if (sistemaModuloFechado.modulo.equals(sistemaModulo.modulo) &&
+					sistemaModuloFechado.sistema.equals(sistemaModulo.sistema))
+					moduloFechado = true;
+			}
+
+			if (!moduloFechado && sistemaModulo.sistema.equals(NOME_SISTEMA_PRINCIPAL) && !sistemaModulo.modulo.equals(NOME_MODULO_PRINCIPAL) && !modulosIgnorados.contains(sistemaModulo.modulo)) {
+				String uriForward = request.getScheme() + "://" + (request.getServerName() + (request.getServerPort( ) != 80 ? ":" + request.getServerPort( ) : "")).replace("//","/");
+				String modulo;
+
+				if (sistemaModulo.modulo.equals(NOME_MODULO_PRINCIPAL))
+					modulo = "";
+				else
+					modulo = sistemaModulo.modulo;
+
+				forward = new ActionForward(uriForward + ("/" + sistemaModulo.sistema + "/" + modulo + "/secure/ApagaSessao.do").replace("//","/"), true);
+				sistemaModulosFechados.add(sistemaModulo);
+				request.getSession().setAttribute(NOME_ATRIBUTO_MODULOS_FECHADOS, sistemaModulosFechados);
+
+				URL url = new URL(forward.getPath());
+				HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+
+				String cookiesString = "";
+				Cookie[] cookies = request.getCookies();
+
+				for (Cookie cookie : cookies) {
+					if (cookiesString != "") cookiesString = cookiesString + "; "; 
+					cookiesString = cookiesString + cookie.getName()+ "=" +cookie.getValue();
+				}
+
+				conn.setRequestProperty("Cookie",cookiesString);
+
+				conn.connect();
+
+				BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+				String inputLine;
+
+				while ((inputLine = in.readLine()) != null) 
+					System.out.println(inputLine);
+				in.close();
+
+				conn.disconnect();
+			}
+		}
+
+		// fecha o proprio modulo principal
+		request.getSession().invalidate();
+		
+		// apaga o mapa da sessao do contexto
+		ShareSessionUtil.getMapFromContext(request, getServlet().getServletContext().getContext("/sistemaacademico"));
+
+		// caso todos os modulos tenham sido fechados.. redireciona para tela de login
+		forward = mapping.findForward("entrar.login");
+
+		Boolean aplicacaoGerenciaTrocaDePortas = (Boolean) request.getSession().getServletContext().getAttribute("aplicacaoGerenciaTrocaDePortas");
+		String scheme = aplicacaoGerenciaTrocaDePortas ? "https" : request.getScheme();
+		String port = aplicacaoGerenciaTrocaDePortas ? ports.getProperty("https.port") : String.valueOf(request.getServerPort());
+
+		response.sendRedirect(scheme + "://" + request.getServerName() + ":" + port + "/sistemaacademico" + forward.getPath());
+		//return forward;
+		return null;
 	}
 }

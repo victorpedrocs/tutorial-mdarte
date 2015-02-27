@@ -276,6 +276,6 @@ public class MantemCursoUC extends br.mdarte.exemplo.academico.accessControl.Log
 		__casoDeUso = "MantemCursoUC";
 		__urlCasoDeUso = "/MantemCursoUC/MantemCursoUC.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

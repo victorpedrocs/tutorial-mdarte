@@ -976,3 +976,1247 @@ ERROR 2015-02-26 15:22:12,858 - Propriedade maxSizeClass não configurada
 INFO  2015-02-26 15:22:12,864 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
 INFO  2015-02-26 15:22:12,864 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
 ERROR 2015-02-26 15:22:12,864 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:37,854 - ************************************************************** 
+INFO  2015-02-27 13:26:37,866 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-27 13:26:37,866 - RuntimeInstance initializing.
+INFO  2015-02-27 13:26:37,866 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-27 13:26:37,867 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-27 13:26:37,868 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-27 13:26:37,868 - FileResourceLoader : initialization starting.
+INFO  2015-02-27 13:26:37,868 - FileResourceLoader : adding path '.'
+INFO  2015-02-27 13:26:37,868 - FileResourceLoader : initialization complete.
+INFO  2015-02-27 13:26:37,868 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:37,868 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-27 13:26:37,868 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-27 13:26:37,869 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-27 13:26:37,869 - Default ResourceManager initialization complete.
+INFO  2015-02-27 13:26:37,870 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-27 13:26:37,870 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-27 13:26:37,871 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-27 13:26:37,872 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-27 13:26:37,872 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-27 13:26:37,888 - Created: 20 parsers.
+INFO  2015-02-27 13:26:37,891 - Velocimacro : initialization starting.
+INFO  2015-02-27 13:26:37,891 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-27 13:26:37,904 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 13:26:37,904 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 13:26:37,906 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 13:26:37,908 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 13:26:37,909 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 13:26:37,916 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:37,916 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 13:26:37,916 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 13:26:37,918 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 13:26:37,919 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 13:26:37,922 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 13:26:37,924 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 13:26:37,929 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 13:26:37,930 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 13:26:37,931 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 13:26:37,932 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 13:26:37,949 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:37,949 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 13:26:37,949 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-27 13:26:37,949 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-27 13:26:37,949 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-27 13:26:37,949 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-27 13:26:37,949 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-27 13:26:37,949 - Velocimacro : initialization complete.
+INFO  2015-02-27 13:26:37,949 - Velocity successfully started.
+INFO  2015-02-27 13:26:37,960 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 13:26:37,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-27 13:26:37,961 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:37,963 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:37,963 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 13:26:37,963 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-27 13:26:37,963 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 13:26:37,963 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-27 13:26:37,963 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:37,969 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 13:26:37,969 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 13:26:37,970 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-27 13:26:37,970 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:38,142 - ResourceManager : found templates/ejb/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,145 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,147 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,150 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,153 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,160 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,162 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,163 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,164 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,182 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,408 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,411 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,413 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,416 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,424 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,425 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,426 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,427 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,445 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,458 - ResourceManager : found templates/ejb/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,461 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,464 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,467 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,470 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,477 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,478 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,479 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,480 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,500 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,524 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,526 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,529 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,532 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,539 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,541 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,542 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,543 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,564 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,606 - ResourceManager : found templates/ejb/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,610 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,612 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,615 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,619 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,627 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,628 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,629 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,631 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,653 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,660 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,663 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,666 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,669 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,678 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,679 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,680 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,682 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,705 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,716 - ResourceManager : found templates/ejb/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,720 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,723 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,726 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,730 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,738 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,739 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,740 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,742 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,765 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,769 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,772 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,775 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,779 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,787 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,788 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,789 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,791 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,814 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,821 - ResourceManager : found templates/ejb/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,825 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,828 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,831 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,835 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,843 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,844 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,846 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,847 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,870 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,874 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,877 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,880 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,884 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,892 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,893 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,895 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,896 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,920 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,955 - ResourceManager : found templates/ejb/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:38,959 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,961 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,965 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,968 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,977 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,978 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,979 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:38,981 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,010 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,016 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,018 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,022 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,025 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,033 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,035 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,036 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,037 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,061 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,106 - ResourceManager : found templates/ejb/SessionEJBLocator.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,109 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,112 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,114 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,117 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,124 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,125 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,126 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,128 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,148 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,148 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,177 - ResourceManager : found templates/ejb/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,180 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,181 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,183 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,185 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,190 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,191 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,192 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,193 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,208 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,213 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,215 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,217 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,219 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,224 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,225 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,225 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,226 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,242 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,250 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,251 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,252 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,252 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,254 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,254 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,256 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,256 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,257 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,257 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,290 - ResourceManager : found templates/ejb/controleAcesso/Servicos.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,295 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,320 - ResourceManager : found templates/ejb/controleAcesso/Servicos.json.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,325 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,329 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,329 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,330 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,330 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,330 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,331 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,331 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,332 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,332 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,333 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,333 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,334 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,334 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,334 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,335 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,335 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,335 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,336 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,336 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,340 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,340 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 13:26:39,340 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 13:26:39,340 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-27 13:26:39,340 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 13:26:39,341 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-27 13:26:39,341 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,342 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,342 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 13:26:39,342 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-27 13:26:39,342 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 13:26:39,342 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 13:26:39,342 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 13:26:39,342 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 13:26:39,342 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-27 13:26:39,342 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,347 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,347 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,348 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,348 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,348 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,349 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,350 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,350 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-27 13:26:39,350 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:19,652 - ************************************************************** 
+INFO  2015-02-27 18:08:19,663 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-27 18:08:19,663 - RuntimeInstance initializing.
+INFO  2015-02-27 18:08:19,663 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-27 18:08:19,665 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-27 18:08:19,665 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-27 18:08:19,665 - FileResourceLoader : initialization starting.
+INFO  2015-02-27 18:08:19,665 - FileResourceLoader : adding path '.'
+INFO  2015-02-27 18:08:19,676 - FileResourceLoader : initialization complete.
+INFO  2015-02-27 18:08:19,676 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:19,676 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-27 18:08:19,676 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-27 18:08:19,677 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-27 18:08:19,677 - Default ResourceManager initialization complete.
+INFO  2015-02-27 18:08:19,678 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-27 18:08:19,679 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-27 18:08:19,679 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-27 18:08:19,680 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-27 18:08:19,681 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-27 18:08:19,701 - Created: 20 parsers.
+INFO  2015-02-27 18:08:19,704 - Velocimacro : initialization starting.
+INFO  2015-02-27 18:08:19,704 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-27 18:08:19,717 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:08:19,717 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:08:19,719 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:08:19,721 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:08:19,722 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:08:19,729 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:19,729 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 18:08:19,729 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:08:19,732 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:08:19,733 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:08:19,735 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:08:19,737 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:08:19,742 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:08:19,744 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:08:19,745 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:08:19,746 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:08:19,763 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:19,764 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 18:08:19,764 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-27 18:08:19,764 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-27 18:08:19,764 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-27 18:08:19,764 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-27 18:08:19,764 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-27 18:08:19,764 - Velocimacro : initialization complete.
+INFO  2015-02-27 18:08:19,764 - Velocity successfully started.
+INFO  2015-02-27 18:08:19,777 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:08:19,777 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-27 18:08:19,778 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:19,781 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:19,781 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:08:19,781 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-27 18:08:19,781 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 18:08:19,781 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-27 18:08:19,781 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:19,787 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 18:08:19,787 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:08:19,788 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-27 18:08:19,788 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:19,969 - ResourceManager : found templates/ejb/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:19,973 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:19,975 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:19,978 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:19,981 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:19,989 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:19,990 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:19,991 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:19,993 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,012 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,130 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,133 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,136 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,139 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,147 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,149 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,151 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,152 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,171 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,196 - ResourceManager : found templates/ejb/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,200 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,202 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,205 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,208 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,215 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,217 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,218 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,219 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,240 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,245 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,247 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,250 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,253 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,261 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,262 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,263 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,264 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,288 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,338 - ResourceManager : found templates/ejb/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,344 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,347 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,353 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,358 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,370 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,373 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,375 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,377 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,414 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,424 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,428 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,434 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,439 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,452 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,454 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,456 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,458 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,495 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,512 - ResourceManager : found templates/ejb/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,518 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,523 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,528 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,534 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,547 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,549 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,551 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,553 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,589 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,596 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,600 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,605 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,610 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,623 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,625 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,627 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,629 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,666 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,679 - ResourceManager : found templates/ejb/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,686 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,690 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,696 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,701 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,715 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,717 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,719 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,722 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,760 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,767 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,772 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,777 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,783 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,795 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,797 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,799 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,801 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,838 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,888 - ResourceManager : found templates/ejb/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,892 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,895 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,898 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,902 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,910 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,912 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,913 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,915 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,941 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:20,947 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,950 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,953 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,957 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,964 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,966 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,967 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,969 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:20,995 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,022 - ResourceManager : found templates/ejb/SessionEJBLocator.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,026 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,029 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,032 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,035 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,042 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,044 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,045 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,047 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,071 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,072 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,117 - ResourceManager : found templates/ejb/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,118 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,119 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,120 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,121 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,122 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,123 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,123 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,123 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,132 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,136 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,137 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,137 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,138 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,140 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,140 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,141 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,141 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,152 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,159 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,159 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,160 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,161 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,162 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,162 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,163 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,163 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,164 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,164 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,196 - ResourceManager : found templates/ejb/controleAcesso/Servicos.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,201 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,237 - ResourceManager : found templates/ejb/controleAcesso/Servicos.json.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,243 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,248 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,248 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,249 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,249 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,250 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,250 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,251 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,252 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,252 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,253 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,253 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,254 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,254 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,255 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,255 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,256 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,256 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,257 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,257 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,264 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 18:08:21,264 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-27 18:08:21,265 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,265 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,266 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:08:21,266 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-27 18:08:21,266 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 18:08:21,266 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 18:08:21,266 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:08:21,266 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:08:21,266 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-27 18:08:21,266 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,271 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,271 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,272 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,272 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,273 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,273 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,275 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,275 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-27 18:08:21,275 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:04,368 - ************************************************************** 
+INFO  2015-02-27 18:10:04,368 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-27 18:10:04,368 - RuntimeInstance initializing.
+INFO  2015-02-27 18:10:04,368 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-27 18:10:04,369 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-27 18:10:04,369 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-27 18:10:04,369 - FileResourceLoader : initialization starting.
+INFO  2015-02-27 18:10:04,369 - FileResourceLoader : adding path '.'
+INFO  2015-02-27 18:10:04,369 - FileResourceLoader : initialization complete.
+INFO  2015-02-27 18:10:04,369 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,370 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-27 18:10:04,370 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-27 18:10:04,370 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-27 18:10:04,370 - Default ResourceManager initialization complete.
+INFO  2015-02-27 18:10:04,371 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-27 18:10:04,371 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-27 18:10:04,372 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-27 18:10:04,373 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-27 18:10:04,373 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-27 18:10:04,390 - Created: 20 parsers.
+INFO  2015-02-27 18:10:04,393 - Velocimacro : initialization starting.
+INFO  2015-02-27 18:10:04,393 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-27 18:10:04,405 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:10:04,406 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:10:04,407 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:10:04,409 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:10:04,410 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 18:10:04,417 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,417 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 18:10:04,417 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:10:04,420 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:10:04,421 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:10:04,425 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:10:04,428 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:10:04,434 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:10:04,436 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:10:04,436 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:10:04,437 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 18:10:04,456 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,456 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 18:10:04,456 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-27 18:10:04,456 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-27 18:10:04,456 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-27 18:10:04,456 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-27 18:10:04,456 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-27 18:10:04,456 - Velocimacro : initialization complete.
+INFO  2015-02-27 18:10:04,457 - Velocity successfully started.
+INFO  2015-02-27 18:10:04,469 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,469 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,470 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 18:10:04,470 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:10:04,470 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-27 18:10:04,470 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:04,472 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,472 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:10:04,472 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-27 18:10:04,472 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 18:10:04,472 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-27 18:10:04,472 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:04,478 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,478 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:10:04,478 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 18:10:04,478 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:10:04,479 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-27 18:10:04,479 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:04,638 - ResourceManager : found templates/ejb/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,642 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,644 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,647 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,651 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,659 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,660 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,661 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,662 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,682 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,726 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,729 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,732 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,735 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,742 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,743 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,745 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,746 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,765 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,780 - ResourceManager : found templates/ejb/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,784 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,786 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,790 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,793 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,800 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,802 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,803 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,804 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,826 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,831 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,833 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,836 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,840 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,847 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,849 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,851 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,853 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,874 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,920 - ResourceManager : found templates/ejb/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,925 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,928 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,932 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,936 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,944 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,945 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,947 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,948 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,973 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:04,980 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,983 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,987 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,991 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:04,999 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,001 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,002 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,004 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,030 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,041 - ResourceManager : found templates/ejb/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,045 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,048 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,053 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,057 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,066 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,067 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,068 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,070 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,094 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,099 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,102 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,105 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,109 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,117 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,118 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,120 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,121 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,144 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,153 - ResourceManager : found templates/ejb/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,160 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,164 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,169 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,175 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,188 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,191 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,193 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,195 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,232 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,239 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,244 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,249 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,255 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,268 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,270 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,272 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,274 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,312 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,368 - ResourceManager : found templates/ejb/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,374 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,379 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,384 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,390 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,403 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,405 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,407 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,410 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,447 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,455 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,460 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,465 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,471 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,484 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,486 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,489 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,491 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,529 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,617 - ResourceManager : found templates/ejb/SessionEJBLocator.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,624 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,628 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,634 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,640 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,653 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,655 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,657 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,659 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,697 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:05,698 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:05,787 - ResourceManager : found templates/ejb/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,793 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,797 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,803 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,809 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,822 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,825 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,827 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,829 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,865 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,874 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,878 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,883 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,887 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,898 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,899 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,901 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,903 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:05,934 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:05,948 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:05,948 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:05,951 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:05,951 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:05,954 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:05,954 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:05,957 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:05,957 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:05,959 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:05,959 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,037 - ResourceManager : found templates/ejb/controleAcesso/Servicos.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,044 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,094 - ResourceManager : found templates/ejb/controleAcesso/Servicos.json.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,101 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,108 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,108 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,109 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,110 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,110 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,111 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,111 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,112 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,112 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,113 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,114 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,114 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,114 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,115 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,116 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,117 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,117 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,118 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,118 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,124 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:10:06,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 18:10:06,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-27 18:10:06,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 18:10:06,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-27 18:10:06,126 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,127 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,127 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:10:06,127 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-27 18:10:06,127 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 18:10:06,127 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 18:10:06,127 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:10:06,127 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 18:10:06,127 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-27 18:10:06,127 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,135 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,136 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,137 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,137 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,138 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,138 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,142 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,142 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-27 18:10:06,142 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:03,942 - ************************************************************** 
+INFO  2015-02-27 19:58:03,942 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-27 19:58:03,942 - RuntimeInstance initializing.
+INFO  2015-02-27 19:58:03,942 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-27 19:58:03,944 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-27 19:58:03,944 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-27 19:58:03,944 - FileResourceLoader : initialization starting.
+INFO  2015-02-27 19:58:03,945 - FileResourceLoader : adding path '.'
+INFO  2015-02-27 19:58:03,945 - FileResourceLoader : initialization complete.
+INFO  2015-02-27 19:58:03,945 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:03,945 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-27 19:58:03,945 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-27 19:58:03,946 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-27 19:58:03,946 - Default ResourceManager initialization complete.
+INFO  2015-02-27 19:58:03,946 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-27 19:58:03,947 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-27 19:58:03,948 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-27 19:58:03,949 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-27 19:58:03,950 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-27 19:58:03,974 - Created: 20 parsers.
+INFO  2015-02-27 19:58:03,978 - Velocimacro : initialization starting.
+INFO  2015-02-27 19:58:03,978 - Velocimacro : adding VMs from VM library template : templates/ejb/Parameters.vm
+INFO  2015-02-27 19:58:03,996 - Velocimacro : added new VM : #renderParametersWSPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 19:58:03,997 - Velocimacro : added new VM : #renderReturnWS( operation return ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 19:58:04,000 - Velocimacro : added new VM : #renderParametersWS( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 19:58:04,002 - Velocimacro : added new VM : #renderParametersPaginacao( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 19:58:04,004 - Velocimacro : added new VM : #renderParameters( operation listaAtributos nome ) : source = templates/ejb/Parameters.vm
+INFO  2015-02-27 19:58:04,013 - ResourceManager : found templates/ejb/Parameters.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,013 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 19:58:04,013 - Velocimacro : adding VMs from VM library template : templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 19:58:04,016 - Velocimacro : added new VM : #renderOperationBodyPagination( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 19:58:04,019 - Velocimacro : added new VM : #renderOperationBody( operation service ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 19:58:04,022 - Velocimacro : added new VM : #renderSecurityBody( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 19:58:04,025 - Velocimacro : added new VM : #renderSecurityBodyPagination( operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 19:58:04,063 - Velocimacro : added new VM : #renderSecurityManipula( actionName dependencia isOpenAccess ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 19:58:04,066 - Velocimacro : added new VM : #renderServiceName( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 19:58:04,067 - Velocimacro : added new VM : #renderServiceNamePagination( service operation ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 19:58:04,068 - Velocimacro : added new VM : #renderManipulaName( service dependencia actionName ) : source = templates/ejb/SessionEJBGlobals.vm
+INFO  2015-02-27 19:58:04,093 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,093 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 19:58:04,093 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-27 19:58:04,093 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-27 19:58:04,093 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-27 19:58:04,093 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-27 19:58:04,093 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-27 19:58:04,093 - Velocimacro : initialization complete.
+INFO  2015-02-27 19:58:04,093 - Velocity successfully started.
+INFO  2015-02-27 19:58:04,111 - ResourceManager : found templates/ejb/modulo/EJBMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,111 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 29,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,111 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 35,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,111 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 41,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 47,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 53,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 59,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 65,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 71,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 77,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 83,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 89,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 95,column 25] : ${basedir} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 38] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 19:58:04,112 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/EJBMaven.xml.vsl [line 127,column 63] : ${jboss.config} is not a valid reference.
+ERROR 2015-02-27 19:58:04,112 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:04,115 - ResourceManager : found templates/ejb/modulo/compartilhadoProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,115 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 5,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 19:58:04,115 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 7,column 21] : ${application.version} is not a valid reference.
+INFO  2015-02-27 19:58:04,115 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 19:58:04,115 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoProject.xml.vsl [line 10,column 22] : ${pom.name} is not a valid reference.
+ERROR 2015-02-27 19:58:04,116 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:04,124 - ResourceManager : found templates/ejb/modulo/compartilhadoMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 61,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 63,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 19:58:04,124 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 64,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 70,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 71,column 36] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 25] : ${maven.repo.local} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 45] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 65] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 91,column 83] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 25] : ${earDirectory} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 92,column 59] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 96,column 23] : ${earTempDirectory} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 14] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 19:58:04,125 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/compartilhadoMaven.xml.vsl [line 102,column 32] : ${pom.CurrentVersion} is not a valid reference.
+ERROR 2015-02-27 19:58:04,125 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:04,403 - ResourceManager : found templates/ejb/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,408 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,411 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,416 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,421 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,432 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,433 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,435 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,437 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,465 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,519 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,522 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,527 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,532 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,542 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,544 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,546 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,548 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,576 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,609 - ResourceManager : found templates/ejb/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,614 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,617 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,622 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,627 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,638 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,639 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,641 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,643 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,673 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,679 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,683 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,687 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,692 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,703 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,705 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,707 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,709 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,740 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,805 - ResourceManager : found templates/ejb/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,811 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,814 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,819 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,824 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,837 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,839 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,841 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,843 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,878 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,888 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,892 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,897 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,902 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,914 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,916 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,918 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,920 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,955 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,972 - ResourceManager : found templates/ejb/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:04,978 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,982 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,987 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:04,992 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,005 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,007 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,009 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,011 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,047 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,054 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,058 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,063 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,068 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,080 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,083 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,085 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,087 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,122 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,135 - ResourceManager : found templates/ejb/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,141 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,145 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,150 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,156 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,168 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,170 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,172 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,175 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,210 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,217 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,221 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,226 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,231 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,243 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,245 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,247 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,249 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,285 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,335 - ResourceManager : found templates/ejb/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,341 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,345 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,350 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,355 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,367 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,369 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,371 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,373 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,406 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,414 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,418 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,423 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,427 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,439 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,441 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,443 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,445 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,481 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,563 - ResourceManager : found templates/ejb/SessionEJBLocator.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,569 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,573 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,579 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,584 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,596 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,598 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,600 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,602 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,640 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:05,641 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:05,710 - ResourceManager : found templates/ejb/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,717 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,721 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,726 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,732 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,745 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,747 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,749 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,751 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,787 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,797 - Velocimacro : VM addition rejected : renderOperationBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,801 - Velocimacro : VM addition rejected : renderOperationBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,806 - Velocimacro : VM addition rejected : renderSecurityBody : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,811 - Velocimacro : VM addition rejected : renderSecurityBodyPagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,824 - Velocimacro : VM addition rejected : renderSecurityManipula : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,826 - Velocimacro : VM addition rejected : renderServiceName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,829 - Velocimacro : VM addition rejected : renderServiceNamePagination : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,831 - Velocimacro : VM addition rejected : renderManipulaName : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:05,868 - ResourceManager : found templates/ejb/SessionEJBGlobals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:05,891 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:05,891 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:05,896 - ResourceManager : found templates/ejb/controleAcesso/LoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:05,896 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:05,901 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModule.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:05,901 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:05,906 - ResourceManager : found templates/ejb/controleAcesso/GenericLoginModuleImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:05,906 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:05,913 - ResourceManager : found templates/ejb/controleAcesso/ControleAcessoUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:05,913 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,060 - ResourceManager : found templates/ejb/controleAcesso/Servicos.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,068 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,212 - ResourceManager : found templates/ejb/controleAcesso/Servicos.json.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,220 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,243 - ResourceManager : found templates/ejb/util-service/ejb-jar.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,243 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,245 - ResourceManager : found templates/ejb/util-service/jboss.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,247 - ResourceManager : found templates/ejb/Globals.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,247 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,249 - ResourceManager : found templates/ejb/util-service/Session.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,249 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,251 - ResourceManager : found templates/ejb/util-service/SessionBean.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,252 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,255 - ResourceManager : found templates/ejb/util-service/SessionBeanImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,255 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,257 - ResourceManager : found templates/ejb/util-service/SessionBI.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,257 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,259 - ResourceManager : found templates/ejb/util-service/SessionLocalHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,259 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,261 - ResourceManager : found templates/ejb/util-service/SessionHome.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,261 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,263 - ResourceManager : found templates/ejb/util-service/SessionLocal.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,263 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,279 - ResourceManager : found templates/ejb/modulo/ExcSharedMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 11,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 26,column 45] : ${maven.build.dest} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 50,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 62,column 58] : ${libDirectory} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 63] : ${user.home} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 63,column 94] : ${dep.groupId} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 64,column 72] : ${dep.artifact} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 41] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 76,column 66] : ${jboss.config} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 25] : ${user.home} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 56] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 76] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 78,column 94] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 25] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 19:58:06,279 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 44] : ${pom.artifactId} is not a valid reference.
+INFO  2015-02-27 19:58:06,280 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 79,column 62] : ${pom.CurrentVersion} is not a valid reference.
+INFO  2015-02-27 19:58:06,280 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 85,column 31] : ${deployDirectory} is not a valid reference.
+INFO  2015-02-27 19:58:06,280 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedMaven.xml.vsl [line 86,column 36] : ${pom.artifactId} is not a valid reference.
+ERROR 2015-02-27 19:58:06,280 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,282 - ResourceManager : found templates/ejb/modulo/ExcSharedProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,282 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 6,column 17] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 19:58:06,282 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 7,column 11] : ${projectName} is not a valid reference.
+INFO  2015-02-27 19:58:06,282 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 8,column 23] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 19:58:06,282 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 10,column 24] : ${pom.name} is not a valid reference.
+INFO  2015-02-27 19:58:06,282 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 17,column 22] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 19:58:06,282 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 18,column 25] : ${pom.groupId} is not a valid reference.
+INFO  2015-02-27 19:58:06,282 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/ejb/modulo/ExcSharedProject.xml.vsl [line 19,column 22] : ${pom.currentVersion} is not a valid reference.
+ERROR 2015-02-27 19:58:06,282 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,291 - ResourceManager : found templates/ejb/initial/InitialService.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,291 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,293 - ResourceManager : found templates/ejb/initial/InitialServiceMBean.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,293 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,295 - ResourceManager : found templates/ejb/initial/jboss-service.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,295 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,299 - ResourceManager : found templates/ejb/oAuth/OAuthImpl.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,299 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = logtag [line 1,column 1] : $generatedFile is not a valid reference.
+ERROR 2015-02-27 19:58:06,299 - Propriedade maxSizeClass não configurada

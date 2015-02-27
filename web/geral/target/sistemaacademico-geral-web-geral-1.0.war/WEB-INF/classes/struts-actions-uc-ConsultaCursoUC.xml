@@ -8,7 +8,7 @@
 		<action name="ResultadoConsultaNovaConsulta" class="br.mdarte.exemplo.academico.web.geral.consultarCurso.ResultadoConsultaNovaConsulta" method="execute">
 			<result name="nova.consulta" type="redirectAction">
 				<param name="actionName">ConsultaCursoUC/ConsultaCursoUC.action</param>
-				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="namespace">/sistemaacademico</param>
 				<param name="prependServletContext">false</param>
 			</result>
 			<result name="input">/br/mdarte/exemplo/academico/web/geral/consultarCurso/resultado-consulta.jsp</result>
@@ -26,7 +26,7 @@
 		<action name="ResultadoConsultaDetalhaCurso" class="br.mdarte.exemplo.academico.web.geral.consultarCurso.ResultadoConsultaDetalhaCurso" method="execute">
 			<result name="detalha.curso" type="redirectAction">
 				<param name="actionName">DetalhaCursoUC/DetalhaCursoUC.action</param>
-				<param name="namespace">/sistemaacademico/geral</param>
+				<param name="namespace">/sistemaacademico</param>
 				<param name="prependServletContext">false</param>
 			</result>
 			<result name="input">/br/mdarte/exemplo/academico/web/geral/consultarCurso/resultado-consulta.jsp</result>

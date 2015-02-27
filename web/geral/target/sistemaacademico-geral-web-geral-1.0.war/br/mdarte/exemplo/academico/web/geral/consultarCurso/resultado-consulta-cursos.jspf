@@ -33,7 +33,7 @@
 				<div class="nome"><c:out value="${row.nome}"/></div>
 			</display:column>
 			<display:column media="html">
-				<c:set var="link">'/sistemaacademico/geral/ConsultaCursoUC/ResultadoConsultaDetalhaCurso.action?idCurso='+getDiv('cursosIdCurso${row_rowNum}').value</c:set>
+				<c:set var="link">'/sistemaacademico/ConsultaCursoUC/ResultadoConsultaDetalhaCurso.action?idCurso='+getDiv('cursosIdCurso${row_rowNum}').value</c:set>
 					<security:containsPermission name="consulta.curso.uc.resultado.consulta.detalha.curso">
 						<nobr><a id="buttonLinkdetalhaCurso" href="javascript:document.location=${link};" class="buttonLink" ><s:property value="%{getText('consulta.curso.uc.resultado.consulta.detalha.curso')}" /></a></nobr>
 					</security:containsPermission>

@@ -81,6 +81,12 @@ public class ConsultaEstudanteUC extends br.mdarte.exemplo.academico.accessContr
 
 		modulo = "geral";
 		Iterator breadCrumbIt = null;
+		ArrayList breadCrumbCollection = new ArrayList();
+		breadCrumbCollection.add("<a href='javascript:window.location=getPath()+\"/ForwardAction.do?modulo=ConsultaEstudanteUC&path=/" + casoDeUso + ".action\"'>ConsultaEstudanteUC</a>");
+
+		request.getSession().setAttribute("breadCrumb", breadCrumbCollection);
+		request.getSession().setAttribute("nomeDeTela", casoDeUso);
+
 
 		String forward = null;
 		String redirect = "";
@@ -235,6 +241,6 @@ public class ConsultaEstudanteUC extends br.mdarte.exemplo.academico.accessContr
 		__casoDeUso = "ConsultaEstudanteUC";
 		__urlCasoDeUso = "/ConsultaEstudanteUC/ConsultaEstudanteUC.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

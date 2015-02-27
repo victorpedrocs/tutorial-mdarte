@@ -99,42 +99,6 @@
         </u:available>
     </goal>
 
-    <goal name="consultarEstudante:install">
-        <maven:maven
-            descriptor="${basedir}/geral/project.xml"
-            goals="consultarEstudante:install"/>
-    </goal>
-
-    <goal name="manterEstudante:install">
-        <maven:maven
-            descriptor="${basedir}/geral/project.xml"
-            goals="manterEstudante:install"/>
-    </goal>
-
-    <goal name="detalharEstudante:install">
-        <maven:maven
-            descriptor="${basedir}/geral/project.xml"
-            goals="detalharEstudante:install"/>
-    </goal>
-
-    <goal name="consultarCurso:install">
-        <maven:maven
-            descriptor="${basedir}/geral/project.xml"
-            goals="consultarCurso:install"/>
-    </goal>
-
-    <goal name="manterCurso:install">
-        <maven:maven
-            descriptor="${basedir}/geral/project.xml"
-            goals="manterCurso:install"/>
-    </goal>
-
-    <goal name="detalharCurso:install">
-        <maven:maven
-            descriptor="${basedir}/geral/project.xml"
-            goals="detalharCurso:install"/>
-    </goal>
-
     <goal name="geral:install">
         <maven:maven
             descriptor="${basedir}/geral/project.xml"

@@ -109,6 +109,12 @@ public class PreenchaCamposConsultaEstudante extends br.mdarte.exemplo.academico
 
 		modulo = "geral";
 		Iterator breadCrumbIt = null;
+		ArrayList breadCrumbCollection = new ArrayList();
+		breadCrumbCollection.add("<a href='javascript:window.location=getPath()+\"/ForwardAction.do?modulo=ConsultaEstudanteUC&path=/" + casoDeUso + ".action\"'>ConsultaEstudanteUC</a>");
+
+		request.getSession().setAttribute("breadCrumb", breadCrumbCollection);
+		request.getSession().setAttribute("nomeDeTela", casoDeUso);
+
 		Boolean aplicacaoPermiteUsoBackBrowser = (Boolean) request.getSession().getServletContext().getAttribute("aplicacaoPermiteUsoBackBrowser");
 		
 		if (!aplicacaoPermiteUsoBackBrowser ^ false)
@@ -276,6 +282,6 @@ public class PreenchaCamposConsultaEstudante extends br.mdarte.exemplo.academico
 		__casoDeUso = "ConsultaEstudanteUC";
 		__urlCasoDeUso = "/ConsultaEstudanteUC/PreenchaCamposConsultaEstudante.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

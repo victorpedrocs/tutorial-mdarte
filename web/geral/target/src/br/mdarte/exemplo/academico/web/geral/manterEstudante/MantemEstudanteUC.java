@@ -276,6 +276,6 @@ public class MantemEstudanteUC extends br.mdarte.exemplo.academico.accessControl
 		__casoDeUso = "MantemEstudanteUC";
 		__urlCasoDeUso = "/MantemEstudanteUC/MantemEstudanteUC.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

@@ -584,3 +584,527 @@ INFO  2015-02-26 15:22:13,978 - ResourceManager : found templates/hibernate/TOEx
 ERROR 2015-02-26 15:22:13,979 - Propriedade maxSizeClass não configurada
 INFO  2015-02-26 15:22:13,981 - ResourceManager : found templates/hibernate/AuditoriaEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
 ERROR 2015-02-26 15:22:13,981 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,374 - ************************************************************** 
+INFO  2015-02-27 13:26:39,389 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-27 13:26:39,389 - RuntimeInstance initializing.
+INFO  2015-02-27 13:26:39,389 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-27 13:26:39,389 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-27 13:26:39,389 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-27 13:26:39,389 - FileResourceLoader : initialization starting.
+INFO  2015-02-27 13:26:39,389 - FileResourceLoader : adding path '.'
+INFO  2015-02-27 13:26:39,389 - FileResourceLoader : initialization complete.
+INFO  2015-02-27 13:26:39,389 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,389 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-27 13:26:39,389 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-27 13:26:39,389 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-27 13:26:39,389 - Default ResourceManager initialization complete.
+INFO  2015-02-27 13:26:39,389 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-27 13:26:39,389 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-27 13:26:39,389 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-27 13:26:39,389 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-27 13:26:39,390 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-27 13:26:39,390 - Created: 20 parsers.
+INFO  2015-02-27 13:26:39,390 - Velocimacro : initialization starting.
+INFO  2015-02-27 13:26:39,390 - Velocimacro : adding VMs from VM library template : templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,391 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,392 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,393 - Velocimacro : added new VM : #renderConstructorMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,393 - Velocimacro : added new VM : #renderConstructorImplMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,394 - Velocimacro : added new VM : #renderPropertiesGeneralization( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,394 - Velocimacro : added new VM : #renderPropertiesGeneralization2( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,395 - Velocimacro : added new VM : #renderPropertiesGeneralization3( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,396 - Velocimacro : added new VM : #renderAttributes( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,396 - Velocimacro : added new VM : #renderAttributesTO( entity ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,397 - Velocimacro : added new VM : #renderAssocationEnds( class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,399 - Velocimacro : added new VM : #renderAssocationEndsTO( class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,400 - Velocimacro : added new VM : #renderPropertiesGeneralization4( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,402 - Velocimacro : added new VM : #renderConstructorBody( semId ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 13:26:39,404 - VM #renderPropertiesGeneralization: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 13:26:39,404 - VM #renderPropertiesGeneralization2: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 13:26:39,404 - VM #renderPropertiesGeneralization3: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 13:26:39,405 - VM #renderAttributes: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 13:26:39,407 - VM #renderPropertiesGeneralization4: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 13:26:39,408 - ResourceManager : found templates/hibernate/hibernate.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,409 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 13:26:39,409 - Velocimacro : adding VMs from VM library template : templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 13:26:39,420 - Velocimacro : added new VM : #renderPropertiesAndAssociations3( entity paramSqlPrefix auditoria ) : source = templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 13:26:39,422 - Velocimacro : added new VM : #renderSubClass3( entity auditoria ) : source = templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 13:26:39,423 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 0
+INFO  2015-02-27 13:26:39,439 - VM #renderSubClass3: error : too few arguments to macro. Wanted 2 got 0
+INFO  2015-02-27 13:26:39,439 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,439 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 13:26:39,439 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-27 13:26:39,439 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-27 13:26:39,439 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-27 13:26:39,439 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-27 13:26:39,439 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-27 13:26:39,439 - Velocimacro : initialization complete.
+INFO  2015-02-27 13:26:39,439 - Velocity successfully started.
+INFO  2015-02-27 13:26:39,451 - Velocimacro : added new VM : #macroCriterioBusca( entrada stringBusca stringRaiz ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 13:26:39,453 - Velocimacro : added new VM : #macroImportaAtributos( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 13:26:39,457 - Velocimacro : added new VM : #getAssExportId( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 13:26:39,459 - Velocimacro : added new VM : #getAssExportIdMany( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 13:26:39,469 - VM #macroCriterioBusca: error : too few arguments to macro. Wanted 3 got 0
+INFO  2015-02-27 13:26:39,472 - VM #macroImportaAtributos: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 13:26:39,480 - VM #getAssExportId: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 13:26:39,481 - VM #getAssExportIdMany: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 13:26:39,485 - ResourceManager : found templates/hibernate/HibernateEntityFactory.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,510 - ResourceManager : found templates/hibernate/AbstractDAO.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,510 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,512 - ResourceManager : found templates/hibernate/LogInterceptor.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,512 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,514 - ResourceManager : found templates/hibernate/Auditable.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,514 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,519 - ResourceManager : found templates/hibernate/HibernateEntityFactoryImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,525 - ResourceManager : found templates/hibernate/hibernate.cfg.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,527 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,554 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,565 - Velocimacro : VM addition rejected : renderPropertiesAndAssociations3 : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,567 - Velocimacro : VM addition rejected : renderSubClass3 : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,567 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 13:26:39,583 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,614 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 13:26:39,633 - Velocimacro : VM addition rejected : renderPropertiesAndAssociations3 : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,634 - Velocimacro : VM addition rejected : renderSubClass3 : inline not allowed to replace existing VM
+INFO  2015-02-27 13:26:39,635 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 13:26:39,651 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,657 - ResourceManager : found templates/hibernate/DAOException.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,657 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,693 - ResourceManager : found templates/hibernate/HibernateEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,739 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntity.vsl [line 298, column 61]
+INFO  2015-02-27 13:26:39,748 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntity.vsl [line 298, column 61]
+INFO  2015-02-27 13:26:39,760 - ResourceManager : found templates/hibernate/HibernateEntityImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,760 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntityImpl.vsl [line 34, column 45]
+INFO  2015-02-27 13:26:39,761 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntityImpl.vsl [line 34, column 45]
+INFO  2015-02-27 13:26:39,764 - ResourceManager : found templates/hibernate/usertypes/HibernateByteBlobType.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,765 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,766 - ResourceManager : found templates/hibernate/usertypes/HibernateStringClobType.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,766 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,769 - ResourceManager : found templates/hibernate/ehcache.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,770 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,771 - ResourceManager : found templates/hibernate/AbstractEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,771 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,772 - ResourceManager : found templates/hibernate/EntityInterface.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,772 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,774 - ResourceManager : found templates/hibernate/AbstractWS.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,774 - Left side ($ejb) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. templates/hibernate/AbstractWS.vsl [line 7, column 12]
+ERROR 2015-02-27 13:26:39,774 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,776 - ResourceManager : found templates/hibernate/actions/Action.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,779 - ResourceManager : found templates/hibernate/actions/ListAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,782 - ResourceManager : found templates/hibernate/actions/UpdateAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,784 - ResourceManager : found templates/hibernate/actions/DeleteAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,786 - ResourceManager : found templates/hibernate/actions/FilterAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,789 - ResourceManager : found templates/hibernate/actions/DefaultFilterAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,791 - ResourceManager : found templates/hibernate/actions/SelectAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,793 - ResourceManager : found templates/hibernate/actions/InsertAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,795 - ResourceManager : found templates/hibernate/actions/InsertOrUpdateAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,798 - ResourceManager : found templates/hibernate/actions/ExportAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,800 - ResourceManager : found templates/hibernate/actions/ImportAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,802 - ResourceManager : found templates/hibernate/actions/ActionException.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,804 - ResourceManager : found templates/hibernate/actions/export/Export.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,807 - ResourceManager : found templates/hibernate/actions/export/XMLExport.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,809 - ResourceManager : found templates/hibernate/actions/export/Import.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,811 - ResourceManager : found templates/hibernate/actions/export/XMLImport.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,826 - ResourceManager : found templates/hibernate/TransferObject.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,839 - ResourceManager : found templates/hibernate/TransferObjectExample.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,847 - ResourceManager : found templates/hibernate/EntityTOInterface.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,853 - ResourceManager : found templates/hibernate/TransferObjectImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 13:26:39,854 - ResourceManager : found templates/hibernate/TOUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,854 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,855 - ResourceManager : found templates/hibernate/TOException.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,855 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 13:26:39,856 - ResourceManager : found templates/hibernate/AuditoriaEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 13:26:39,856 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,326 - ************************************************************** 
+INFO  2015-02-27 18:08:21,326 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-27 18:08:21,326 - RuntimeInstance initializing.
+INFO  2015-02-27 18:08:21,326 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-27 18:08:21,326 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-27 18:08:21,326 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-27 18:08:21,326 - FileResourceLoader : initialization starting.
+INFO  2015-02-27 18:08:21,326 - FileResourceLoader : adding path '.'
+INFO  2015-02-27 18:08:21,326 - FileResourceLoader : initialization complete.
+INFO  2015-02-27 18:08:21,326 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,326 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-27 18:08:21,326 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-27 18:08:21,326 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-27 18:08:21,326 - Default ResourceManager initialization complete.
+INFO  2015-02-27 18:08:21,326 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-27 18:08:21,326 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-27 18:08:21,327 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-27 18:08:21,327 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-27 18:08:21,327 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-27 18:08:21,327 - Created: 20 parsers.
+INFO  2015-02-27 18:08:21,327 - Velocimacro : initialization starting.
+INFO  2015-02-27 18:08:21,327 - Velocimacro : adding VMs from VM library template : templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,329 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,330 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,331 - Velocimacro : added new VM : #renderConstructorMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,331 - Velocimacro : added new VM : #renderConstructorImplMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,332 - Velocimacro : added new VM : #renderPropertiesGeneralization( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,333 - Velocimacro : added new VM : #renderPropertiesGeneralization2( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,335 - Velocimacro : added new VM : #renderPropertiesGeneralization3( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,335 - Velocimacro : added new VM : #renderAttributes( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,336 - Velocimacro : added new VM : #renderAttributesTO( entity ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,337 - Velocimacro : added new VM : #renderAssocationEnds( class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,339 - Velocimacro : added new VM : #renderAssocationEndsTO( class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,341 - Velocimacro : added new VM : #renderPropertiesGeneralization4( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,344 - Velocimacro : added new VM : #renderConstructorBody( semId ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:08:21,346 - VM #renderPropertiesGeneralization: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:08:21,346 - VM #renderPropertiesGeneralization2: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:08:21,347 - VM #renderPropertiesGeneralization3: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:08:21,347 - VM #renderAttributes: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:08:21,350 - VM #renderPropertiesGeneralization4: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:08:21,351 - ResourceManager : found templates/hibernate/hibernate.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,351 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 18:08:21,351 - Velocimacro : adding VMs from VM library template : templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 18:08:21,370 - Velocimacro : added new VM : #renderPropertiesAndAssociations3( entity paramSqlPrefix auditoria ) : source = templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 18:08:21,373 - Velocimacro : added new VM : #renderSubClass3( entity auditoria ) : source = templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 18:08:21,373 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 0
+INFO  2015-02-27 18:08:21,395 - VM #renderSubClass3: error : too few arguments to macro. Wanted 2 got 0
+INFO  2015-02-27 18:08:21,395 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,395 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 18:08:21,395 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-27 18:08:21,395 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-27 18:08:21,395 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-27 18:08:21,395 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-27 18:08:21,396 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-27 18:08:21,396 - Velocimacro : initialization complete.
+INFO  2015-02-27 18:08:21,396 - Velocity successfully started.
+INFO  2015-02-27 18:08:21,411 - Velocimacro : added new VM : #macroCriterioBusca( entrada stringBusca stringRaiz ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 18:08:21,414 - Velocimacro : added new VM : #macroImportaAtributos( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 18:08:21,420 - Velocimacro : added new VM : #getAssExportId( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 18:08:21,422 - Velocimacro : added new VM : #getAssExportIdMany( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 18:08:21,434 - VM #macroCriterioBusca: error : too few arguments to macro. Wanted 3 got 0
+INFO  2015-02-27 18:08:21,439 - VM #macroImportaAtributos: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:08:21,452 - VM #getAssExportId: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:08:21,453 - VM #getAssExportIdMany: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:08:21,458 - ResourceManager : found templates/hibernate/HibernateEntityFactory.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,487 - ResourceManager : found templates/hibernate/AbstractDAO.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,487 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,490 - ResourceManager : found templates/hibernate/LogInterceptor.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,490 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,491 - ResourceManager : found templates/hibernate/Auditable.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,491 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,497 - ResourceManager : found templates/hibernate/HibernateEntityFactoryImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,503 - ResourceManager : found templates/hibernate/hibernate.cfg.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,506 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,552 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,571 - Velocimacro : VM addition rejected : renderPropertiesAndAssociations3 : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,574 - Velocimacro : VM addition rejected : renderSubClass3 : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,575 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 18:08:21,599 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,617 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 18:08:21,643 - Velocimacro : VM addition rejected : renderPropertiesAndAssociations3 : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,645 - Velocimacro : VM addition rejected : renderSubClass3 : inline not allowed to replace existing VM
+INFO  2015-02-27 18:08:21,646 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 18:08:21,673 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,680 - ResourceManager : found templates/hibernate/DAOException.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,680 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,740 - ResourceManager : found templates/hibernate/HibernateEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,753 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntity.vsl [line 298, column 61]
+INFO  2015-02-27 18:08:21,763 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntity.vsl [line 298, column 61]
+INFO  2015-02-27 18:08:21,782 - ResourceManager : found templates/hibernate/HibernateEntityImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,783 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntityImpl.vsl [line 34, column 45]
+INFO  2015-02-27 18:08:21,783 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntityImpl.vsl [line 34, column 45]
+INFO  2015-02-27 18:08:21,787 - ResourceManager : found templates/hibernate/usertypes/HibernateByteBlobType.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,787 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,789 - ResourceManager : found templates/hibernate/usertypes/HibernateStringClobType.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,790 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,793 - ResourceManager : found templates/hibernate/ehcache.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,794 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,796 - ResourceManager : found templates/hibernate/AbstractEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,796 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,797 - ResourceManager : found templates/hibernate/EntityInterface.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,797 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,799 - ResourceManager : found templates/hibernate/AbstractWS.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,799 - Left side ($ejb) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. templates/hibernate/AbstractWS.vsl [line 7, column 12]
+ERROR 2015-02-27 18:08:21,799 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,802 - ResourceManager : found templates/hibernate/actions/Action.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,828 - ResourceManager : found templates/hibernate/actions/ListAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,831 - ResourceManager : found templates/hibernate/actions/UpdateAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,834 - ResourceManager : found templates/hibernate/actions/DeleteAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,836 - ResourceManager : found templates/hibernate/actions/FilterAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,840 - ResourceManager : found templates/hibernate/actions/DefaultFilterAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,842 - ResourceManager : found templates/hibernate/actions/SelectAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,844 - ResourceManager : found templates/hibernate/actions/InsertAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,848 - ResourceManager : found templates/hibernate/actions/InsertOrUpdateAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,850 - ResourceManager : found templates/hibernate/actions/ExportAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,855 - ResourceManager : found templates/hibernate/actions/ImportAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,859 - ResourceManager : found templates/hibernate/actions/ActionException.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,862 - ResourceManager : found templates/hibernate/actions/export/Export.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,865 - ResourceManager : found templates/hibernate/actions/export/XMLExport.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,868 - ResourceManager : found templates/hibernate/actions/export/Import.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,870 - ResourceManager : found templates/hibernate/actions/export/XMLImport.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,886 - ResourceManager : found templates/hibernate/TransferObject.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,902 - ResourceManager : found templates/hibernate/TransferObjectExample.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,911 - ResourceManager : found templates/hibernate/EntityTOInterface.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,918 - ResourceManager : found templates/hibernate/TransferObjectImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:08:21,919 - ResourceManager : found templates/hibernate/TOUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,920 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,921 - ResourceManager : found templates/hibernate/TOException.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,921 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:08:21,921 - ResourceManager : found templates/hibernate/AuditoriaEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:08:21,922 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,167 - ************************************************************** 
+INFO  2015-02-27 18:10:06,167 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-27 18:10:06,167 - RuntimeInstance initializing.
+INFO  2015-02-27 18:10:06,167 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-27 18:10:06,167 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-27 18:10:06,167 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-27 18:10:06,167 - FileResourceLoader : initialization starting.
+INFO  2015-02-27 18:10:06,167 - FileResourceLoader : adding path '.'
+INFO  2015-02-27 18:10:06,167 - FileResourceLoader : initialization complete.
+INFO  2015-02-27 18:10:06,167 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,167 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-27 18:10:06,167 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-27 18:10:06,167 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-27 18:10:06,167 - Default ResourceManager initialization complete.
+INFO  2015-02-27 18:10:06,167 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-27 18:10:06,167 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-27 18:10:06,167 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-27 18:10:06,167 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-27 18:10:06,168 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-27 18:10:06,168 - Created: 20 parsers.
+INFO  2015-02-27 18:10:06,168 - Velocimacro : initialization starting.
+INFO  2015-02-27 18:10:06,169 - Velocimacro : adding VMs from VM library template : templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,170 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,171 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,172 - Velocimacro : added new VM : #renderConstructorMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,173 - Velocimacro : added new VM : #renderConstructorImplMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,174 - Velocimacro : added new VM : #renderPropertiesGeneralization( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,174 - Velocimacro : added new VM : #renderPropertiesGeneralization2( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,176 - Velocimacro : added new VM : #renderPropertiesGeneralization3( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,176 - Velocimacro : added new VM : #renderAttributes( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,176 - Velocimacro : added new VM : #renderAttributesTO( entity ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,178 - Velocimacro : added new VM : #renderAssocationEnds( class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,180 - Velocimacro : added new VM : #renderAssocationEndsTO( class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,181 - Velocimacro : added new VM : #renderPropertiesGeneralization4( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,184 - Velocimacro : added new VM : #renderConstructorBody( semId ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 18:10:06,185 - VM #renderPropertiesGeneralization: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:10:06,185 - VM #renderPropertiesGeneralization2: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:10:06,186 - VM #renderPropertiesGeneralization3: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:10:06,186 - VM #renderAttributes: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:10:06,188 - VM #renderPropertiesGeneralization4: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:10:06,189 - ResourceManager : found templates/hibernate/hibernate.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,189 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 18:10:06,189 - Velocimacro : adding VMs from VM library template : templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 18:10:06,203 - Velocimacro : added new VM : #renderPropertiesAndAssociations3( entity paramSqlPrefix auditoria ) : source = templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 18:10:06,206 - Velocimacro : added new VM : #renderSubClass3( entity auditoria ) : source = templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 18:10:06,207 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 0
+INFO  2015-02-27 18:10:06,225 - VM #renderSubClass3: error : too few arguments to macro. Wanted 2 got 0
+INFO  2015-02-27 18:10:06,225 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,225 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 18:10:06,225 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-27 18:10:06,225 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-27 18:10:06,225 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-27 18:10:06,225 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-27 18:10:06,225 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-27 18:10:06,225 - Velocimacro : initialization complete.
+INFO  2015-02-27 18:10:06,225 - Velocity successfully started.
+INFO  2015-02-27 18:10:06,238 - Velocimacro : added new VM : #macroCriterioBusca( entrada stringBusca stringRaiz ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 18:10:06,240 - Velocimacro : added new VM : #macroImportaAtributos( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 18:10:06,244 - Velocimacro : added new VM : #getAssExportId( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 18:10:06,245 - Velocimacro : added new VM : #getAssExportIdMany( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 18:10:06,254 - VM #macroCriterioBusca: error : too few arguments to macro. Wanted 3 got 0
+INFO  2015-02-27 18:10:06,256 - VM #macroImportaAtributos: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:10:06,262 - VM #getAssExportId: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:10:06,263 - VM #getAssExportIdMany: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 18:10:06,265 - ResourceManager : found templates/hibernate/HibernateEntityFactory.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,294 - ResourceManager : found templates/hibernate/AbstractDAO.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,294 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,296 - ResourceManager : found templates/hibernate/LogInterceptor.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,296 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,298 - ResourceManager : found templates/hibernate/Auditable.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,298 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,303 - ResourceManager : found templates/hibernate/HibernateEntityFactoryImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,309 - ResourceManager : found templates/hibernate/hibernate.cfg.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,313 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,337 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,347 - Velocimacro : VM addition rejected : renderPropertiesAndAssociations3 : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:06,348 - Velocimacro : VM addition rejected : renderSubClass3 : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:06,348 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 18:10:06,360 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,367 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 18:10:06,385 - Velocimacro : VM addition rejected : renderPropertiesAndAssociations3 : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:06,386 - Velocimacro : VM addition rejected : renderSubClass3 : inline not allowed to replace existing VM
+INFO  2015-02-27 18:10:06,387 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 18:10:06,397 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,407 - ResourceManager : found templates/hibernate/DAOException.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,407 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,435 - ResourceManager : found templates/hibernate/HibernateEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,450 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntity.vsl [line 298, column 61]
+INFO  2015-02-27 18:10:06,464 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntity.vsl [line 298, column 61]
+INFO  2015-02-27 18:10:06,479 - ResourceManager : found templates/hibernate/HibernateEntityImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,479 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntityImpl.vsl [line 34, column 45]
+INFO  2015-02-27 18:10:06,481 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntityImpl.vsl [line 34, column 45]
+INFO  2015-02-27 18:10:06,485 - ResourceManager : found templates/hibernate/usertypes/HibernateByteBlobType.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,486 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,487 - ResourceManager : found templates/hibernate/usertypes/HibernateStringClobType.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,488 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,492 - ResourceManager : found templates/hibernate/ehcache.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,493 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,494 - ResourceManager : found templates/hibernate/AbstractEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,495 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,496 - ResourceManager : found templates/hibernate/EntityInterface.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,496 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,498 - ResourceManager : found templates/hibernate/AbstractWS.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,498 - Left side ($ejb) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. templates/hibernate/AbstractWS.vsl [line 7, column 12]
+ERROR 2015-02-27 18:10:06,498 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,501 - ResourceManager : found templates/hibernate/actions/Action.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,532 - ResourceManager : found templates/hibernate/actions/ListAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,553 - ResourceManager : found templates/hibernate/actions/UpdateAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,582 - ResourceManager : found templates/hibernate/actions/DeleteAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,586 - ResourceManager : found templates/hibernate/actions/FilterAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,590 - ResourceManager : found templates/hibernate/actions/DefaultFilterAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,594 - ResourceManager : found templates/hibernate/actions/SelectAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,597 - ResourceManager : found templates/hibernate/actions/InsertAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,609 - ResourceManager : found templates/hibernate/actions/InsertOrUpdateAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,612 - ResourceManager : found templates/hibernate/actions/ExportAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,616 - ResourceManager : found templates/hibernate/actions/ImportAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,619 - ResourceManager : found templates/hibernate/actions/ActionException.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,622 - ResourceManager : found templates/hibernate/actions/export/Export.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,625 - ResourceManager : found templates/hibernate/actions/export/XMLExport.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,628 - ResourceManager : found templates/hibernate/actions/export/Import.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,631 - ResourceManager : found templates/hibernate/actions/export/XMLImport.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,642 - ResourceManager : found templates/hibernate/TransferObject.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,656 - ResourceManager : found templates/hibernate/TransferObjectExample.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,666 - ResourceManager : found templates/hibernate/EntityTOInterface.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,673 - ResourceManager : found templates/hibernate/TransferObjectImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 18:10:06,675 - ResourceManager : found templates/hibernate/TOUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,675 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,676 - ResourceManager : found templates/hibernate/TOException.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,677 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 18:10:06,678 - ResourceManager : found templates/hibernate/AuditoriaEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 18:10:06,678 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,300 - ************************************************************** 
+INFO  2015-02-27 19:58:06,300 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-02-27 19:58:06,300 - RuntimeInstance initializing.
+INFO  2015-02-27 19:58:06,300 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-02-27 19:58:06,300 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-02-27 19:58:06,300 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-02-27 19:58:06,300 - FileResourceLoader : initialization starting.
+INFO  2015-02-27 19:58:06,300 - FileResourceLoader : adding path '.'
+INFO  2015-02-27 19:58:06,300 - FileResourceLoader : initialization complete.
+INFO  2015-02-27 19:58:06,300 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,300 - ClasspathResourceLoader : initialization starting.
+INFO  2015-02-27 19:58:06,300 - ClasspathResourceLoader : initialization complete.
+INFO  2015-02-27 19:58:06,300 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-02-27 19:58:06,301 - Default ResourceManager initialization complete.
+INFO  2015-02-27 19:58:06,301 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-02-27 19:58:06,301 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-02-27 19:58:06,301 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-02-27 19:58:06,301 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-02-27 19:58:06,301 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-02-27 19:58:06,302 - Created: 20 parsers.
+INFO  2015-02-27 19:58:06,302 - Velocimacro : initialization starting.
+INFO  2015-02-27 19:58:06,302 - Velocimacro : adding VMs from VM library template : templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,305 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,308 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,310 - Velocimacro : added new VM : #renderConstructorMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,311 - Velocimacro : added new VM : #renderConstructorImplMethod( class className attributeSet ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,315 - Velocimacro : added new VM : #renderPropertiesGeneralization( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,316 - Velocimacro : added new VM : #renderPropertiesGeneralization2( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,321 - Velocimacro : added new VM : #renderPropertiesGeneralization3( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,323 - Velocimacro : added new VM : #renderAttributes( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,324 - Velocimacro : added new VM : #renderAttributesTO( entity ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,329 - Velocimacro : added new VM : #renderAssocationEnds( class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,336 - Velocimacro : added new VM : #renderAssocationEndsTO( class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,341 - Velocimacro : added new VM : #renderPropertiesGeneralization4( _class ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,351 - Velocimacro : added new VM : #renderConstructorBody( semId ) : source = templates/hibernate/hibernate.java.vm
+INFO  2015-02-27 19:58:06,353 - VM #renderPropertiesGeneralization: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 19:58:06,353 - VM #renderPropertiesGeneralization2: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 19:58:06,354 - VM #renderPropertiesGeneralization3: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 19:58:06,355 - VM #renderAttributes: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 19:58:06,360 - VM #renderPropertiesGeneralization4: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 19:58:06,363 - ResourceManager : found templates/hibernate/hibernate.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,363 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 19:58:06,363 - Velocimacro : adding VMs from VM library template : templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 19:58:06,403 - Velocimacro : added new VM : #renderPropertiesAndAssociations3( entity paramSqlPrefix auditoria ) : source = templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 19:58:06,410 - Velocimacro : added new VM : #renderSubClass3( entity auditoria ) : source = templates/hibernate/hibernate.hbm.xml.vm
+INFO  2015-02-27 19:58:06,410 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 0
+INFO  2015-02-27 19:58:06,457 - VM #renderSubClass3: error : too few arguments to macro. Wanted 2 got 0
+INFO  2015-02-27 19:58:06,457 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,457 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-02-27 19:58:06,457 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-02-27 19:58:06,457 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-02-27 19:58:06,457 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-02-27 19:58:06,457 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-02-27 19:58:06,457 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-02-27 19:58:06,458 - Velocimacro : initialization complete.
+INFO  2015-02-27 19:58:06,458 - Velocity successfully started.
+INFO  2015-02-27 19:58:06,483 - Velocimacro : added new VM : #macroCriterioBusca( entrada stringBusca stringRaiz ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 19:58:06,491 - Velocimacro : added new VM : #macroImportaAtributos( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 19:58:06,508 - Velocimacro : added new VM : #getAssExportId( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 19:58:06,513 - Velocimacro : added new VM : #getAssExportIdMany( entrada ) : source = templates/hibernate/HibernateEntityFactory.vsl
+INFO  2015-02-27 19:58:06,541 - VM #macroCriterioBusca: error : too few arguments to macro. Wanted 3 got 0
+INFO  2015-02-27 19:58:06,546 - VM #macroImportaAtributos: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 19:58:06,560 - VM #getAssExportId: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 19:58:06,562 - VM #getAssExportIdMany: error : too few arguments to macro. Wanted 1 got 0
+INFO  2015-02-27 19:58:06,568 - ResourceManager : found templates/hibernate/HibernateEntityFactory.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,616 - ResourceManager : found templates/hibernate/AbstractDAO.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,616 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,618 - ResourceManager : found templates/hibernate/LogInterceptor.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,618 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,619 - ResourceManager : found templates/hibernate/Auditable.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,620 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,627 - ResourceManager : found templates/hibernate/HibernateEntityFactoryImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,635 - ResourceManager : found templates/hibernate/hibernate.cfg.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,639 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,689 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,708 - Velocimacro : VM addition rejected : renderPropertiesAndAssociations3 : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:06,712 - Velocimacro : VM addition rejected : renderSubClass3 : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:06,713 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 19:58:06,740 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,748 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 19:58:06,780 - Velocimacro : VM addition rejected : renderPropertiesAndAssociations3 : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:06,783 - Velocimacro : VM addition rejected : renderSubClass3 : inline not allowed to replace existing VM
+INFO  2015-02-27 19:58:06,784 - VM #renderPropertiesAndAssociations3: error : too few arguments to macro. Wanted 3 got 2
+INFO  2015-02-27 19:58:06,812 - ResourceManager : found templates/hibernate/hibernate.hbm.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,821 - ResourceManager : found templates/hibernate/DAOException.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,821 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,885 - ResourceManager : found templates/hibernate/HibernateEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,901 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntity.vsl [line 298, column 61]
+INFO  2015-02-27 19:58:06,915 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntity.vsl [line 298, column 61]
+INFO  2015-02-27 19:58:06,937 - ResourceManager : found templates/hibernate/HibernateEntityImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,938 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntityImpl.vsl [line 34, column 45]
+INFO  2015-02-27 19:58:06,939 - Left side ($identifiers.size) of '>' operation has null value. Operation not possible. templates/hibernate/HibernateEntityImpl.vsl [line 34, column 45]
+INFO  2015-02-27 19:58:06,944 - ResourceManager : found templates/hibernate/usertypes/HibernateByteBlobType.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,945 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,948 - ResourceManager : found templates/hibernate/usertypes/HibernateStringClobType.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,948 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,953 - ResourceManager : found templates/hibernate/ehcache.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,955 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,956 - ResourceManager : found templates/hibernate/AbstractEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,957 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,958 - ResourceManager : found templates/hibernate/EntityInterface.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:06,958 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,962 - ResourceManager : found templates/hibernate/AbstractWS.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,962 - Left side ($ejb) of '==' operation has null value. If a reference, it may not be in the context. Operation not possible. templates/hibernate/AbstractWS.vsl [line 7, column 12]
+ERROR 2015-02-27 19:58:06,962 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:06,966 - ResourceManager : found templates/hibernate/actions/Action.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,984 - ResourceManager : found templates/hibernate/actions/ListAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,988 - ResourceManager : found templates/hibernate/actions/UpdateAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,992 - ResourceManager : found templates/hibernate/actions/DeleteAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:06,997 - ResourceManager : found templates/hibernate/actions/FilterAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,001 - ResourceManager : found templates/hibernate/actions/DefaultFilterAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,005 - ResourceManager : found templates/hibernate/actions/SelectAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,008 - ResourceManager : found templates/hibernate/actions/InsertAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,012 - ResourceManager : found templates/hibernate/actions/InsertOrUpdateAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,016 - ResourceManager : found templates/hibernate/actions/ExportAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,019 - ResourceManager : found templates/hibernate/actions/ImportAction.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,023 - ResourceManager : found templates/hibernate/actions/ActionException.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,026 - ResourceManager : found templates/hibernate/actions/export/Export.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,030 - ResourceManager : found templates/hibernate/actions/export/XMLExport.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,033 - ResourceManager : found templates/hibernate/actions/export/Import.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,037 - ResourceManager : found templates/hibernate/actions/export/XMLImport.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,060 - ResourceManager : found templates/hibernate/TransferObject.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,079 - ResourceManager : found templates/hibernate/TransferObjectExample.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,091 - ResourceManager : found templates/hibernate/EntityTOInterface.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,100 - ResourceManager : found templates/hibernate/TransferObjectImpl.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-02-27 19:58:07,103 - ResourceManager : found templates/hibernate/TOUtil.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:07,103 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:07,104 - ResourceManager : found templates/hibernate/TOException.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:07,104 - Propriedade maxSizeClass não configurada
+INFO  2015-02-27 19:58:07,106 - ResourceManager : found templates/hibernate/AuditoriaEntity.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-02-27 19:58:07,106 - Propriedade maxSizeClass não configurada

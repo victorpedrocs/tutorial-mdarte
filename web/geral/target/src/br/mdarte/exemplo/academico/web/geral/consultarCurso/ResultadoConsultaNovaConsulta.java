@@ -160,6 +160,6 @@ public class ResultadoConsultaNovaConsulta extends br.mdarte.exemplo.academico.a
 		__casoDeUso = "ConsultaCursoUC";
 		__urlCasoDeUso = "/ConsultaCursoUC/ResultadoConsultaNovaConsulta.action";
 		__modulo = "geral";
-		__contexto = "/geral";
+		__contexto = "";
 	}
 }

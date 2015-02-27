@@ -527,7 +527,7 @@
     <module>
         <web>
             <web-uri>${pom.artifactId}${artifactIdSuffix}-${pom.CurrentVersion}.war</web-uri>
-            <context-root>/sistemaacademico/geral</context-root>
+            <context-root>/sistemaacademico</context-root>
         </web>
     </module>]]></j:file>
     </goal>

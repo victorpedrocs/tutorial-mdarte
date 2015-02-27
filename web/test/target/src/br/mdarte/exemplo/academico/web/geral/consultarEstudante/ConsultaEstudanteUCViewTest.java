@@ -28,14 +28,14 @@ public class ConsultaEstudanteUCViewTest {
 	 * Opens the URL of the use case from the current module.
 	 */
 	public void openUseCase() {
-		this.viewTestController.open("/sistemaacademico/geral/ConsultaEstudanteUC/ConsultaEstudanteUC.do");
+		this.viewTestController.open("/sistemaacademico/ConsultaEstudanteUC/ConsultaEstudanteUC.do");
 	}
 
 	/**
 	 * Opens the URL of the use case from the principal module.
 	 */
 	public void openUseCaseFromPrincipalModule() {
-		this.viewTestController.open("/sistemaacademico/ForwardAction.do?modulo=&path=/geral/ConsultaEstudanteUC/ConsultaEstudanteUC.do");
+		this.viewTestController.open("/sistemaacademico/ForwardAction.do?modulo=&path=/ConsultaEstudanteUC/ConsultaEstudanteUC.do");
 	}
 
 	/**
@@ -63,7 +63,7 @@ public class ConsultaEstudanteUCViewTest {
 	}
 
 	public void open_action1_consultaEstudante() {
-		this.viewTestController.open("/sistemaacademico/geral/ConsultaEstudanteUC/PreenchaCamposConsultaEstudante.do");
+		this.viewTestController.open("/sistemaacademico/ConsultaEstudanteUC/PreenchaCamposConsultaEstudante.do");
 	}
 
 
@@ -82,7 +82,7 @@ public class ConsultaEstudanteUCViewTest {
 	}
 
 	public void open_action2_novaConsulta() {
-		this.viewTestController.open("/sistemaacademico/geral/ConsultaEstudanteUC/ResultadoConsultaNovaConsulta.do");
+		this.viewTestController.open("/sistemaacademico/ConsultaEstudanteUC/ResultadoConsultaNovaConsulta.do");
 	}
 
 	/**
@@ -100,7 +100,7 @@ public class ConsultaEstudanteUCViewTest {
 	}
 
 	public void open_action3_detalhaEstudante() {
-		this.viewTestController.open("/sistemaacademico/geral/ConsultaEstudanteUC/ResultadoConsultaDetalhaEstudante.do");
+		this.viewTestController.open("/sistemaacademico/ConsultaEstudanteUC/ResultadoConsultaDetalhaEstudante.do");
 	}
 
 
