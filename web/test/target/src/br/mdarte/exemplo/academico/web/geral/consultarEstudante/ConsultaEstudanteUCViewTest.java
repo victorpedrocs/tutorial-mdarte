@@ -6,11 +6,13 @@ import basic.BasicViewTestController;
 public class ConsultaEstudanteUCViewTest {
 	private BasicViewTestController viewTestController;
 
+	private java.lang.String idEstudante = null;
+	
 	private java.lang.String matricula = null;
 	
 	private java.lang.String nome = null;
 	
-	private java.lang.String idEstudante = null;
+	private java.lang.String cpf = null;
 	
 
 	public ConsultaEstudanteUCViewTest(BasicViewTestController viewTestController) {
@@ -42,14 +44,9 @@ public class ConsultaEstudanteUCViewTest {
 	 * consultaEstudante
 	 * Action number 1.
 	 *
-	 * matricula Text or Password.
 	 * nome Text or Password.
 	 */
 	public void action1_consultaEstudante() {
-		if (matricula != null) {
-			viewTestController.type("//input[@id='consultaEstudanteMatricula']", matricula);
-		}
-
 		if (nome != null) {
 			viewTestController.type("//input[@id='consultaEstudanteNome']", nome);
 		}
@@ -139,6 +136,14 @@ public class ConsultaEstudanteUCViewTest {
 
 	/* PARAMETERS */
 
+	public java.lang.String getIdEstudante() {
+		return idEstudante;
+	}
+
+	public void setIdEstudante(java.lang.String idEstudante) {
+		this.idEstudante = idEstudante;
+	}
+
 	public java.lang.String getMatricula() {
 		return matricula;
 	}
@@ -155,23 +160,25 @@ public class ConsultaEstudanteUCViewTest {
 		this.nome = nome;
 	}
 
-	public java.lang.String getIdEstudante() {
-		return idEstudante;
+	public java.lang.String getCpf() {
+		return cpf;
 	}
 
-	public void setIdEstudante(java.lang.String idEstudante) {
-		this.idEstudante = idEstudante;
+	public void setCpf(java.lang.String cpf) {
+		this.cpf = cpf;
 	}
 
 	/**
 	 * Clear all parameters.
 	 */
 	public void clearAll() {
+		this.idEstudante = null;
+
 		this.matricula = null;
 
 		this.nome = null;
 
-		this.idEstudante = null;
+		this.cpf = null;
 
 
 	}

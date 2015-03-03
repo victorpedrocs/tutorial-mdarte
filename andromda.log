@@ -1,158 +1,270 @@
-2015-02-27 19:57:59,412 INFO  [AndroMDA] - discovering namespaces -
-2015-02-27 19:57:59,444 INFO  [AndroMDA] found namespace --> 'ejb'
-2015-02-27 19:57:59,445 INFO  [AndroMDA]   +  registering component 'metafacades'
-2015-02-27 19:57:59,490 INFO  [AndroMDA]   +  registering component 'cartridge'
-2015-02-27 19:57:59,568 INFO  [AndroMDA]   +  registering component 'profile'
-2015-02-27 19:57:59,599 INFO  [AndroMDA] found namespace --> 'hibernate'
-2015-02-27 19:57:59,599 INFO  [AndroMDA]   +  registering component 'metafacades'
-2015-02-27 19:57:59,641 INFO  [AndroMDA]   +  registering component 'cartridge'
-2015-02-27 19:57:59,670 INFO  [AndroMDA]   +  registering component 'profile'
-2015-02-27 19:57:59,689 INFO  [AndroMDA] found namespace --> 'junit'
-2015-02-27 19:57:59,689 INFO  [AndroMDA]   +  registering component 'metafacades'
-2015-02-27 19:57:59,705 INFO  [AndroMDA]   +  registering component 'cartridge'
-2015-02-27 19:57:59,716 INFO  [AndroMDA]   +  registering component 'profile'
-2015-02-27 19:57:59,725 INFO  [AndroMDA] found namespace --> 'java'
-2015-02-27 19:57:59,725 INFO  [AndroMDA]   +  registering component 'cartridge'
-2015-02-27 19:57:59,756 INFO  [AndroMDA] found namespace --> 'bpm4struts'
-2015-02-27 19:57:59,782 INFO  [AndroMDA]   +  registering component 'metafacades'
-2015-02-27 19:57:59,850 INFO  [AndroMDA]   +  registering component 'cartridge'
-2015-02-27 19:57:59,951 INFO  [AndroMDA]   +  registering component 'profile'
-2015-02-27 19:57:59,972 INFO  [AndroMDA] found namespace --> 'validation'
-2015-02-27 19:57:59,972 INFO  [AndroMDA]   +  registering component 'translation-library'
-2015-02-27 19:58:00,166 INFO  [AndroMDA] found namespace --> 'query'
-2015-02-27 19:58:00,166 INFO  [AndroMDA]   +  registering component 'translation-library'
-2015-02-27 19:58:00,177 INFO  [AndroMDA] found namespace --> 'uml'
-2015-02-27 19:58:00,177 INFO  [AndroMDA]   +  registering component 'metafacades'
-2015-02-27 19:58:00,283 INFO  [AndroMDA]   +  registering component 'profile'
-2015-02-27 19:58:00,289 INFO  [AndroMDA] found namespace --> 'netBeansMDR'
-2015-02-27 19:58:00,289 INFO  [AndroMDA]   +  registering component 'repository'
-2015-02-27 19:58:00,916 INFO  [AndroMDA] - core initialization complete: 1.794[s] -
-2015-02-27 19:58:00,931 INFO  [AndroMDA] loading model --> 'file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/SistemaAcademico.xml'
-2015-02-27 19:58:01,544 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-datatype-3.1.xml.zip!/andromda-profile-datatype-3.1.xml'
-2015-02-27 19:58:01,579 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-3.1.xml.zip!/andromda-profile-3.1.xml'
-2015-02-27 19:58:01,586 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-webservice-3.1.xml.zip!/andromda-profile-webservice-3.1.xml'
-2015-02-27 19:58:01,592 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-service-3.1.xml.zip!/andromda-profile-service-3.1.xml'
-2015-02-27 19:58:01,592 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-process-3.1.xml.zip!/andromda-profile-process-3.1.xml'
-2015-02-27 19:58:01,596 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-presentation-3.1.xml.zip!/andromda-profile-presentation-3.1.xml'
-2015-02-27 19:58:01,604 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-meta-3.1.xml.zip!/andromda-profile-meta-3.1.xml'
-2015-02-27 19:58:01,605 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-persistence-3.1.xml.zip!/andromda-profile-persistence-3.1.xml'
-2015-02-27 19:58:01,618 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-test-3.1.xml.zip!/andromda-profile-test-3.1.xml'
-2015-02-27 19:58:01,769 INFO  [AndroMDA] - loading complete: 0.84[s] -
-2015-02-27 19:58:01,769 INFO  [AndroMDA] - validating model -
-2015-02-27 19:58:03,924 INFO  [AndroMDA] - validation complete: 2.155[s] -
-2015-02-27 19:58:04,094 INFO  [AndroMDA] 
+2015-03-03 15:45:54,966 INFO  [AndroMDA] - discovering namespaces -
+2015-03-03 15:45:55,018 INFO  [AndroMDA] found namespace --> 'ejb'
+2015-03-03 15:45:55,019 INFO  [AndroMDA]   +  registering component 'metafacades'
+2015-03-03 15:45:55,086 INFO  [AndroMDA]   +  registering component 'cartridge'
+2015-03-03 15:45:55,203 INFO  [AndroMDA]   +  registering component 'profile'
+2015-03-03 15:45:55,244 INFO  [AndroMDA] found namespace --> 'hibernate'
+2015-03-03 15:45:55,244 INFO  [AndroMDA]   +  registering component 'metafacades'
+2015-03-03 15:45:55,279 INFO  [AndroMDA]   +  registering component 'cartridge'
+2015-03-03 15:45:55,310 INFO  [AndroMDA]   +  registering component 'profile'
+2015-03-03 15:45:55,331 INFO  [AndroMDA] found namespace --> 'junit'
+2015-03-03 15:45:55,331 INFO  [AndroMDA]   +  registering component 'metafacades'
+2015-03-03 15:45:55,355 INFO  [AndroMDA]   +  registering component 'cartridge'
+2015-03-03 15:45:55,372 INFO  [AndroMDA]   +  registering component 'profile'
+2015-03-03 15:45:55,383 INFO  [AndroMDA] found namespace --> 'java'
+2015-03-03 15:45:55,383 INFO  [AndroMDA]   +  registering component 'cartridge'
+2015-03-03 15:45:55,436 INFO  [AndroMDA] found namespace --> 'bpm4struts'
+2015-03-03 15:45:55,476 INFO  [AndroMDA]   +  registering component 'metafacades'
+2015-03-03 15:45:55,567 INFO  [AndroMDA]   +  registering component 'cartridge'
+2015-03-03 15:45:55,706 INFO  [AndroMDA]   +  registering component 'profile'
+2015-03-03 15:45:55,743 INFO  [AndroMDA] found namespace --> 'validation'
+2015-03-03 15:45:55,743 INFO  [AndroMDA]   +  registering component 'translation-library'
+2015-03-03 15:45:55,900 INFO  [AndroMDA] found namespace --> 'query'
+2015-03-03 15:45:55,900 INFO  [AndroMDA]   +  registering component 'translation-library'
+2015-03-03 15:45:55,916 INFO  [AndroMDA] found namespace --> 'uml'
+2015-03-03 15:45:55,916 INFO  [AndroMDA]   +  registering component 'metafacades'
+2015-03-03 15:45:56,036 INFO  [AndroMDA]   +  registering component 'profile'
+2015-03-03 15:45:56,043 INFO  [AndroMDA] found namespace --> 'netBeansMDR'
+2015-03-03 15:45:56,044 INFO  [AndroMDA]   +  registering component 'repository'
+2015-03-03 15:45:56,937 INFO  [AndroMDA] - core initialization complete: 2.184[s] -
+2015-03-03 15:45:56,983 INFO  [AndroMDA] loading model --> 'file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/SistemaAcademico.xml'
+2015-03-03 15:45:57,753 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-datatype-3.1.xml.zip!/andromda-profile-datatype-3.1.xml'
+2015-03-03 15:45:57,789 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-3.1.xml.zip!/andromda-profile-3.1.xml'
+2015-03-03 15:45:57,801 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-webservice-3.1.xml.zip!/andromda-profile-webservice-3.1.xml'
+2015-03-03 15:45:57,801 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-service-3.1.xml.zip!/andromda-profile-service-3.1.xml'
+2015-03-03 15:45:57,810 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-process-3.1.xml.zip!/andromda-profile-process-3.1.xml'
+2015-03-03 15:45:57,811 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-presentation-3.1.xml.zip!/andromda-profile-presentation-3.1.xml'
+2015-03-03 15:45:57,812 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-meta-3.1.xml.zip!/andromda-profile-meta-3.1.xml'
+2015-03-03 15:45:57,812 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-persistence-3.1.xml.zip!/andromda-profile-persistence-3.1.xml'
+2015-03-03 15:45:57,838 INFO  [AndroMDA] referenced model --> 'jar:file:/home/vpedro/Work/workspace/sistemaacademico/mda/src/uml/xml.zips/andromda-profile-test-3.1.xml.zip!/andromda-profile-test-3.1.xml'
+2015-03-03 15:45:57,975 INFO  [AndroMDA] - loading complete: 0.993[s] -
+2015-03-03 15:45:57,975 INFO  [AndroMDA] - validating model -
+2015-03-03 15:46:00,662 INFO  [AndroMDA] - validation complete: 2.687[s] -
+2015-03-03 15:46:00,785 INFO  [AndroMDA] 
 
 Gerando todos os arquivos . Aguarde um momento!
 
 
-2015-02-27 19:58:06,458 INFO  [AndroMDA] 
+2015-03-03 15:46:03,082 INFO  [AndroMDA] 
 
 Gerando todos os arquivos . Aguarde um momento!
 
 
-2015-02-27 19:58:07,143 INFO  [AndroMDA] 
+2015-03-03 15:46:03,680 INFO  [AndroMDA] 
 
 Gerando todos os arquivos . Aguarde um momento!
 
 
-2015-02-27 19:58:07,209 INFO  [AndroMDA] 
+2015-03-03 15:46:03,763 INFO  [AndroMDA] 
 
 Gerando todos os arquivos . Aguarde um momento!
 
 
-2015-02-27 19:58:07,358 INFO  [AndroMDA] 
+2015-03-03 15:46:03,913 INFO  [AndroMDA] 
 
 Gerando todos os arquivos . Aguarde um momento!
 
 
-2015-02-27 19:58:10,638 INFO  [AndroMDA] completed model processing --> TIME: 9.722[s], RESOURCES WRITTEN: 566
-2015-02-27 19:58:10,648 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from 'mda/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-mda-1.0.pom'
-2015-02-27 19:58:11,891 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/common/target/sistemaacademico-common-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/jars/sistemaacademico-common-1.0.jar'
-2015-02-27 19:58:11,891 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from 'common/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-common-1.0.pom'
-2015-02-27 19:58:13,762 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cd/target/sistemaacademico-dominio-core-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/jars/sistemaacademico-dominio-core-1.0.jar'
-2015-02-27 19:58:13,762 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cd/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-dominio-core-1.0.pom'
-2015-02-27 19:58:13,901 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
-2015-02-27 19:58:13,989 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
-2015-02-27 19:58:13,989 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] shared
-2015-02-27 19:58:13,989 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico compartilhado EJB
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list shared
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 146M/404M
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list Sistema Academico compartilhado EJB
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 146M/404M
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] shared
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico compartilhado EJB
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:13,990 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing multiproject:install-callback shared
-2015-02-27 19:58:13,991 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 146M/404M
-2015-02-27 19:58:13,991 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:14,199 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/shared/target/sistemaacademico-shared-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/ejbs/sistemaacademico-shared-1.0.jar'
-2015-02-27 19:58:14,200 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/shared/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-shared-1.0.pom'
-2015-02-27 19:58:14,200 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:14,200 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing multiproject:install-callback Sistema Academico compartilhado EJB
-2015-02-27 19:58:14,200 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 88M/405M
-2015-02-27 19:58:14,200 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:14,450 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/compartilhado/target/sistemaacademico-compartilhado-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/ejbs/sistemaacademico-compartilhado-1.0.jar'
-2015-02-27 19:58:14,450 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/compartilhado/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-compartilhado-1.0.pom'
-2015-02-27 19:58:14,631 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/initial/target/sistemaacademico-initial-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/jars/sistemaacademico-initial-1.0.jar'
-2015-02-27 19:58:14,631 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/initial/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-initial-1.0.pom'
-2015-02-27 19:58:14,792 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
-2015-02-27 19:58:15,298 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
-2015-02-27 19:58:15,298 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] View Test
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico help Web
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico layout Web
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] geral Web
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list View Test
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 351M/404M
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list Sistema Academico help Web
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 351M/404M
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list Sistema Academico layout Web
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 351M/404M
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list geral Web
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 351M/404M
-2015-02-27 19:58:15,299 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] View Test
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico help Web
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico layout Web
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] geral Web
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing install View Test
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 351M/404M
-2015-02-27 19:58:15,300 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,458 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:15,458 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing install Sistema Academico help Web
-2015-02-27 19:58:15,458 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 290M/406M
-2015-02-27 19:58:15,458 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:16,265 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/help/target/sistemaacademico-help-web.war' to: '/home/vpedro/.maven/repository/sistemaacademico/wars/sistemaacademico-help-web-1.0.war'
-2015-02-27 19:58:16,280 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/help/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-help-web-1.0.pom'
-2015-02-27 19:58:16,280 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:16,280 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing install Sistema Academico layout Web
-2015-02-27 19:58:16,280 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 368M/406M
-2015-02-27 19:58:16,280 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:17,352 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/layout/target/sistemaacademico-layout-web.war' to: '/home/vpedro/.maven/repository/sistemaacademico/wars/sistemaacademico-layout-web-1.0.war'
-2015-02-27 19:58:17,368 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/layout/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-layout-web-1.0.pom'
-2015-02-27 19:58:17,368 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:17,368 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing install geral Web
-2015-02-27 19:58:17,368 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 156M/406M
-2015-02-27 19:58:17,368 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
-2015-02-27 19:58:19,486 INFO  [com.werken.werkz.jelly.PostGoalTag] Running post goal: war:war
-2015-02-27 19:58:19,486 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/geral/target/sistemaacademico-geral-web.war' to: '/home/vpedro/.maven/repository/sistemaacademico/wars/sistemaacademico-geral-web-1.0.war'
-2015-02-27 19:58:19,502 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/geral/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-geral-web-1.0.pom'
-2015-02-27 19:58:19,502 INFO  [org.apache.maven.cli.App] BUILD SUCCESSFUL
-2015-02-27 19:58:19,658 INFO  [org.apache.maven.cli.App] Total time: 22 seconds
-2015-02-27 19:58:19,659 INFO  [org.apache.maven.cli.App] Finished at: Fri Feb 27 19:58:19 BRT 2015
-2015-02-27 19:58:19,659 INFO  [org.apache.maven.cli.App] 
+2015-03-03 15:46:07,272 INFO  [AndroMDA] completed model processing --> TIME: 10.335[s], RESOURCES WRITTEN: 560
+2015-03-03 15:46:07,285 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from 'mda/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-mda-1.0.pom'
+2015-03-03 15:46:09,494 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/common/target/sistemaacademico-common-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/jars/sistemaacademico-common-1.0.jar'
+2015-03-03 15:46:09,495 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from 'common/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-common-1.0.pom'
+2015-03-03 15:46:12,959 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cd/target/sistemaacademico-dominio-core-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/jars/sistemaacademico-dominio-core-1.0.jar'
+2015-03-03 15:46:12,959 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cd/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-dominio-core-1.0.pom'
+2015-03-03 15:46:13,203 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
+2015-03-03 15:46:13,507 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
+2015-03-03 15:46:13,507 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico compartilhado EJB
+2015-03-03 15:46:13,507 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] shared
+2015-03-03 15:46:13,507 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] curso EJB
+2015-03-03 15:46:13,507 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] estudante EJB
+2015-03-03 15:46:13,507 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,507 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list Sistema Academico compartilhado EJB
+2015-03-03 15:46:13,507 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 214M/404M
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list shared
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 214M/404M
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list curso EJB
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 214M/404M
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list estudante EJB
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 214M/404M
+2015-03-03 15:46:13,508 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico compartilhado EJB
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] shared
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] curso EJB
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] estudante EJB
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing multiproject:install-callback Sistema Academico compartilhado EJB
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 214M/404M
+2015-03-03 15:46:13,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,900 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/compartilhado/target/sistemaacademico-compartilhado-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/ejbs/sistemaacademico-compartilhado-1.0.jar'
+2015-03-03 15:46:13,900 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/compartilhado/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-compartilhado-1.0.pom'
+2015-03-03 15:46:13,900 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:13,900 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing multiproject:install-callback shared
+2015-03-03 15:46:13,900 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 122M/404M
+2015-03-03 15:46:13,900 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:14,054 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/shared/target/sistemaacademico-shared-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/ejbs/sistemaacademico-shared-1.0.jar'
+2015-03-03 15:46:14,055 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/shared/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-shared-1.0.pom'
+2015-03-03 15:46:14,055 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:14,055 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing multiproject:install-callback curso EJB
+2015-03-03 15:46:14,055 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 68M/406M
+2015-03-03 15:46:14,055 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:14,310 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/curso/target/sistemaacademico-curso-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/ejbs/sistemaacademico-curso-1.0.jar'
+2015-03-03 15:46:14,330 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/curso/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-curso-1.0.pom'
+2015-03-03 15:46:14,331 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:14,331 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing multiproject:install-callback estudante EJB
+2015-03-03 15:46:14,331 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 180M/406M
+2015-03-03 15:46:14,331 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:14,574 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/estudante/target/sistemaacademico-estudante-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/ejbs/sistemaacademico-estudante-1.0.jar'
+2015-03-03 15:46:14,574 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/estudante/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-estudante-1.0.pom'
+2015-03-03 15:46:14,898 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/initial/target/sistemaacademico-initial-1.0.jar' to: '/home/vpedro/.maven/repository/sistemaacademico/jars/sistemaacademico-initial-1.0.jar'
+2015-03-03 15:46:14,930 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/core/cs/initial/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-initial-1.0.pom'
+2015-03-03 15:46:15,526 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] View Test
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico help Web
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico layout Web
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] geral Web
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list View Test
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 134M/393M
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list Sistema Academico help Web
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 134M/393M
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list Sistema Academico layout Web
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 134M/393M
+2015-03-03 15:46:16,186 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list geral Web
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 134M/393M
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] View Test
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico help Web
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico layout Web
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] geral Web
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing install View Test
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 134M/393M
+2015-03-03 15:46:16,187 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,394 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:16,394 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing install Sistema Academico help Web
+2015-03-03 15:46:16,394 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 66M/406M
+2015-03-03 15:46:16,394 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:17,494 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/help/target/sistemaacademico-help-web.war' to: '/home/vpedro/.maven/repository/sistemaacademico/wars/sistemaacademico-help-web-1.0.war'
+2015-03-03 15:46:17,509 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/help/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-help-web-1.0.pom'
+2015-03-03 15:46:17,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:17,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing install Sistema Academico layout Web
+2015-03-03 15:46:17,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 142M/408M
+2015-03-03 15:46:17,509 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:19,568 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/layout/target/sistemaacademico-layout-web.war' to: '/home/vpedro/.maven/repository/sistemaacademico/wars/sistemaacademico-layout-web-1.0.war'
+2015-03-03 15:46:19,621 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/layout/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-layout-web-1.0.pom'
+2015-03-03 15:46:19,621 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:19,621 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing install geral Web
+2015-03-03 15:46:19,621 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 230M/408M
+2015-03-03 15:46:19,622 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,110 INFO  [com.werken.werkz.jelly.PostGoalTag] Running post goal: war:war
+2015-03-03 15:46:23,110 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/geral/target/sistemaacademico-geral-web.war' to: '/home/vpedro/.maven/repository/sistemaacademico/wars/sistemaacademico-geral-web-1.0.war'
+2015-03-03 15:46:23,125 INFO  [org.apache.maven.artifact.deployer.DefaultArtifactDeployer] Copying: from '/home/vpedro/Work/workspace/sistemaacademico/web/geral/project.xml' to: '/home/vpedro/.maven/repository/sistemaacademico/poms/sistemaacademico-geral-web-1.0.pom'
+2015-03-03 15:46:23,651 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
+2015-03-03 15:46:23,697 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
+2015-03-03 15:46:23,697 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico compartilhado EJB
+2015-03-03 15:46:23,697 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] shared
+2015-03-03 15:46:23,697 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] curso EJB
+2015-03-03 15:46:23,697 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] estudante EJB
+2015-03-03 15:46:23,697 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,697 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list Sistema Academico compartilhado EJB
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 251M/409M
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list shared
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 251M/409M
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list curso EJB
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 251M/409M
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list estudante EJB
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 251M/409M
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico compartilhado EJB
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] shared
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] curso EJB
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] estudante EJB
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing deploy Sistema Academico compartilhado EJB
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 251M/409M
+2015-03-03 15:46:23,698 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,795 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,795 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing deploy shared
+2015-03-03 15:46:23,795 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 125M/410M
+2015-03-03 15:46:23,795 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,885 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,885 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing deploy curso EJB
+2015-03-03 15:46:23,885 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 371M/410M
+2015-03-03 15:46:23,885 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,966 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:23,966 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing deploy estudante EJB
+2015-03-03 15:46:23,966 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 240M/410M
+2015-03-03 15:46:23,966 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,266 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] View Test
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico help Web
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico layout Web
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] geral Web
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list View Test
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 147M/411M
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list Sistema Academico help Web
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 147M/411M
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list Sistema Academico layout Web
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 147M/411M
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,341 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Gathering project list geral Web
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 147M/411M
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Starting the reactor...
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Our processing order:
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] View Test
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico help Web
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] Sistema Academico layout Web
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] geral Web
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing deploy View Test
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 147M/411M
+2015-03-03 15:46:24,342 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,443 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,443 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing deploy Sistema Academico help Web
+2015-03-03 15:46:24,443 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 388M/411M
+2015-03-03 15:46:24,443 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,571 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,571 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing deploy Sistema Academico layout Web
+2015-03-03 15:46:24,572 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 250M/412M
+2015-03-03 15:46:24,572 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,700 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,700 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Executing deploy geral Web
+2015-03-03 15:46:24,700 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] | Memory: 117M/412M
+2015-03-03 15:46:24,700 INFO  [org.apache.maven.jelly.tags.maven.ReactorTag] +----------------------------------------
+2015-03-03 15:46:24,828 INFO  [org.apache.maven.cli.App] BUILD SUCCESSFUL
+2015-03-03 15:46:25,047 INFO  [org.apache.maven.cli.App] Total time: 32 seconds
+2015-03-03 15:46:25,050 INFO  [org.apache.maven.cli.App] Finished at: Tue Mar 03 15:46:25 BRT 2015
+2015-03-03 15:46:25,050 INFO  [org.apache.maven.cli.App] 

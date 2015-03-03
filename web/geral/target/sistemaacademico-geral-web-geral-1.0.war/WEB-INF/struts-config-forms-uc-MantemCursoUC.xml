@@ -1,6 +1,6 @@
         <form-bean
-            name="mantemCursoUCMantemCursoUCForm"
-            type="br.mdarte.exemplo.academico.web.geral.manterCurso.MantemCursoUCFormImpl" />
-        <form-bean
             name="mantemCursoUCAlterandoCursoSalvaCursoForm"
             type="br.mdarte.exemplo.academico.web.geral.manterCurso.AlterandoCursoSalvaCursoFormImpl" />
+        <form-bean
+            name="mantemCursoUCMantemCursoUCForm"
+            type="br.mdarte.exemplo.academico.web.geral.manterCurso.MantemCursoUCFormImpl" />

@@ -79,12 +79,16 @@ $('form').validate({
 		matricula: {
 		},
 		nome: {
+		},
+		cpf: {
 		}
 	},
 	messages: {
 		matricula: {
 		},
 		nome: {
+		},
+		cpf: {
 		}
 	},
 	highlight: function(element) {
@@ -134,10 +138,12 @@ $(document).ready(function(){
 	//Javascript do field matricula
 	$("input#matriculaConsultaEstudanteUC").mouseover(function(){hints.show("consulta.estudante.uc.preencha.campos.consulta.estudante.param.matricula.hint.key","consultaEstudanteMatricula$rowIndex") });
 	$("input#matriculaConsultaEstudanteUC").mouseout(function(){hints.hide()});
-	$("input#matriculaConsultaEstudanteUC").keyup(function(){verifica() });
-	$("input#matriculaConsultaEstudanteUC").keypress(function(){verifica(); });
-	$("input#matriculaConsultaEstudanteUC").mouseup(function(event){keySubmit(event); });
-
+	$("input#matriculaConsultaEstudanteUC").typeahead({
+		name: "matricula",
+		remote: "/sistemaacademico/ConsultaEstudanteUC/MatriculaPreenchaCamposAutoComplete.action?query=%QUERY",
+		limit: 10
+	});
+	
 
 	//Javascript do field nome
 	$("input#nomeConsultaEstudanteUC").mouseover(function(){hints.show("consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome.hint.key","consultaEstudanteNome$rowIndex") });
@@ -146,6 +152,10 @@ $(document).ready(function(){
 	$("input#nomeConsultaEstudanteUC").keypress(function(){verifica(); });
 	$("input#nomeConsultaEstudanteUC").mouseup(function(event){keySubmit(event); });
 
+
+	//Javascript do field cpf
+	$("input#cpfConsultaEstudanteUC").mouseover(function(){hints.show("consulta.estudante.uc.preencha.campos.consulta.estudante.param.cpf.hint.key","consultaEstudanteCpf$rowIndex") });
+	$("input#cpfConsultaEstudanteUC").mouseout(function(){hints.hide()});
 
 //JavaScript dos botoes de acao
 	$("input#consultaEstudanteUCPreenchaCamposConsultaEstudanteForm").mouseover(function(){hints.show('consultaEstudante'); }); 

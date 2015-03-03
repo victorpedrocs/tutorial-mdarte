@@ -1,9 +1,9 @@
         <form-bean
-            name="detalhaCursoUCDetalhandoCursoEditaCursoForm"
-            type="br.mdarte.exemplo.academico.web.geral.detalharCurso.DetalhandoCursoEditaCursoFormImpl" />
-        <form-bean
             name="detalhaCursoUCDetalhaCursoUCForm"
             type="br.mdarte.exemplo.academico.web.geral.detalharCurso.DetalhaCursoUCFormImpl" />
         <form-bean
             name="detalhaCursoUCDetalhandoCursoVoltarForm"
             type="br.mdarte.exemplo.academico.web.geral.detalharCurso.DetalhandoCursoVoltarFormImpl" />
+        <form-bean
+            name="detalhaCursoUCDetalhandoCursoEditaCursoForm"
+            type="br.mdarte.exemplo.academico.web.geral.detalharCurso.DetalhandoCursoEditaCursoFormImpl" />

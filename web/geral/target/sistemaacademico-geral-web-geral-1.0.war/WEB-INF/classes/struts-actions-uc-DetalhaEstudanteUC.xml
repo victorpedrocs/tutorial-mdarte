@@ -5,6 +5,15 @@
 
 <struts>
 	<package name="DetalhaEstudanteUC" namespace="/DetalhaEstudanteUC" extends="mdarte-struts-default">
+		<action name="DetalhandoEstudanteVoltar" class="br.mdarte.exemplo.academico.web.geral.detalharEstudante.DetalhandoEstudanteVoltar" method="execute">
+			<result name="voltar" type="redirectAction">
+				<param name="actionName">ConsultaEstudanteUC/ConsultaEstudanteUC.action</param>
+				<param name="namespace">/sistemaacademico</param>
+				<param name="prependServletContext">false</param>
+			</result>
+			<result name="input">/br/mdarte/exemplo/academico/web/geral/detalharEstudante/detalhando-estudante.jsp</result>
+			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/detalharEstudante/detalhando-estudante.jsp</result>
+		</action>
 		<action name="DetalhaEstudanteUC" class="br.mdarte.exemplo.academico.web.geral.detalharEstudante.DetalhaEstudanteUC" method="execute">
 			<result name="detalhando.estudante">/br/mdarte/exemplo/academico/web/geral/detalharEstudante/detalhando-estudante.jsp</result>
 			<result name="handleException">/error-page.jsp?code=exception</result>
@@ -12,15 +21,6 @@
 		<action name="DetalhandoEstudanteEditaEstudante" class="br.mdarte.exemplo.academico.web.geral.detalharEstudante.DetalhandoEstudanteEditaEstudante" method="execute">
 			<result name="edita.estudante" type="redirectAction">
 				<param name="actionName">MantemEstudanteUC/MantemEstudanteUC.action</param>
-				<param name="namespace">/sistemaacademico</param>
-				<param name="prependServletContext">false</param>
-			</result>
-			<result name="input">/br/mdarte/exemplo/academico/web/geral/detalharEstudante/detalhando-estudante.jsp</result>
-			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/detalharEstudante/detalhando-estudante.jsp</result>
-		</action>
-		<action name="DetalhandoEstudanteVoltar" class="br.mdarte.exemplo.academico.web.geral.detalharEstudante.DetalhandoEstudanteVoltar" method="execute">
-			<result name="voltar" type="redirectAction">
-				<param name="actionName">ConsultaEstudanteUC/ConsultaEstudanteUC.action</param>
 				<param name="namespace">/sistemaacademico</param>
 				<param name="prependServletContext">false</param>
 			</result>

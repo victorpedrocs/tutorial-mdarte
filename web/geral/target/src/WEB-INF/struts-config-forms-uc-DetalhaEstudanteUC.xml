@@ -1,9 +1,9 @@
         <form-bean
+            name="detalhaEstudanteUCDetalhandoEstudanteVoltarForm"
+            type="br.mdarte.exemplo.academico.web.geral.detalharEstudante.DetalhandoEstudanteVoltarFormImpl" />
+        <form-bean
             name="detalhaEstudanteUCDetalhaEstudanteUCForm"
             type="br.mdarte.exemplo.academico.web.geral.detalharEstudante.DetalhaEstudanteUCFormImpl" />
         <form-bean
             name="detalhaEstudanteUCDetalhandoEstudanteEditaEstudanteForm"
             type="br.mdarte.exemplo.academico.web.geral.detalharEstudante.DetalhandoEstudanteEditaEstudanteFormImpl" />
-        <form-bean
-            name="detalhaEstudanteUCDetalhandoEstudanteVoltarForm"
-            type="br.mdarte.exemplo.academico.web.geral.detalharEstudante.DetalhandoEstudanteVoltarFormImpl" />

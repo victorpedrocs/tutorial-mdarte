@@ -29,6 +29,9 @@ public class PreenchaCamposConsultaEstudanteFormImpl
     private java.util.Collection estudantes = null;
 
 
+    private java.lang.String cpf;
+
+
     private java.lang.String nome;
 
 
@@ -77,6 +80,30 @@ public class PreenchaCamposConsultaEstudanteFormImpl
     public java.lang.Object[] getEstudantesAsArray()
     {
         return (estudantes == null) ? null : estudantes.toArray();
+    }
+    
+
+
+    /**
+     * Resets the given <code>cpf</code>.
+     */
+    public void resetCpf()
+    {
+		this.cpf = null;
+    }
+
+
+    public void setCpf(java.lang.String cpf)
+    {
+        this.cpf = cpf;
+    }
+
+    /**
+     * 
+     */
+    public java.lang.String getCpf()
+    {
+        return this.cpf;
     }
     
 
@@ -172,6 +199,7 @@ public class PreenchaCamposConsultaEstudanteFormImpl
         org.apache.commons.lang.builder.ToStringBuilder builder =
             new org.apache.commons.lang.builder.ToStringBuilder(this);
         builder.append("estudantes", this.estudantes);
+        builder.append("cpf", this.cpf);
         builder.append("nome", this.nome);
         builder.append("idEstudante", this.idEstudante);
         builder.append("matricula", this.matricula);
@@ -186,6 +214,7 @@ public class PreenchaCamposConsultaEstudanteFormImpl
     public void clean()
     {
         this.estudantes = null;
+        this.cpf = null;
         this.nome = null;
         this.idEstudante = null;
         this.matricula = null;

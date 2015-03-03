@@ -56,10 +56,13 @@ ConsultaEstudanteUC;PreenchaCampos;Documentacao;consulta.estudante.uc.preencha.c
 ConsultaEstudanteUC;PreenchaCampos;MessagePage;consulta.estudante.uc.preencha.campos;Preencha Campos
 ConsultaEstudanteUC;PreenchaCampos;NaoPermitidoTitulo;consulta.estudante.uc.preencha.campos.consulta.estudante.title.notallowed;You are not allowed to call this action
 ConsultaEstudanteUC;PreenchaCampos;OnLineHelp;consulta.estudante.uc.preencha.campos.online.help;<br/>
+ConsultaEstudanteUC;PreenchaCampos;ParametroAjuda;consulta.estudante.uc.preencha.campos.consulta.estudante.param.cpf.online.help;Este campo é opcional.<br/>
 ConsultaEstudanteUC;PreenchaCampos;ParametroAjuda;consulta.estudante.uc.preencha.campos.consulta.estudante.param.matricula.online.help;Este campo é opcional.<br/>
 ConsultaEstudanteUC;PreenchaCampos;ParametroAjuda;consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome.online.help;Este campo é opcional.<br/>
+ConsultaEstudanteUC;PreenchaCampos;ParametroMensagem;consulta.estudante.uc.preencha.campos.consulta.estudante.param.cpf;Cpf
 ConsultaEstudanteUC;PreenchaCampos;ParametroMensagem;consulta.estudante.uc.preencha.campos.consulta.estudante.param.matricula;Matricula
 ConsultaEstudanteUC;PreenchaCampos;ParametroMensagem;consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome;Nome
+ConsultaEstudanteUC;PreenchaCampos;ParametroTitulo;consulta.estudante.uc.preencha.campos.consulta.estudante.param.cpf.title;cpf
 ConsultaEstudanteUC;PreenchaCampos;ParametroTitulo;consulta.estudante.uc.preencha.campos.consulta.estudante.param.matricula.title;matricula
 ConsultaEstudanteUC;PreenchaCampos;ParametroTitulo;consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome.title;nome
 ConsultaEstudanteUC;PreenchaCampos;ResetMensagem;consulta.estudante.uc.preencha.campos.consulta.estudante.title.reset.message;Reset

@@ -28,6 +28,17 @@ import br.mdarte.exemplo.academico.web.geral.consultarEstudante.ConsultaEstudant
 public class ConsultaEstudanteUC extends br.mdarte.exemplo.academico.accessControl.Login2
 {
 
+	private java.lang.String cpf;
+	public java.lang.String getCpf() 
+	{
+		return cpf;
+	}
+
+	public void setCpf(java.lang.String cpf)
+	{
+		this.cpf = cpf;
+	}
+
 	private java.lang.String nome;
 	public java.lang.String getNome() 
 	{
@@ -112,6 +123,7 @@ public class ConsultaEstudanteUC extends br.mdarte.exemplo.academico.accessContr
 
 		ConsultaEstudanteUCFormImpl form = new ConsultaEstudanteUCFormImpl();
 
+		form.setCpf(this.cpf);
 		form.setNome(this.nome);
 		form.setMatricula(this.matricula);
 
@@ -124,6 +136,17 @@ public class ConsultaEstudanteUC extends br.mdarte.exemplo.academico.accessContr
 			Class[] classes = null;
 			Object[] objetos = null;
 
+			try {
+
+				Object obj = previousFormObject.getClass().getMethod("getCpf", classes).invoke(previousFormObject, objetos);
+
+				if (obj != null && specificForm.getCpf() == null)
+					specificForm.setCpf(((java.lang.String) obj));	
+			} catch(NoSuchMethodException e) {
+				//Nao faz nada, simplesmente nao copia o parametro
+			} catch(ClassCastException cce) {
+				br.mdarte.exemplo.academico.SistemaacademicoLogger.warn("error.copia.parametros=cpf", this.getClass());
+			}
 			try {
 
 				Object obj = previousFormObject.getClass().getMethod("getNome", classes).invoke(previousFormObject, objetos);

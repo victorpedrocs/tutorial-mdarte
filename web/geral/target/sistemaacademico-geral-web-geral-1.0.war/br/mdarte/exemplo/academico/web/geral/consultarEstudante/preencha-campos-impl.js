@@ -1,5 +1,5 @@
 
 $(document).ready(function(){ 
-	//Coloque o JavaScript customizado aqui
+	$('#cpfConsultaEstudanteUC').mask('999.999.999-99', { placeholder : ""});
 
 });

@@ -94,6 +94,54 @@
             goals="undeploy"/>
     </goal>
 
+    <goal name="estudante:install" prereqs="compartilhado:install">
+        <maven:maven
+            descriptor="${basedir}/estudante/project.xml"
+            goals="ejb:install"/>
+    </goal>
+
+    <goal name="estudante:lib">
+        <maven:maven
+            descriptor="${basedir}/estudante/project.xml"
+            goals="lib"/>
+    </goal>
+
+    <goal name="estudante:deploy">
+        <maven:maven
+            descriptor="${basedir}/estudante/project.xml"
+            goals="deploy"/>
+    </goal>
+
+    <goal name="estudante:undeploy">
+        <maven:maven
+            descriptor="${basedir}/estudante/project.xml"
+            goals="undeploy"/>
+    </goal>
+
+    <goal name="curso:install" prereqs="compartilhado:install">
+        <maven:maven
+            descriptor="${basedir}/curso/project.xml"
+            goals="ejb:install"/>
+    </goal>
+
+    <goal name="curso:lib">
+        <maven:maven
+            descriptor="${basedir}/curso/project.xml"
+            goals="lib"/>
+    </goal>
+
+    <goal name="curso:deploy">
+        <maven:maven
+            descriptor="${basedir}/curso/project.xml"
+            goals="deploy"/>
+    </goal>
+
+    <goal name="curso:undeploy">
+        <maven:maven
+            descriptor="${basedir}/curso/project.xml"
+            goals="undeploy"/>
+    </goal>
+
     <ant:property environment="env"/>
 
     <j:set var="libDirectory" value="${env.JBOSS_HOME}/server/${jboss.config}/lib"/>

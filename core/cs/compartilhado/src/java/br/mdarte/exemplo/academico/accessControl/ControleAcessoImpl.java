@@ -11,7 +11,18 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
+import javax.security.auth.Subject;
+import javax.security.auth.callback.CallbackHandler;
+import javax.security.auth.login.LoginContext;
+import javax.security.auth.login.LoginException;
+
+import org.apache.commons.logging.impl.Log4JLogger;
+
+import com.sun.org.omg.SendingContext.CodeBaseHelper;
+
 import br.mdarte.exemplo.academico.util.Constantes;
+import accessControl.LoginCallbackHandler;
+import accessControl.PrincipalImpl;
 import accessControl.exception.ControleAcessoException;
 import br.gov.mdarte.controleacesso.cd.Acao;
 import br.gov.mdarte.controleacesso.cd.AcaoDAOImpl;
@@ -243,5 +254,36 @@ public  class ControleAcessoImpl extends accessControl.ControleAcesso {
 
 	public void agendaTarefas() {
 	
+	}
+	
+	public Subject login (String login, String senha){
+		LoginContext loginContext = null;
+		try {
+			CallbackHandler handler = new LoginCallbackHandler(login, senha);
+			loginContext = new LoginContext("sistemaacademico", handler);
+			loginContext.login();
+			Subject subject = loginContext.getSubject();
+			accessControl.SecurityHolder.setSubject(subject);
+			PrincipalImpl principal = getCallerPrincipal(subject);
+			principal.setNomeProjeto("sistemaacademico");
+			
+			return subject;
+			
+		} catch (LoginException e) {
+			System.err.println(e.getMessage());
+			return null;
+		}
+	}
+	
+	public void quitLogin() {
+		accessControl.SecurityHolder.setSubject(null);
+	}
+	
+	public boolean isLogged() {
+		if (accessControl.SecurityHolder.getSubject() != null) {
+			return true;
+		}
+		
+		return false;
 	}
 }

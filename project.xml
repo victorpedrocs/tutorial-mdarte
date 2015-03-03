@@ -66,5 +66,12 @@
       			<ejb.manifest.classpath>true</ejb.manifest.classpath>
   			</properties>
   		</dependency>
+  		
+  		<dependency>
+			<groupId>com.googlecode.mvp4g</groupId>
+			<artifactId>mvp4g</artifactId>
+			<version>1.5.0</version>
+		</dependency>
+		  		
     </dependencies>
 </project>

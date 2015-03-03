@@ -83,6 +83,27 @@ public interface ConsultaEstudanteForm
 
 
     /**
+     * Sets the <code>cpf</code> field.
+     *
+     * 
+     */
+    public void setCpf(java.lang.String cpf);
+
+    /**
+     * Gets the <code>cpf</code> field.
+     *
+     * 
+     */
+    public java.lang.String getCpf();
+
+
+    /**
+     * Resets the <code>cpf</code> field.
+     */
+    public void resetCpf();
+
+
+    /**
      * Sets the <code>idEstudante</code> field.
      *
      * 

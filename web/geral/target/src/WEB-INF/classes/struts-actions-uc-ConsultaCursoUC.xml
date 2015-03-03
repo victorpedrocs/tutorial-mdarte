@@ -5,6 +5,10 @@
 
 <struts>
 	<package name="ConsultaCursoUC" namespace="/ConsultaCursoUC" extends="mdarte-struts-default">
+		<action name="ConsultaCursoUC" class="br.mdarte.exemplo.academico.web.geral.consultarCurso.ConsultaCursoUC" method="execute">
+			<result name="preencha.campos">/br/mdarte/exemplo/academico/web/geral/consultarCurso/preencha-campos.jsp</result>
+			<result name="handleException">/error-page.jsp?code=exception</result>
+		</action>
 		<action name="ResultadoConsultaNovaConsulta" class="br.mdarte.exemplo.academico.web.geral.consultarCurso.ResultadoConsultaNovaConsulta" method="execute">
 			<result name="nova.consulta" type="redirectAction">
 				<param name="actionName">ConsultaCursoUC/ConsultaCursoUC.action</param>
@@ -13,10 +17,6 @@
 			</result>
 			<result name="input">/br/mdarte/exemplo/academico/web/geral/consultarCurso/resultado-consulta.jsp</result>
 			<result name="handleException">/br/mdarte/exemplo/academico/web/geral/consultarCurso/resultado-consulta.jsp</result>
-		</action>
-		<action name="ConsultaCursoUC" class="br.mdarte.exemplo.academico.web.geral.consultarCurso.ConsultaCursoUC" method="execute">
-			<result name="preencha.campos">/br/mdarte/exemplo/academico/web/geral/consultarCurso/preencha-campos.jsp</result>
-			<result name="handleException">/error-page.jsp?code=exception</result>
 		</action>
 		<action name="PreenchaCamposConsultaCurso" class="br.mdarte.exemplo.academico.web.geral.consultarCurso.PreenchaCamposConsultaCurso" method="execute">
 			<result name="resultado.consulta">/br/mdarte/exemplo/academico/web/geral/consultarCurso/resultado-consulta.jsp</result>

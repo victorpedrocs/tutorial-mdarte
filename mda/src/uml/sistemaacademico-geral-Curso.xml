@@ -3,7 +3,7 @@
 <!-- This xmi file is optimized for MagicDraw UML. Some references are not saved. -->
 <!-- Change MagicDraw UML environment options property General->.Save Rich XMI -->
 
-<XMI xmi.version='1.2' timestamp='Fri Feb 27 19:58:08 BRT 2015' xmlns:UML='omg.org/UML/1.4'>
+<XMI xmi.version='1.2' timestamp='Mon Mar 02 16:43:30 BRT 2015' xmlns:UML='omg.org/UML/1.4'>
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>MagicDraw UML</XMI.exporter>
@@ -14,15 +14,15 @@
 	<XMI.content>
 		<UML:Model xmi.id='eee_1045467100313_135436_1' name='Data'>
 			<UML:Namespace.ownedElement>
-				<UML:Package xmi.id='Q3Vyc28=_47726YnI=_94693782118878' name='br'>
+				<UML:Package xmi.id='Q3Vyc28=_75555YnI=_52783384168699' name='br'>
 					<UML:Namespace.ownedElement>			
-				<UML:Package xmi.id='Q3Vyc28=_89928bWRhc_1537727648822' name='mdarte'>
+				<UML:Package xmi.id='Q3Vyc28=_92709bWRhc_5468059080107' name='mdarte'>
 					<UML:Namespace.ownedElement>			
-				<UML:Package xmi.id='Q3Vyc28=_17361ZXhlb_6360453383031' name='exemplo'>
+				<UML:Package xmi.id='Q3Vyc28=_11931ZXhlb_5894776896359' name='exemplo'>
 					<UML:Namespace.ownedElement>			
-				<UML:Package xmi.id='Q3Vyc28=_80726YWNhZ_5905966471346' name='academico'>
+				<UML:Package xmi.id='Q3Vyc28=_15455YWNhZ_5855768126159' name='academico'>
 					<UML:Namespace.ownedElement>			
-				<UML:Package xmi.id='Q3Vyc28=_12471d2Vi_96202998714557' name='web'>
+				<UML:Package xmi.id='Q3Vyc28=_70888d2Vi_48812160570319' name='web'>
 					<UML:Namespace.ownedElement>			
 												<UML:Package xmi.id='_9_5_1_1ff104dd_1312203147610_750787_697' name='geral'>
 													<UML:ModelElement.stereotype>
@@ -109,7 +109,7 @@
 																		<UML:CallEvent xmi.id='_9_5_1_1ff104dd_1312206506255_188027_961' name='unnamed1' operation='_9_5_1_1ff104dd_1312206112636_71316_910'/>
 																		<UML:SignalEvent xmi.id='_9_5_1_1ff104dd_1312207162893_724415_1238' name='consultaCurso'>
 																			<UML:Event.parameter>
-																				<UML:Parameter xmi.id='Q3Vyc28=_32282Y29ka_6517958246563' name='codigo'>
+																				<UML:Parameter xmi.id='Q3Vyc28=_88533Y29ka_0249426268823' name='codigo'>
 																					<UML:Parameter.type>
 																						<UML:Classifier href='andromda-profile-datatype-3.1.xml.zip|_9_0_1fe00f9_1119336925531_364079_66'>
 																							<XMI.extension xmi.extender='MagicDraw UML 9.5' xmi.extenderID='MagicDraw UML 9.5'>
@@ -119,7 +119,7 @@
 																					</UML:Parameter.type>
 																				</UML:Parameter>
 																				
-																				<UML:Parameter xmi.id='Q3Vyc28=_77145bm9tZ_7015261997739' name='nome'>
+																				<UML:Parameter xmi.id='Q3Vyc28=_25681bm9tZ_3810608173837' name='nome'>
 																					<UML:Parameter.type>
 																						<UML:Classifier href='andromda-profile-datatype-3.1.xml.zip|_9_0_1fe00f9_1119336925531_364079_66'>
 																							<XMI.extension xmi.extender='MagicDraw UML 9.5' xmi.extenderID='MagicDraw UML 9.5'>
@@ -178,7 +178,7 @@
 																						</UML:Classifier>
 																					</UML:Parameter.type>
 																					<UML:ModelElement.taggedValue>
-																						<UML:TaggedValue xmi.id='Q3Vyc28=_97383aWRDd_6873422262333' name='@andromda.presentation.web.view.field.type'>
+																						<UML:TaggedValue xmi.id='Q3Vyc28=_21981aWRDd_8956852762032' name='@andromda.presentation.web.view.field.type'>
 																							<UML:TaggedValue.dataValue></UML:TaggedValue.dataValue>
 																							<UML:TaggedValue.type>
 																								<UML:TagDefinition href='andromda-profile-presentation-3.1.xml.zip|_9_0_1fe00f9_1119337248937_175825_53'>
@@ -303,7 +303,7 @@
 																		<UML:CallEvent xmi.id='_9_5_1_1ff104dd_1312206885213_513128_1155' name='unnamed1' operation='_9_5_1_1ff104dd_1312206133907_699899_916'/>
 																		<UML:SignalEvent xmi.id='_9_5_1_1ff104dd_1312207162897_678960_1245' name='salvaCurso'>
 																			<UML:Event.parameter>
-																				<UML:Parameter xmi.id='Q3Vyc28=_55894Y29ka_0874747046043' name='codigo'>
+																				<UML:Parameter xmi.id='Q3Vyc28=_75754Y29ka_7932982723319' name='codigo'>
 																					<UML:Parameter.type>
 																						<UML:Classifier href='andromda-profile-datatype-3.1.xml.zip|_9_0_1fe00f9_1119336925531_364079_66'>
 																							<XMI.extension xmi.extender='MagicDraw UML 9.5' xmi.extenderID='MagicDraw UML 9.5'>
@@ -312,7 +312,7 @@
 																						</UML:Classifier>
 																					</UML:Parameter.type>
 																				</UML:Parameter>
-																				<UML:Parameter xmi.id='Q3Vyc28=_86050bm9tZ_0127771653861' name='nome'>
+																				<UML:Parameter xmi.id='Q3Vyc28=_75685bm9tZ_4049823912931' name='nome'>
 																					<UML:Parameter.type>
 																						<UML:Classifier href='andromda-profile-datatype-3.1.xml.zip|_9_0_1fe00f9_1119336925531_364079_66'>
 																							<XMI.extension xmi.extender='MagicDraw UML 9.5' xmi.extenderID='MagicDraw UML 9.5'>
@@ -321,7 +321,7 @@
 																						</UML:Classifier>
 																					</UML:Parameter.type>
 																				</UML:Parameter>
-																					<UML:Parameter xmi.id='Q3Vyc28=_29439aWRDd_8968916547601' name='idCurso'>
+																					<UML:Parameter xmi.id='Q3Vyc28=_24316aWRDd_6274888858547' name='idCurso'>
 																						<UML:Parameter.type>
 																							<UML:Classifier href='andromda-profile-datatype-3.1.xml.zip|_9_0_1fe00f9_1119336925531_227130_59'>
 																								<XMI.extension xmi.extender='MagicDraw UML 9.5' xmi.extenderID='MagicDraw UML 9.5'>
@@ -330,7 +330,7 @@
 																							</UML:Classifier>
 																						</UML:Parameter.type>
 																						<UML:ModelElement.taggedValue>
-																						<UML:TaggedValue xmi.id='Q3Vyc28=_69566aWRDd_1436689191182' name='@andromda.presentation.web.view.field.type'>
+																						<UML:TaggedValue xmi.id='Q3Vyc28=_31841aWRDd_2266862610925' name='@andromda.presentation.web.view.field.type'>
 																							<UML:TaggedValue.dataValue></UML:TaggedValue.dataValue>
 																							<UML:TaggedValue.type>
 																								<UML:TagDefinition href='andromda-profile-presentation-3.1.xml.zip|_9_0_1fe00f9_1119337248937_175825_53'>
@@ -354,7 +354,7 @@
 																		<UML:SignalEvent xmi.id='_9_5_1_1ff104dd_1312207162897_712258_1246' name='voltar'/>
 																		<UML:SignalEvent xmi.id='_9_5_1_1ff104dd_1312207162897_823729_1247' name='detalhaCurso'>
 																			<UML:Event.parameter>
-																				<UML:Parameter xmi.id='Q3Vyc28=_72041aWRDd_7506118186227' name='idCurso'>
+																				<UML:Parameter xmi.id='Q3Vyc28=_92856aWRDd_0526895364261' name='idCurso'>
 																					<UML:Parameter.type>
 																						<UML:Classifier href='andromda-profile-datatype-3.1.xml.zip|_9_0_1fe00f9_1119336925531_227130_59'>
 																							<XMI.extension xmi.extender='MagicDraw UML 9.5' xmi.extenderID='MagicDraw UML 9.5'>
@@ -363,7 +363,7 @@
 																						</UML:Classifier>
 																					</UML:Parameter.type>
 																					<UML:ModelElement.taggedValue>
-																						<UML:TaggedValue xmi.id='Q3Vyc28=_98113aWRDd_2754103249586' name='@andromda.presentation.web.view.field.type'>
+																						<UML:TaggedValue xmi.id='Q3Vyc28=_26919aWRDd_8719902993915' name='@andromda.presentation.web.view.field.type'>
 																							<UML:TaggedValue.dataValue></UML:TaggedValue.dataValue>
 																							<UML:TaggedValue.type>
 																								<UML:TagDefinition href='andromda-profile-presentation-3.1.xml.zip|_9_0_1fe00f9_1119337248937_175825_53'>
@@ -455,7 +455,7 @@
 																		<UML:CallEvent xmi.id='_9_5_1_1ff104dd_1312206745382_44401_1048' name='unnamed1' operation='_9_5_1_1ff104dd_1312206119619_294808_912'/>
 																		<UML:SignalEvent xmi.id='_9_5_1_1ff104dd_1312207162898_629115_1250' name='voltar'>
 																			<UML:Event.parameter>
-																				<UML:Parameter xmi.id='Q3Vyc28=_41183Y29ka_7030953115418' name='codigo'>
+																				<UML:Parameter xmi.id='Q3Vyc28=_24143Y29ka_0688759013522' name='codigo'>
 																					<UML:Parameter.type>
 																						<UML:Classifier href='andromda-profile-datatype-3.1.xml.zip|_9_0_1fe00f9_1119336925531_364079_66'>
 																							<XMI.extension xmi.extender='MagicDraw UML 9.5' xmi.extenderID='MagicDraw UML 9.5'>
@@ -464,7 +464,7 @@
 																						</UML:Classifier>
 																					</UML:Parameter.type>
 																					<UML:ModelElement.taggedValue>
-																						<UML:TaggedValue xmi.id='Q3Vyc28=_54459Y29ka_9314132015522' name='@andromda.presentation.web.view.field.type'>
+																						<UML:TaggedValue xmi.id='Q3Vyc28=_72753Y29ka_4305734455791' name='@andromda.presentation.web.view.field.type'>
 																							<UML:TaggedValue.dataValue></UML:TaggedValue.dataValue>
 																							<UML:TaggedValue.type>
 																								<UML:TagDefinition href='andromda-profile-presentation-3.1.xml.zip|_9_0_1fe00f9_1119337248937_175825_53'>
@@ -483,7 +483,7 @@
 																						</UML:TaggedValue>
 																					</UML:ModelElement.taggedValue>
 																				</UML:Parameter>
-																				<UML:Parameter xmi.id='Q3Vyc28=_15534bm9tZ_7407857008178' name='nome'>
+																				<UML:Parameter xmi.id='Q3Vyc28=_05266bm9tZ_5180036037691' name='nome'>
 																					<UML:Parameter.type>
 																						<UML:Classifier href='andromda-profile-datatype-3.1.xml.zip|_9_0_1fe00f9_1119336925531_364079_66'>
 																							<XMI.extension xmi.extender='MagicDraw UML 9.5' xmi.extenderID='MagicDraw UML 9.5'>
@@ -492,7 +492,7 @@
 																						</UML:Classifier>
 																					</UML:Parameter.type>
 																					<UML:ModelElement.taggedValue>
-																						<UML:TaggedValue xmi.id='Q3Vyc28=_17086bm9tZ_1560368575772' name='@andromda.presentation.web.view.field.type'>
+																						<UML:TaggedValue xmi.id='Q3Vyc28=_81257bm9tZ_7176377755390' name='@andromda.presentation.web.view.field.type'>
 																							<UML:TaggedValue.dataValue></UML:TaggedValue.dataValue>
 																							<UML:TaggedValue.type>
 																								<UML:TagDefinition href='andromda-profile-presentation-3.1.xml.zip|_9_0_1fe00f9_1119337248937_175825_53'>
@@ -524,7 +524,7 @@
 																						</UML:Classifier>
 																					</UML:Parameter.type>
 																					<UML:ModelElement.taggedValue>
-																						<UML:TaggedValue xmi.id='Q3Vyc28=_48227aWRDd_3800606844020' name='@andromda.presentation.web.view.field.type'>
+																						<UML:TaggedValue xmi.id='Q3Vyc28=_62498aWRDd_7301675915885' name='@andromda.presentation.web.view.field.type'>
 																							<UML:TaggedValue.dataValue></UML:TaggedValue.dataValue>
 																							<UML:TaggedValue.type>
 																								<UML:TagDefinition href='andromda-profile-presentation-3.1.xml.zip|_9_0_1fe00f9_1119337248937_175825_53'>

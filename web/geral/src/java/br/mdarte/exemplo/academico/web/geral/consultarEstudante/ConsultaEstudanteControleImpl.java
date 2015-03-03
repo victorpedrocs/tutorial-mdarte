@@ -3,6 +3,7 @@
 package br.mdarte.exemplo.academico.web.geral.consultarEstudante;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 import br.mdarte.exemplo.academico.ServiceLocator;
 import br.mdarte.exemplo.academico.action.DefaultFilterAction;
@@ -11,6 +12,7 @@ import br.mdarte.exemplo.academico.cd.EstudanteImpl;
 import br.mdarte.exemplo.academico.to.EstudanteTO;
 import br.mdarte.exemplo.academico.to.EstudanteTOImpl;
 import br.mdarte.exemplo.academico.util.Constantes;
+import br.mdarte.exemplo.academico.util.PaginationDisplaytag;
 import br.mdarte.exemplo.academico.util.Util;
 
 import org.andromda.presentation.bpm4struts.ViewContainer;
@@ -54,6 +56,27 @@ public class ConsultaEstudanteControleImpl extends ConsultaEstudanteControle
 			form.setEstudantes(estudanteVOs);
 		}
         
+    }
+    
+    protected String[] matriculaPreenchaCamposAutoComplete(String query, ViewContainer container) throws Exception {
+    	EstudanteTO estudanteTO = new EstudanteTOImpl();
+    	
+    	estudanteTO.setMatricula(query);
+    	
+    	Collection estudantes = ServiceLocator.instance().getEstudanteHandlerBI().manipulaEstudante(new EstudanteImpl(), new DefaultFilterAction(estudanteTO, new PaginationDisplaytag(0)));
+    	
+    	String[] matriculas = new String[10];
+    	
+    	int i = 0;
+    	
+    	if (!Util.checkEmpty(estudantes)) {
+    		Iterator iterator = estudantes.iterator();
+			while (i < 10) {
+				matriculas[i++] = iterator.hasNext() ? ((Estudante) iterator.next()).getMatricula() : "";
+			}
+		}
+    	
+    	return matriculas;
     }
 
 }

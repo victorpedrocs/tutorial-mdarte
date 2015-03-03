@@ -28,6 +28,8 @@
 				'consulta.estudante.uc.preencha.campos.consulta.estudante.param.matricula.hint.key':'<formatting:escape language="javascript"><bean:message key="consulta.estudante.uc.preencha.campos.consulta.estudante.param.matricula.hint.key"/></formatting:escape>',
 				'consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome.title':'<formatting:escape language="javascript"><bean:message key="consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome.title"/></formatting:escape>',
 				'consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome.hint.key':'<formatting:escape language="javascript"><bean:message key="consulta.estudante.uc.preencha.campos.consulta.estudante.param.nome.hint.key"/></formatting:escape>',
+				'consulta.estudante.uc.preencha.campos.consulta.estudante.param.cpf.title':'<formatting:escape language="javascript"><bean:message key="consulta.estudante.uc.preencha.campos.consulta.estudante.param.cpf.title"/></formatting:escape>',
+				'consulta.estudante.uc.preencha.campos.consulta.estudante.param.cpf.hint.key':'<formatting:escape language="javascript"><bean:message key="consulta.estudante.uc.preencha.campos.consulta.estudante.param.cpf.hint.key"/></formatting:escape>',
 				'consultaEstudante':'<formatting:escape language="javascript"><bean:message key="consulta.estudante.uc.preencha.campos.consulta.estudante.title"/></formatting:escape>',
 				'consultaEstudante_column_action_name':'<formatting:escape language="javascript"><bean:message key="consulta.estudante.uc.preencha.campos.consulta.estudante"/></formatting:escape>',
 				'consultaEstudante_no':'<formatting:escape language="javascript"><bean:message key="consulta.estudante.uc.preencha.campos.consulta.estudante.title.notallowed"/></formatting:escape>',

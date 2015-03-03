@@ -39,6 +39,17 @@ public class PreenchaCamposConsultaEstudante extends br.mdarte.exemplo.academico
 		this.estudantes = estudantes;
 	}
 
+	private java.lang.String cpf;
+	public java.lang.String getCpf() 
+	{
+		return cpf;
+	}
+
+	public void setCpf(java.lang.String cpf)
+	{
+		this.cpf = cpf;
+	}
+
 	private java.lang.String nome;
 	public java.lang.String getNome() 
 	{
@@ -149,6 +160,7 @@ public class PreenchaCamposConsultaEstudante extends br.mdarte.exemplo.academico
 		PreenchaCamposConsultaEstudanteFormImpl form = new PreenchaCamposConsultaEstudanteFormImpl();
 
 		form.setEstudantes(this.estudantes);
+		form.setCpf(this.cpf);
 		form.setNome(this.nome);
 		form.setIdEstudante(this.idEstudante);
 		form.setMatricula(this.matricula);

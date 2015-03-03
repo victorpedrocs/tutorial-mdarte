@@ -1,27 +1,4 @@
 	<action
-    	path="/ConsultaCursoUC/ResultadoConsultaNovaConsulta"
-        type="br.mdarte.exemplo.academico.web.geral.consultarCurso.ResultadoConsultaNovaConsulta"
-        scope="request"
-        input="/br/mdarte/exemplo/academico/web/geral/consultarCurso/resultado-consulta.jsp"
-        unknown="false"
-        validate="false">
-            <exception
-                handler="org.andromda.presentation.bpm4struts.ExceptionHandler"
-                type="java.lang.Throwable"
-                key="error.exception.message"
-                path="/br/mdarte/exemplo/academico/web/geral/consultarCurso/resultado-consulta.jsp"
-                scope="request" />
-		
-       		<forward
-        		name="nova.consulta"
-            	path="/ConsultaCursoUC/ConsultaCursoUC.action"
-			/>
-	        <forward
-	            name="main"
-	            path="/ForwardAction.do"
-	            redirect="false" /> 
-        </action>
-	<action
     	path="/ConsultaCursoUC/ConsultaCursoUC"
         type="br.mdarte.exemplo.academico.web.geral.consultarCurso.ConsultaCursoUC"
         name="consultaCursoUCConsultaCursoUCForm"
@@ -38,6 +15,29 @@
        		<forward
         		name="preencha.campos"
             	path="/br/mdarte/exemplo/academico/web/geral/consultarCurso/preencha-campos.jsp"
+			/>
+	        <forward
+	            name="main"
+	            path="/ForwardAction.do"
+	            redirect="false" /> 
+        </action>
+	<action
+    	path="/ConsultaCursoUC/ResultadoConsultaNovaConsulta"
+        type="br.mdarte.exemplo.academico.web.geral.consultarCurso.ResultadoConsultaNovaConsulta"
+        scope="request"
+        input="/br/mdarte/exemplo/academico/web/geral/consultarCurso/resultado-consulta.jsp"
+        unknown="false"
+        validate="false">
+            <exception
+                handler="org.andromda.presentation.bpm4struts.ExceptionHandler"
+                type="java.lang.Throwable"
+                key="error.exception.message"
+                path="/br/mdarte/exemplo/academico/web/geral/consultarCurso/resultado-consulta.jsp"
+                scope="request" />
+		
+       		<forward
+        		name="nova.consulta"
+            	path="/ConsultaCursoUC/ConsultaCursoUC.action"
 			/>
 	        <forward
 	            name="main"

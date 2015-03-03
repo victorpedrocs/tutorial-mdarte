@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="core/cs/compartilhado/src/java"/>
-	<classpathentry kind="src" path="web/geral/src/java/br/mdarte/exemplo/academico/web/geral/manterEstudante"/>
-	<classpathentry kind="src" path="web/geral/src/java/br/mdarte/exemplo/academico/web/geral/manterCurso"/>
-	<classpathentry kind="src" path="web/geral/src/java/br/mdarte/exemplo/academico/web/geral/consultarCurso"/>
-	<classpathentry kind="src" path="web/geral/src/java/br/mdarte/exemplo/academico/web/geral/detalharCurso"/>
-	<classpathentry kind="src" path="web/geral/src/java/br/mdarte/exemplo/academico/web/geral/consultarEstudante"/>
-	<classpathentry kind="src" path="web/geral/src/java/br/mdarte/exemplo/academico/web/geral/detalharEstudante"/>
+	<classpathentry kind="src" path="web/modulo/target/src"/>
+	<classpathentry kind="src" path="web/layout/src/java"/>
+	<classpathentry kind="src" path="web/help/src/java"/>
+	<classpathentry kind="src" path="web/layout/target/src"/>
+	<classpathentry kind="src" path="web/help/target/src"/>
+	<classpathentry kind="src" path="web/test/target/src"/>
+	<classpathentry kind="src" path="web/test/src/java"/>
+	<classpathentry kind="src" path="web/geral/target/src"/>
+	<classpathentry kind="src" path="web/geral/src/java"/>
 	<classpathentry kind="src" path="core/cs/compartilhado/target/src"/>
 	<classpathentry kind="src" path="core/cd/src/java"/>
 	<classpathentry kind="src" path="core/cd/target/src"/>
@@ -28,7 +31,18 @@
 	<classpathentry kind="var" path="MAVEN_REPO/commons-validator/jars/commons-validator-1.3.1.jar"/>
 	<classpathentry kind="var" path="MAVEN_REPO/json/jars/json-simple-1.1.jar"/>
 	<classpathentry kind="var" path="MAVEN_REPO/common-classes/jars/CommonClasses-1.3-RC3.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="var" path="MAVEN_REPO"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/controleacesso"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget/JBoss 4.2 Runtime">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.utility"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-7-oracle">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

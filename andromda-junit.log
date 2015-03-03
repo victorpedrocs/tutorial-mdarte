@@ -758,3 +758,1219 @@ INFO  2015-02-27 19:58:07,178 - org.apache.velocity.runtime.exception.ReferenceE
 ERROR 2015-02-27 19:58:07,178 - Propriedade maxSizeClass deve ser um inteiro
 INFO  2015-02-27 19:58:07,185 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
 ERROR 2015-02-27 19:58:07,185 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 15:42:41,796 - ************************************************************** 
+INFO  2015-03-02 15:42:41,796 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 15:42:41,796 - RuntimeInstance initializing.
+INFO  2015-03-02 15:42:41,796 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 15:42:41,796 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 15:42:41,796 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 15:42:41,796 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 15:42:41,797 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 15:42:41,797 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 15:42:41,797 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 15:42:41,797 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 15:42:41,797 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 15:42:41,797 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 15:42:41,797 - Default ResourceManager initialization complete.
+INFO  2015-03-02 15:42:41,797 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 15:42:41,797 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 15:42:41,797 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 15:42:41,797 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 15:42:41,797 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 15:42:41,798 - Created: 20 parsers.
+INFO  2015-03-02 15:42:41,798 - Velocimacro : initialization starting.
+INFO  2015-03-02 15:42:41,798 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 15:42:41,798 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 15:42:41,798 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 15:42:41,798 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 15:42:41,798 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 15:42:41,798 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 15:42:41,798 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 15:42:41,798 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 15:42:41,798 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 15:42:41,799 - Velocimacro : initialization complete.
+INFO  2015-03-02 15:42:41,799 - Velocity successfully started.
+INFO  2015-03-02 15:42:41,881 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 15:42:41,881 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 15:42:41,881 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 15:42:41,881 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 15:42:41,881 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 15:42:41,882 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 15:42:41,882 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 15:42:41,882 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 15:42:41,882 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,882 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 15:42:41,882 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 15:42:41,884 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 15:42:41,884 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 15:42:41,884 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 15:42:41,884 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 15:42:41,884 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 15:42:41,885 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 15:42:41,887 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 15:42:41,887 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,888 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 15:42:41,889 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 15:42:41,889 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 15:42:41,896 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 15:42:41,896 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 15:58:05,932 - ************************************************************** 
+INFO  2015-03-02 15:58:05,932 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 15:58:05,932 - RuntimeInstance initializing.
+INFO  2015-03-02 15:58:05,932 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 15:58:05,932 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 15:58:05,932 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 15:58:05,932 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 15:58:05,932 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 15:58:05,932 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 15:58:05,932 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 15:58:05,932 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 15:58:05,932 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 15:58:05,932 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 15:58:05,932 - Default ResourceManager initialization complete.
+INFO  2015-03-02 15:58:05,932 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 15:58:05,932 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 15:58:05,932 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 15:58:05,932 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 15:58:05,932 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 15:58:05,933 - Created: 20 parsers.
+INFO  2015-03-02 15:58:05,933 - Velocimacro : initialization starting.
+INFO  2015-03-02 15:58:05,933 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 15:58:05,933 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 15:58:05,933 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 15:58:05,933 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 15:58:05,933 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 15:58:05,933 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 15:58:05,933 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 15:58:05,933 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 15:58:05,933 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 15:58:05,933 - Velocimacro : initialization complete.
+INFO  2015-03-02 15:58:05,933 - Velocity successfully started.
+INFO  2015-03-02 15:58:05,955 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 15:58:05,955 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 15:58:05,955 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 15:58:05,955 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 15:58:05,955 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 15:58:05,955 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 15:58:05,955 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 15:58:05,955 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 15:58:05,955 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,955 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 15:58:05,955 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 15:58:05,957 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 15:58:05,957 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 15:58:05,957 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 15:58:05,957 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 15:58:05,957 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 15:58:05,957 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 15:58:05,960 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 15:58:05,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 15:58:05,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,960 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 15:58:05,961 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 15:58:05,961 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 15:58:05,965 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 15:58:05,966 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:16:21,018 - ************************************************************** 
+INFO  2015-03-02 16:16:21,018 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 16:16:21,018 - RuntimeInstance initializing.
+INFO  2015-03-02 16:16:21,018 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 16:16:21,018 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 16:16:21,018 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 16:16:21,018 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 16:16:21,018 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 16:16:21,018 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 16:16:21,018 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:16:21,018 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 16:16:21,018 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 16:16:21,018 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 16:16:21,018 - Default ResourceManager initialization complete.
+INFO  2015-03-02 16:16:21,019 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 16:16:21,019 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 16:16:21,019 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 16:16:21,019 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 16:16:21,019 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 16:16:21,019 - Created: 20 parsers.
+INFO  2015-03-02 16:16:21,019 - Velocimacro : initialization starting.
+INFO  2015-03-02 16:16:21,019 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 16:16:21,020 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 16:16:21,020 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 16:16:21,020 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 16:16:21,020 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 16:16:21,020 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 16:16:21,020 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 16:16:21,020 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 16:16:21,020 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 16:16:21,020 - Velocimacro : initialization complete.
+INFO  2015-03-02 16:16:21,020 - Velocity successfully started.
+INFO  2015-03-02 16:16:21,036 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:16:21,036 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:16:21,036 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:16:21,037 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 16:16:21,037 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 16:16:21,037 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 16:16:21,037 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 16:16:21,037 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 16:16:21,037 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,037 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 16:16:21,037 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:16:21,038 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:16:21,038 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 16:16:21,038 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 16:16:21,038 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 16:16:21,038 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 16:16:21,038 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:16:21,039 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,039 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:16:21,040 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 16:16:21,040 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:16:21,042 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 16:16:21,042 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:43:28,792 - ************************************************************** 
+INFO  2015-03-02 16:43:28,792 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 16:43:28,792 - RuntimeInstance initializing.
+INFO  2015-03-02 16:43:28,792 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 16:43:28,793 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 16:43:28,793 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 16:43:28,793 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 16:43:28,793 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 16:43:28,793 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 16:43:28,793 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:43:28,793 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 16:43:28,793 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 16:43:28,793 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 16:43:28,793 - Default ResourceManager initialization complete.
+INFO  2015-03-02 16:43:28,793 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 16:43:28,793 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 16:43:28,793 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 16:43:28,793 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 16:43:28,793 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 16:43:28,794 - Created: 20 parsers.
+INFO  2015-03-02 16:43:28,794 - Velocimacro : initialization starting.
+INFO  2015-03-02 16:43:28,794 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 16:43:28,794 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 16:43:28,794 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 16:43:28,794 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 16:43:28,794 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 16:43:28,794 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 16:43:28,794 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 16:43:28,794 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 16:43:28,794 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 16:43:28,794 - Velocimacro : initialization complete.
+INFO  2015-03-02 16:43:28,794 - Velocity successfully started.
+INFO  2015-03-02 16:43:28,810 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:43:28,810 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:43:28,810 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:43:28,810 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 16:43:28,810 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 16:43:28,811 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 16:43:28,811 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 16:43:28,811 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 16:43:28,811 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,811 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 16:43:28,811 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:43:28,812 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:43:28,812 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 16:43:28,812 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 16:43:28,812 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 16:43:28,812 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 16:43:28,812 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:43:28,814 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,814 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,815 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,815 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,815 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:43:28,815 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 16:43:28,815 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:43:28,819 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 16:43:28,819 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:46:21,783 - ************************************************************** 
+INFO  2015-03-02 16:46:21,783 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 16:46:21,783 - RuntimeInstance initializing.
+INFO  2015-03-02 16:46:21,783 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 16:46:21,783 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 16:46:21,783 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 16:46:21,783 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 16:46:21,783 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 16:46:21,783 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 16:46:21,783 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:46:21,783 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 16:46:21,783 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 16:46:21,783 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 16:46:21,783 - Default ResourceManager initialization complete.
+INFO  2015-03-02 16:46:21,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 16:46:21,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 16:46:21,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 16:46:21,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 16:46:21,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 16:46:21,784 - Created: 20 parsers.
+INFO  2015-03-02 16:46:21,784 - Velocimacro : initialization starting.
+INFO  2015-03-02 16:46:21,784 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 16:46:21,784 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 16:46:21,784 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 16:46:21,784 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 16:46:21,784 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 16:46:21,784 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 16:46:21,784 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 16:46:21,784 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 16:46:21,784 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 16:46:21,784 - Velocimacro : initialization complete.
+INFO  2015-03-02 16:46:21,784 - Velocity successfully started.
+INFO  2015-03-02 16:46:21,801 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:46:21,801 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:46:21,801 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:46:21,802 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 16:46:21,802 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 16:46:21,802 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 16:46:21,802 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 16:46:21,802 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 16:46:21,802 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,802 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 16:46:21,802 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:46:21,804 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:46:21,804 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 16:46:21,804 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 16:46:21,804 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 16:46:21,804 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 16:46:21,804 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:46:21,806 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:46:21,806 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 16:46:21,806 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:46:21,810 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 16:46:21,810 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:48:07,627 - ************************************************************** 
+INFO  2015-03-02 16:48:07,627 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 16:48:07,627 - RuntimeInstance initializing.
+INFO  2015-03-02 16:48:07,627 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 16:48:07,627 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 16:48:07,627 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 16:48:07,627 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 16:48:07,627 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 16:48:07,627 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 16:48:07,627 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:48:07,627 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 16:48:07,627 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 16:48:07,627 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 16:48:07,628 - Default ResourceManager initialization complete.
+INFO  2015-03-02 16:48:07,628 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 16:48:07,628 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 16:48:07,628 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 16:48:07,628 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 16:48:07,628 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 16:48:07,628 - Created: 20 parsers.
+INFO  2015-03-02 16:48:07,628 - Velocimacro : initialization starting.
+INFO  2015-03-02 16:48:07,628 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 16:48:07,629 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 16:48:07,629 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 16:48:07,629 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 16:48:07,629 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 16:48:07,629 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 16:48:07,629 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 16:48:07,629 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 16:48:07,629 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 16:48:07,629 - Velocimacro : initialization complete.
+INFO  2015-03-02 16:48:07,629 - Velocity successfully started.
+INFO  2015-03-02 16:48:07,646 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:48:07,646 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:48:07,646 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:48:07,646 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 16:48:07,646 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 16:48:07,646 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 16:48:07,646 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 16:48:07,646 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 16:48:07,646 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,646 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 16:48:07,646 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:48:07,648 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:48:07,648 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 16:48:07,648 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 16:48:07,648 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 16:48:07,648 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 16:48:07,648 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:48:07,650 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:48:07,650 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 16:48:07,650 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:48:07,654 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 16:48:07,655 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:55:02,608 - ************************************************************** 
+INFO  2015-03-02 16:55:02,608 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 16:55:02,608 - RuntimeInstance initializing.
+INFO  2015-03-02 16:55:02,608 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 16:55:02,608 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 16:55:02,608 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 16:55:02,608 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 16:55:02,608 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 16:55:02,608 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 16:55:02,608 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:55:02,608 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 16:55:02,608 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 16:55:02,608 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 16:55:02,608 - Default ResourceManager initialization complete.
+INFO  2015-03-02 16:55:02,609 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 16:55:02,609 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 16:55:02,609 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 16:55:02,609 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 16:55:02,609 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 16:55:02,609 - Created: 20 parsers.
+INFO  2015-03-02 16:55:02,609 - Velocimacro : initialization starting.
+INFO  2015-03-02 16:55:02,610 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 16:55:02,610 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 16:55:02,610 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 16:55:02,610 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 16:55:02,610 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 16:55:02,610 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 16:55:02,610 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 16:55:02,610 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 16:55:02,610 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 16:55:02,610 - Velocimacro : initialization complete.
+INFO  2015-03-02 16:55:02,610 - Velocity successfully started.
+INFO  2015-03-02 16:55:02,669 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:55:02,669 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:55:02,669 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:55:02,669 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 16:55:02,669 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 16:55:02,669 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 16:55:02,669 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 16:55:02,669 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 16:55:02,669 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,669 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 16:55:02,669 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:55:02,673 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:55:02,673 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 16:55:02,673 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 16:55:02,673 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 16:55:02,673 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 16:55:02,673 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:55:02,678 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:55:02,678 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,678 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:55:02,679 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 16:55:02,679 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:55:02,691 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 16:55:02,691 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:55:42,488 - ************************************************************** 
+INFO  2015-03-02 16:55:42,488 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 16:55:42,488 - RuntimeInstance initializing.
+INFO  2015-03-02 16:55:42,488 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 16:55:42,488 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 16:55:42,488 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 16:55:42,488 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 16:55:42,488 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 16:55:42,488 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 16:55:42,488 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:55:42,488 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 16:55:42,488 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 16:55:42,488 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 16:55:42,488 - Default ResourceManager initialization complete.
+INFO  2015-03-02 16:55:42,489 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 16:55:42,489 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 16:55:42,489 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 16:55:42,489 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 16:55:42,489 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 16:55:42,489 - Created: 20 parsers.
+INFO  2015-03-02 16:55:42,489 - Velocimacro : initialization starting.
+INFO  2015-03-02 16:55:42,489 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 16:55:42,490 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 16:55:42,490 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 16:55:42,490 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 16:55:42,490 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 16:55:42,490 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 16:55:42,490 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 16:55:42,490 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 16:55:42,490 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 16:55:42,490 - Velocimacro : initialization complete.
+INFO  2015-03-02 16:55:42,490 - Velocity successfully started.
+INFO  2015-03-02 16:55:42,509 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:55:42,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:55:42,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 16:55:42,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 16:55:42,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 16:55:42,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 16:55:42,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 16:55:42,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 16:55:42,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 16:55:42,509 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:55:42,511 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:55:42,511 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 16:55:42,511 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 16:55:42,511 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 16:55:42,511 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 16:55:42,511 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:55:42,514 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,514 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,515 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,515 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,515 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,515 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 16:55:42,515 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 16:55:42,515 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 16:55:42,520 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 16:55:42,520 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:25:46,517 - ************************************************************** 
+INFO  2015-03-02 17:25:46,517 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 17:25:46,517 - RuntimeInstance initializing.
+INFO  2015-03-02 17:25:46,517 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 17:25:46,517 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 17:25:46,517 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 17:25:46,517 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 17:25:46,517 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 17:25:46,517 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 17:25:46,517 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:25:46,517 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 17:25:46,517 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 17:25:46,517 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 17:25:46,517 - Default ResourceManager initialization complete.
+INFO  2015-03-02 17:25:46,517 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 17:25:46,517 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 17:25:46,517 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 17:25:46,517 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 17:25:46,518 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 17:25:46,518 - Created: 20 parsers.
+INFO  2015-03-02 17:25:46,519 - Velocimacro : initialization starting.
+INFO  2015-03-02 17:25:46,519 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 17:25:46,519 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 17:25:46,519 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 17:25:46,519 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 17:25:46,519 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 17:25:46,519 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 17:25:46,519 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 17:25:46,519 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 17:25:46,519 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 17:25:46,519 - Velocimacro : initialization complete.
+INFO  2015-03-02 17:25:46,519 - Velocity successfully started.
+INFO  2015-03-02 17:25:46,538 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:25:46,538 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:25:46,538 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:25:46,538 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 17:25:46,538 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 17:25:46,539 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 17:25:46,539 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 17:25:46,539 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 17:25:46,539 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,539 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 17:25:46,539 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:25:46,540 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:25:46,540 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 17:25:46,540 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 17:25:46,540 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 17:25:46,540 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 17:25:46,540 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:25:46,542 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:25:46,542 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,542 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 17:25:46,542 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,542 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,542 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,542 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,542 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,542 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:25:46,543 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 17:25:46,543 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:25:46,545 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 17:25:46,545 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:26:06,624 - ************************************************************** 
+INFO  2015-03-02 17:26:06,624 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 17:26:06,624 - RuntimeInstance initializing.
+INFO  2015-03-02 17:26:06,624 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 17:26:06,624 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 17:26:06,624 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 17:26:06,624 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 17:26:06,624 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 17:26:06,624 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 17:26:06,624 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:26:06,624 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 17:26:06,624 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 17:26:06,624 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 17:26:06,624 - Default ResourceManager initialization complete.
+INFO  2015-03-02 17:26:06,624 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 17:26:06,624 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 17:26:06,624 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 17:26:06,624 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 17:26:06,624 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 17:26:06,625 - Created: 20 parsers.
+INFO  2015-03-02 17:26:06,625 - Velocimacro : initialization starting.
+INFO  2015-03-02 17:26:06,625 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 17:26:06,625 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 17:26:06,626 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 17:26:06,626 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 17:26:06,626 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 17:26:06,626 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 17:26:06,626 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 17:26:06,626 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 17:26:06,626 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 17:26:06,626 - Velocimacro : initialization complete.
+INFO  2015-03-02 17:26:06,626 - Velocity successfully started.
+INFO  2015-03-02 17:26:06,651 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:26:06,651 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:26:06,651 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:26:06,651 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 17:26:06,652 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 17:26:06,652 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 17:26:06,652 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 17:26:06,652 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 17:26:06,652 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,652 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 17:26:06,652 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:26:06,655 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:26:06,655 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 17:26:06,655 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 17:26:06,655 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 17:26:06,655 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 17:26:06,655 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:26:06,660 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:26:06,661 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 17:26:06,661 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:26:06,671 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 17:26:06,672 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:26:19,175 - ************************************************************** 
+INFO  2015-03-02 17:26:19,175 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 17:26:19,175 - RuntimeInstance initializing.
+INFO  2015-03-02 17:26:19,175 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 17:26:19,175 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 17:26:19,175 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 17:26:19,175 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 17:26:19,175 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 17:26:19,175 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 17:26:19,176 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:26:19,176 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 17:26:19,176 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 17:26:19,176 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 17:26:19,176 - Default ResourceManager initialization complete.
+INFO  2015-03-02 17:26:19,176 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 17:26:19,176 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 17:26:19,176 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 17:26:19,176 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 17:26:19,176 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 17:26:19,176 - Created: 20 parsers.
+INFO  2015-03-02 17:26:19,177 - Velocimacro : initialization starting.
+INFO  2015-03-02 17:26:19,177 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 17:26:19,177 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 17:26:19,177 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 17:26:19,177 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 17:26:19,177 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 17:26:19,177 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 17:26:19,177 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 17:26:19,177 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 17:26:19,177 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 17:26:19,177 - Velocimacro : initialization complete.
+INFO  2015-03-02 17:26:19,177 - Velocity successfully started.
+INFO  2015-03-02 17:26:19,194 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:26:19,194 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:26:19,194 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:26:19,194 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 17:26:19,194 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 17:26:19,194 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 17:26:19,195 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 17:26:19,195 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 17:26:19,195 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,195 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 17:26:19,195 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:26:19,196 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:26:19,196 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 17:26:19,196 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 17:26:19,196 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 17:26:19,196 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 17:26:19,196 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:26:19,198 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,198 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:26:19,199 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 17:26:19,199 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:26:19,203 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 17:26:19,203 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:33:29,365 - ************************************************************** 
+INFO  2015-03-02 17:33:29,365 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 17:33:29,365 - RuntimeInstance initializing.
+INFO  2015-03-02 17:33:29,365 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 17:33:29,365 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 17:33:29,365 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 17:33:29,365 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 17:33:29,365 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 17:33:29,365 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 17:33:29,365 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:33:29,365 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 17:33:29,365 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 17:33:29,365 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 17:33:29,365 - Default ResourceManager initialization complete.
+INFO  2015-03-02 17:33:29,365 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 17:33:29,365 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 17:33:29,365 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 17:33:29,365 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 17:33:29,365 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 17:33:29,367 - Created: 20 parsers.
+INFO  2015-03-02 17:33:29,367 - Velocimacro : initialization starting.
+INFO  2015-03-02 17:33:29,367 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 17:33:29,367 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 17:33:29,367 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 17:33:29,367 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 17:33:29,367 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 17:33:29,367 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 17:33:29,367 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 17:33:29,367 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 17:33:29,367 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 17:33:29,367 - Velocimacro : initialization complete.
+INFO  2015-03-02 17:33:29,367 - Velocity successfully started.
+INFO  2015-03-02 17:33:29,393 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:33:29,393 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:33:29,393 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:33:29,393 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 17:33:29,393 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 17:33:29,393 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 17:33:29,393 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 17:33:29,393 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 17:33:29,393 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,393 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 17:33:29,393 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:33:29,395 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:33:29,395 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 17:33:29,395 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 17:33:29,395 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 17:33:29,395 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 17:33:29,395 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:33:29,397 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,397 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:33:29,398 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 17:33:29,398 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:33:29,413 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 17:33:29,413 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:45:16,494 - ************************************************************** 
+INFO  2015-03-02 17:45:16,494 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 17:45:16,494 - RuntimeInstance initializing.
+INFO  2015-03-02 17:45:16,494 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 17:45:16,494 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 17:45:16,494 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 17:45:16,494 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 17:45:16,494 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 17:45:16,494 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 17:45:16,494 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:45:16,494 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 17:45:16,494 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 17:45:16,494 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 17:45:16,494 - Default ResourceManager initialization complete.
+INFO  2015-03-02 17:45:16,494 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 17:45:16,494 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 17:45:16,494 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 17:45:16,494 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 17:45:16,494 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 17:45:16,495 - Created: 20 parsers.
+INFO  2015-03-02 17:45:16,495 - Velocimacro : initialization starting.
+INFO  2015-03-02 17:45:16,495 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 17:45:16,496 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 17:45:16,496 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 17:45:16,496 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 17:45:16,496 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 17:45:16,496 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 17:45:16,496 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 17:45:16,496 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 17:45:16,496 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 17:45:16,496 - Velocimacro : initialization complete.
+INFO  2015-03-02 17:45:16,496 - Velocity successfully started.
+INFO  2015-03-02 17:45:16,515 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:45:16,515 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:45:16,515 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:45:16,515 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 17:45:16,515 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 17:45:16,516 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 17:45:16,516 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 17:45:16,516 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 17:45:16,516 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,516 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 17:45:16,516 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:45:16,517 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:45:16,517 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 17:45:16,517 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 17:45:16,517 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 17:45:16,517 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 17:45:16,517 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:45:16,519 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:45:16,519 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,519 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 17:45:16,519 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,519 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,519 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,519 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,519 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,519 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:45:16,520 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 17:45:16,520 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:45:16,523 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 17:45:16,523 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:45:41,735 - ************************************************************** 
+INFO  2015-03-02 17:45:41,735 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 17:45:41,735 - RuntimeInstance initializing.
+INFO  2015-03-02 17:45:41,735 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 17:45:41,735 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 17:45:41,735 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 17:45:41,735 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 17:45:41,735 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 17:45:41,735 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 17:45:41,735 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:45:41,735 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 17:45:41,735 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 17:45:41,735 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 17:45:41,735 - Default ResourceManager initialization complete.
+INFO  2015-03-02 17:45:41,736 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 17:45:41,736 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 17:45:41,736 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 17:45:41,736 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 17:45:41,736 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 17:45:41,736 - Created: 20 parsers.
+INFO  2015-03-02 17:45:41,736 - Velocimacro : initialization starting.
+INFO  2015-03-02 17:45:41,736 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 17:45:41,737 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 17:45:41,737 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 17:45:41,737 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 17:45:41,737 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 17:45:41,737 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 17:45:41,737 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 17:45:41,737 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 17:45:41,737 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 17:45:41,737 - Velocimacro : initialization complete.
+INFO  2015-03-02 17:45:41,737 - Velocity successfully started.
+INFO  2015-03-02 17:45:41,763 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:45:41,763 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:45:41,763 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 17:45:41,763 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 17:45:41,763 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 17:45:41,763 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 17:45:41,763 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 17:45:41,763 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 17:45:41,763 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,763 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 17:45:41,763 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:45:41,765 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:45:41,765 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 17:45:41,765 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 17:45:41,766 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 17:45:41,766 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 17:45:41,766 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:45:41,769 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,769 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 17:45:41,770 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 17:45:41,770 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 17:45:41,775 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 17:45:41,775 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 18:55:33,985 - ************************************************************** 
+INFO  2015-03-02 18:55:33,985 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-02 18:55:33,985 - RuntimeInstance initializing.
+INFO  2015-03-02 18:55:33,985 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-02 18:55:33,985 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-02 18:55:33,985 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-02 18:55:33,985 - FileResourceLoader : initialization starting.
+INFO  2015-03-02 18:55:33,985 - FileResourceLoader : adding path '.'
+INFO  2015-03-02 18:55:33,985 - FileResourceLoader : initialization complete.
+INFO  2015-03-02 18:55:33,985 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 18:55:33,985 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-02 18:55:33,985 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-02 18:55:33,985 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-02 18:55:33,985 - Default ResourceManager initialization complete.
+INFO  2015-03-02 18:55:33,985 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-02 18:55:33,985 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-02 18:55:33,985 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-02 18:55:33,985 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-02 18:55:33,985 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-02 18:55:33,986 - Created: 20 parsers.
+INFO  2015-03-02 18:55:33,986 - Velocimacro : initialization starting.
+INFO  2015-03-02 18:55:33,986 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-02 18:55:33,986 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-02 18:55:33,986 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-02 18:55:33,986 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-02 18:55:33,986 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-02 18:55:33,986 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-02 18:55:33,986 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-02 18:55:33,986 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-02 18:55:33,986 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-02 18:55:33,986 - Velocimacro : initialization complete.
+INFO  2015-03-02 18:55:33,986 - Velocity successfully started.
+INFO  2015-03-02 18:55:34,004 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 18:55:34,004 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-02 18:55:34,004 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-02 18:55:34,004 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-02 18:55:34,004 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-02 18:55:34,004 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-02 18:55:34,004 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-02 18:55:34,004 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-02 18:55:34,004 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,004 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-02 18:55:34,004 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 18:55:34,006 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 18:55:34,006 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-02 18:55:34,006 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-02 18:55:34,006 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-02 18:55:34,006 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-02 18:55:34,006 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 18:55:34,007 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-02 18:55:34,007 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,007 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-02 18:55:34,008 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-02 18:55:34,008 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-02 18:55:34,012 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-02 18:55:34,012 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-03 15:46:03,657 - ************************************************************** 
+INFO  2015-03-03 15:46:03,678 - Starting Jakarta Velocity v1.4-dev
+INFO  2015-03-03 15:46:03,678 - RuntimeInstance initializing.
+INFO  2015-03-03 15:46:03,678 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+INFO  2015-03-03 15:46:03,678 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2015-03-03 15:46:03,678 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2015-03-03 15:46:03,679 - FileResourceLoader : initialization starting.
+INFO  2015-03-03 15:46:03,679 - FileResourceLoader : adding path '.'
+INFO  2015-03-03 15:46:03,679 - FileResourceLoader : initialization complete.
+INFO  2015-03-03 15:46:03,679 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-03 15:46:03,679 - ClasspathResourceLoader : initialization starting.
+INFO  2015-03-03 15:46:03,679 - ClasspathResourceLoader : initialization complete.
+INFO  2015-03-03 15:46:03,679 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2015-03-03 15:46:03,679 - Default ResourceManager initialization complete.
+INFO  2015-03-03 15:46:03,679 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2015-03-03 15:46:03,679 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2015-03-03 15:46:03,679 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2015-03-03 15:46:03,679 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2015-03-03 15:46:03,679 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2015-03-03 15:46:03,680 - Created: 20 parsers.
+INFO  2015-03-03 15:46:03,680 - Velocimacro : initialization starting.
+INFO  2015-03-03 15:46:03,680 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+INFO  2015-03-03 15:46:03,680 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+INFO  2015-03-03 15:46:03,680 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+INFO  2015-03-03 15:46:03,680 - Velocimacro :  VM library template macro registration complete.
+INFO  2015-03-03 15:46:03,680 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2015-03-03 15:46:03,680 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2015-03-03 15:46:03,680 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2015-03-03 15:46:03,680 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2015-03-03 15:46:03,680 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2015-03-03 15:46:03,680 - Velocimacro : initialization complete.
+INFO  2015-03-03 15:46:03,680 - Velocity successfully started.
+INFO  2015-03-03 15:46:03,719 - ResourceManager : found templates/junit/module/JUnitMaven.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-03 15:46:03,719 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 9,column 36] : ${basedir} is not a valid reference.
+INFO  2015-03-03 15:46:03,719 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 10,column 42] : ${basedir} is not a valid reference.
+INFO  2015-03-03 15:46:03,719 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 42] : ${env.JBOSS_HOME} is not a valid reference.
+INFO  2015-03-03 15:46:03,719 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 45,column 67] : ${jboss.config} is not a valid reference.
+INFO  2015-03-03 15:46:03,719 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 47,column 45] : ${pom.dependencies} is not a valid reference.
+INFO  2015-03-03 15:46:03,719 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 62,column 66] : ${libDirectory} is not a valid reference.
+INFO  2015-03-03 15:46:03,719 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 71] : ${user.home} is not a valid reference.
+INFO  2015-03-03 15:46:03,719 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 63,column 102] : ${dep.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,719 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitMaven.xml.vsl [line 64,column 80] : ${dep.artifact} is not a valid reference.
+ERROR 2015-03-03 15:46:03,719 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-03 15:46:03,721 - ResourceManager : found templates/junit/module/JUnitProject.properties.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-03 15:46:03,721 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 22] : ${maven.build.dir} is not a valid reference.
+INFO  2015-03-03 15:46:03,721 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 41] : ${pom.artifactId} is not a valid reference.
+INFO  2015-03-03 15:46:03,721 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 1,column 59] : ${pom.currentVersion} is not a valid reference.
+INFO  2015-03-03 15:46:03,721 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.properties.vsl [line 7,column 15] : ${maven.build.src} is not a valid reference.
+ERROR 2015-03-03 15:46:03,721 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-03 15:46:03,723 - ResourceManager : found templates/junit/module/JUnitProject.xml.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 4,column 21] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 7,column 30] : ${pom.name} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 11,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 12,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 13,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 17,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 18,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 19,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 23,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 24,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 25,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 30,column 34] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 31,column 37] : ${pom.groupId} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 32,column 34] : ${application.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 39,column 34] : ${junit.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 45,column 34] : ${testflow.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 54,column 34] : ${security.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 60,column 34] : ${common.classes.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,723 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 66,column 34] : ${servletapi.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,724 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 72,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,724 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 78,column 34] : ${selenium.java.client.driver.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,724 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 84,column 34] : ${jboss.version} is not a valid reference.
+INFO  2015-03-03 15:46:03,724 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = templates/junit/module/JUnitProject.xml.vsl [line 90,column 34] : ${commons.logging.version} is not a valid reference.
+ERROR 2015-03-03 15:46:03,724 - Propriedade maxSizeClass deve ser um inteiro
+INFO  2015-03-03 15:46:03,729 - ResourceManager : found templates/junit/util/ServiceUtil.java.vsl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+ERROR 2015-03-03 15:46:03,729 - Propriedade maxSizeClass deve ser um inteiro

@@ -25,6 +25,9 @@ public class ConsultaEstudanteUCFormImpl
 
     private final static int TAMANHO_MAXIMO_LABEL_DESTINO = 250;
 
+    private java.lang.String cpf;
+
+
     private java.lang.String nome;
 
 
@@ -34,6 +37,30 @@ public class ConsultaEstudanteUCFormImpl
     public ConsultaEstudanteUCFormImpl(){
 
     }
+
+    /**
+     * Resets the given <code>cpf</code>.
+     */
+    public void resetCpf()
+    {
+		this.cpf = null;
+    }
+
+
+    public void setCpf(java.lang.String cpf)
+    {
+        this.cpf = cpf;
+    }
+
+    /**
+     * 
+     */
+    public java.lang.String getCpf()
+    {
+        return this.cpf;
+    }
+    
+
 
     /**
      * Resets the given <code>nome</code>.
@@ -101,6 +128,7 @@ public class ConsultaEstudanteUCFormImpl
     {
         org.apache.commons.lang.builder.ToStringBuilder builder =
             new org.apache.commons.lang.builder.ToStringBuilder(this);
+        builder.append("cpf", this.cpf);
         builder.append("nome", this.nome);
         builder.append("matricula", this.matricula);
         return builder.toString();
@@ -113,6 +141,7 @@ public class ConsultaEstudanteUCFormImpl
      */
     public void clean()
     {
+        this.cpf = null;
         this.nome = null;
         this.matricula = null;
     }

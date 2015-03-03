@@ -6,11 +6,11 @@ import basic.BasicViewTestController;
 public class DetalhaEstudanteUCViewTest {
 	private BasicViewTestController viewTestController;
 
-	private java.lang.String idEstudante = null;
-	
 	private java.lang.String matricula = null;
 	
 	private java.lang.String nome = null;
+	
+	private java.lang.String idEstudante = null;
 	
 
 	public DetalhaEstudanteUCViewTest(BasicViewTestController viewTestController) {
@@ -78,14 +78,6 @@ public class DetalhaEstudanteUCViewTest {
 
 	/* PARAMETERS */
 
-	public java.lang.String getIdEstudante() {
-		return idEstudante;
-	}
-
-	public void setIdEstudante(java.lang.String idEstudante) {
-		this.idEstudante = idEstudante;
-	}
-
 	public java.lang.String getMatricula() {
 		return matricula;
 	}
@@ -102,15 +94,23 @@ public class DetalhaEstudanteUCViewTest {
 		this.nome = nome;
 	}
 
+	public java.lang.String getIdEstudante() {
+		return idEstudante;
+	}
+
+	public void setIdEstudante(java.lang.String idEstudante) {
+		this.idEstudante = idEstudante;
+	}
+
 	/**
 	 * Clear all parameters.
 	 */
 	public void clearAll() {
-		this.idEstudante = null;
-
 		this.matricula = null;
 
 		this.nome = null;
+
+		this.idEstudante = null;
 
 
 	}
